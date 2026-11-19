@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fixture de teste do auditor (não é entregável)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FFFFFF; --surface:#F4F6F8; --ink:#0F172A; --hairline:#CBD5E1;
+  --global:#0043CE; --brasil:#047857; --muted:#334155; --accent-dark:#0B3B2E;
+  --fs-body:1rem; --fs-small:0.8125rem; --fs-label:12px;
+}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:var(--fs-body);line-height:1.5}
+h1{font-family:"Space Grotesk",sans-serif;font-size:2rem;letter-spacing:-0.02em;max-width:68ch}
+h2{font-family:"Space Grotesk",sans-serif;font-size:1.375rem;border-top:1px solid var(--hairline);padding-top:1rem}
+p{max-width:68ch;font-size:var(--fs-body)}
+small,.foot{font-size:var(--fs-small)}
+.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:var(--fs-label);letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--hairline)}
+.kpi{background:var(--surface);padding:1rem}
+.kpi .value{font-family:"IBM Plex Mono",monospace;font-size:1.5rem;font-variant-numeric:tabular-nums;white-space:nowrap}
+.kpi .label{font-size:var(--fs-small);color:var(--muted)}
+.kpi .note{font-size:var(--fs-label);color:var(--muted)}
+.global-text{color:var(--global)}
+.brasil-text{color:var(--accent-dark)}
+figcaption{font-size:var(--fs-label);color:var(--muted);font-family:"IBM Plex Mono",monospace}
+.table-wrap{overflow-x:auto;border-top:1px solid var(--hairline)}
+table{width:100%;border-collapse:collapse;font-family:"IBM Plex Mono",monospace;font-size:var(--fs-small)}
+th,td{padding:.5rem;border-bottom:1px solid var(--hairline);text-align:left;font-variant-numeric:tabular-nums;white-space:nowrap}
+.badge{font-family:"IBM Plex Sans",sans-serif;font-size:var(--fs-label);border:1px solid var(--hairline);padding:0 .35rem}
+@media (max-width:767px){
+  h1{font-size:1.5rem}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+  table{font-size:12px}
+}
+@media (min-width:768px) and (max-width:1023px){
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (min-width:1024px){
+  .table-wrap{max-width:100%}
+}
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">fixture sintética para validar o auditor</p>
+  <h1>68% dos veículos mapeados atuam em Seed e Série A, e o Brasil concentra US$ 12,4 bi em 214 fundos</h1>
+  <section class="kpis" aria-label="KPIs">
+    <div class="kpi"><div class="label">Fundos mapeados</div><div class="value">214</div><div class="note">Fonte: CVM e SEC</div></div>
+    <div class="kpi"><div class="label">Capital Brasil</div><div class="value">R$ 12,4 bi</div><div class="note">Global vs. Brasil: 38%</div></div>
+    <div class="kpi"><div class="label">Ticket mediano Seed</div><div class="value">US$ 1,8M</div><div class="note">Fonte: Shizune</div></div>
+    <div class="kpi"><div class="label">Fundos cross-border</div><div class="value">41%</div><div class="note">Global ativo no Brasil</div></div>
+  </section>
+  <h2>Distribuição por fase e corte geográfico</h2>
+  <figure>
+    <svg width="100%" height="120" viewBox="0 0 600 120" role="img" aria-label="Barras por estágio">
+      <text x="0" y="20" font-size="12" fill="#0F172A">Pre-Seed 18</text>
+      <text x="0" y="50" font-size="12" fill="#0F172A">Seed 74</text>
+      <text x="0" y="80" font-size="12" fill="#0F172A">Série A 63</text>
+    </svg>
+    <figcaption>Unidade: número de fundos; fonte: <a href="https://dados.cvm.gov.br/group/fundos-de-investimento" target="_blank" rel="noopener noreferrer">CVM</a> e <a href="https://data.sec.gov/" target="_blank" rel="noopener noreferrer">SEC EDGAR</a>.</figcaption>
+  </figure>
+  <figure>
+    <svg width="100%" height="120" viewBox="0 0 600 120" role="img" aria-label="Faixas de cheque">
+      <text x="0" y="20" font-size="12" fill="#0F172A">US$ 50 mil a 500 mil: 21 fundos</text>
+      <text x="0" y="50" font-size="12" fill="#0F172A">US$ 500 mil a 3 mi: 58 fundos</text>
+      <text x="0" y="80" font-size="12" fill="#0F172A">Acima de US$ 3 mi: 89 fundos</text>
+    </svg>
+    <figcaption>Unidade: faixa de cheque em USD; fonte: Shizune Brazil e SEC Form D.</figcaption>
+  </figure>
+  <h2>Tabela auditável de fundos</h2>
+  <div class="table-wrap">
+    <table>
+      <caption>Fixture: valores monetários com tabular-nums e nowrap</caption>
+      <thead><tr><th>Gestora</th><th>Veículo</th><th>Corte</th><th>Faixa de cheque</th><th>Fonte</th></tr></thead>
+      <tbody>
+        <tr><td>Fundo Alfa</td><td>FIP Alfa I</td><td><span class="badge">Brasil Local</span></td><td>R$ 150,0 mi</td><td><a href="https://dados.cvm.gov.br/group/fundos-de-investimento" target="_blank" rel="noopener noreferrer">CVM</a></td></tr>
+        <tr><td>Fundo Beta</td><td>Beta Fund II LP</td><td><span class="badge">Global Ex-Brasil</span></td><td>US$ 15,0M</td><td><a href="https://data.sec.gov/" target="_blank" rel="noopener noreferrer">SEC</a></td></tr>
+        <tr><td>Fundo Gama</td><td>Gama Ventures III</td><td><span class="badge">Global Ativo no Brasil</span></td><td>US$ 2,3M</td><td><a href="https://shizune.co/investors/venture-capital-vc-funds-brazil/table.md" target="_blank" rel="noopener noreferrer">Shizune</a></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <h2>Referências</h2>
+  <ul>
+    <li><a href="https://dados.cvm.gov.br/group/fundos-de-investimento" target="_blank" rel="noopener noreferrer">CVM</a> — 46805 fundos; 2026.</li>
+    <li><a href="https://data.sec.gov/" target="_blank" rel="noopener noreferrer">SEC EDGAR</a> — 12.4% de fundos VC.</li>
+    <li><a href="https://www.bndes.gov.br/wps/portal/site/home/mercado-de-capitais/fundos-de-investimentos/dados-agregados" target="_blank" rel="noopener noreferrer">BNDES</a> — 53 fundos ativos; R$ 8,2 bi.</li>
+    <li><a href="https://query.wikidata.org/" target="_blank" rel="noopener noreferrer">Wikidata</a> — 1961622 firmas; 41 países.</li>
+    <li><a href="https://shizune.co/investors/vc-funds-brazil/table.md" target="_blank" rel="noopener noreferrer">Shizune global</a> — 350 gestoras; 21 estágios.</li>
+    <li><a href="https://dados.cvm.gov.br/group/fundos-de-investimento" target="_blank" rel="noopener noreferrer">CVM</a> — 6821 informes; 2024.</li>
+    <li><a href="https://data.sec.gov/" target="_blank" rel="noopener noreferrer">SEC</a> — 3652689 bytes; 2026Q3.</li>
+    <li><a href="https://www.bndes.gov.br/wps/portal/site/home/mercado-de-capitais/fundos-de-investimentos/dados-agregados" target="_blank" rel="noopener noreferrer">BNDES</a> — 881 posições; 128 fundos.</li>
+    <li><a href="https://query.wikidata.org/" target="_blank" rel="noopener noreferrer">Wikidata</a> — 43 consultas; SPARQL.</li>
+    <li><a href="https://shizune.co/investors/vc-funds-brazil/table.md" target="_blank" rel="noopener noreferrer">Shizune</a> — 85 fundos Brasil; 12 setores.</li>
+    <li><a href="https://dados.cvm.gov.br/group/fundos-de-investimento" target="_blank" rel="noopener noreferrer">CVM</a> — 5754 linhas; IV 2026.</li>
+    <li><a href="https://data.sec.gov/" target="_blank" rel="noopener noreferrer">SEC</a> — 12 arquivos; Q3.</li>
+    <li><a href="https://www.bndes.gov.br/wps/portal/site/home/mercado-de-capitais/fundos-de-investimentos/dados-agregados" target="_blank" rel="noopener noreferrer">BNDES</a> — 53 fundos; R$ 2,1 bi.</li>
+    <li><a href="https://query.wikidata.org/" target="_blank" rel="noopener noreferrer">Wikidata</a> — 42 endpoints; 2026.</li>
+    <li><a href="https://shizune.co/investors/vc-funds-brazil/table.md" target="_blank" rel="noopener noreferrer">Shizune</a> — 350 firmas; 85 BR.</li>
+    <li><a href="https://dados.cvm.gov.br/group/fundos-de-investimento" target="_blank" rel="noopener noreferrer">CVM</a> — 41 campos; latin1.</li>
+    <li><a href="https://data.sec.gov/" target="_blank" rel="noopener noreferrer">SEC</a> — 10 req/s; UA acadêmico.</li>
+    <li><a href="https://www.bndes.gov.br/wps/portal/site/home/mercado-de-capitais/fundos-de-investimentos/dados-agregados" target="_blank" rel="noopener noreferrer">BNDES</a> — 53 fundos; 2026.</li>
+    <li><a href="https://query.wikidata.org/" target="_blank" rel="noopener noreferrer">Wikidata</a> — Q1961622; P17.</li>
+    <li><a href="https://shizune.co/investors/vc-funds-brazil/table.md" target="_blank" rel="noopener noreferrer">Shizune</a> — 350 registros; 15 estágios.</li>
+  </ul>
+  <p class="foot">Valores: 214 fundos, 41% cross-border, R$ 12,4 bi, US$ 12,4 bi, 68%, 12,4%, 3,7%, 1,8M, 15,0M, 2,3M. Fonte: CVM (2026) e SEC (2026).</p>
+</main>
+<script>
+const filters = document.querySelectorAll('[data-filter]');
+function applyFilters(){ const term = 'teste'; return term.length; }
+applyFilters();
+</script>
+</body>
+</html>

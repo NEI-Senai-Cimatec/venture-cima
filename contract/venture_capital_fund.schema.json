@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://venture-cima.local/schemas/venture_capital_fund.schema.json",
+  "title": "VentureCapitalFundRecord",
+  "description": "Contrato canonico SDD (secao 1.2 da especificacao). Campos obrigatorios conforme spec; campos adicionais de rastreabilidade sao permitidos.",
+  "type": "object",
+  "required": [
+    "fund_id",
+    "firm_name",
+    "vehicle_name",
+    "geographic_cut",
+    "hq_country",
+    "target_stages",
+    "stage_classification_method",
+    "estimated_ticket_min_usd",
+    "estimated_ticket_max_usd",
+    "aum_or_offering_usd",
+    "active_status",
+    "primary_source_name",
+    "primary_source_url"
+  ],
+  "properties": {
+    "fund_id": {
+      "type": "string",
+      "minLength": 3,
+      "description": "Identificador deterministico (chave composta: CNPJ CVM, CIK SEC ou hash)."
+    },
+    "firm_name": { "type": "string", "minLength": 2 },
+    "vehicle_name": { "type": "string", "minLength": 2 },
+    "regulatory_id": { "type": ["string", "null"] },
+    "geographic_cut": {
+      "type": "string",
+      "enum": ["BRASIL_LOCAL", "GLOBAL_ATIVO_BR", "GLOBAL_EX_BR"]
+    },
+    "hq_country": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "description": "ISO-3166-1 alpha-2 do pais-sede da gestora."
+    },
+    "target_stages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": ["PRE_SEED", "SEED", "SERIES_A", "SERIES_B", "LATE_STAGE_GROWTH", "VENTURE_DEBT"]
+      }
+    },
+    "stage_classification_method": {
+      "type": "string",
+      "enum": ["DECLARED_THESIS", "REGULATORY_CLASS_CVM_BNDES", "IMPUTED_BY_TICKET_HEURISTIC"]
+    },
+    "estimated_ticket_min_usd": { "type": ["number", "null"], "minimum": 0 },
+    "estimated_ticket_max_usd": { "type": ["number", "null"], "minimum": 0 },
+    "aum_or_offering_usd": { "type": ["number", "null"] },
+    "brazil_deals_count": { "type": "integer", "minimum": 0 },
+    "lead_investor_rate": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+    "active_status": { "type": "boolean" },
+    "primary_source_name": { "type": "string" },
+    "primary_source_url": { "type": "string", "format": "uri" },
+    "estimate_basis": {
+      "type": ["string", "null"],
+      "description": "Base declarada do valor monetario convertido (ex.: VL_PATRIM_LIQ CVM em 2026-06-30 convertido por PTAX de venda)."
+    },
+    "undisclosed_fields": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Atributos nao divulgados na fonte oficial; recebem null e constam aqui."
+    },
+    "evidence_urls": { "type": "array", "items": { "type": "string", "format": "uri" } },
+    "resolution": {
+      "type": "object",
+      "properties": {
+        "firm_key": { "type": "string" },
+        "vehicle_key": { "type": "string" },
+        "method": { "type": "string" },
+        "confidence": { "type": "string", "enum": ["high", "medium", "low"] }
+      }
+    }
+  }
+}

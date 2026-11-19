@@ -1,0 +1,1480 @@
+{
+  "generated_at": "2026-11-18T19:25:49+00:00",
+  "html": "dashboard\\index.html",
+  "out_dir": "audit\\shots",
+  "viewports": {
+    "375": {
+      "path": "audit\\shots\\dashboard-375.png",
+      "width": 375,
+      "height": 812,
+      "exists": false,
+      "bytes": null,
+      "dims": null,
+      "dims_ok": null,
+      "elapsed_s": null,
+      "exit_code": null,
+      "stderr_tail": "",
+      "runtime": {
+        "innerWidth": 500,
+        "innerHeight": 626,
+        "documentScrollWidth": 500,
+        "bodyScrollWidth": 500,
+        "horizontal_overflow": false,
+        "overflowElements": [
+          {
+            "tag": "TABLE",
+            "cls": "matrix",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "tbl-caption",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "THEAD",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TH",
+            "cls": "num-h",
+            "left": 410,
+            "right": 526,
+            "width": 116
+          },
+          {
+            "tag": "TH",
+            "cls": "",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "TBODY",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 410,
+            "right": 526,
+            "width": 116
+          },
+          {
+            "tag": "SPAN",
+            "cls": "m-count",
+            "left": 499,
+            "right": 516,
+            "width": 17
+          },
+          {
+            "tag": "SPAN",
+            "cls": "m-money",
+            "left": 444,
+            "right": 516,
+            "width": 72
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "SPAN",
+            "cls": "read read-dense",
+            "left": 536,
+            "right": 622,
+            "width": 86
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 637,
+            "right": 666,
+            "width": 29
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 536,
+            "right": 564,
+            "width": 29
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 410,
+            "right": 526,
+            "width": 116
+          },
+          {
+            "tag": "SPAN",
+            "cls": "m-count",
+            "left": 474,
+            "right": 516,
+            "width": 42
+          },
+          {
+            "tag": "SPAN",
+            "cls": "m-money",
+            "left": 436,
+            "right": 516,
+            "width": 79
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "SPAN",
+            "cls": "read read-thin",
+            "left": 536,
+            "right": 633,
+            "width": 98
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 649,
+            "right": 685,
+            "width": 36
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 643,
+            "right": 679,
+            "width": 36
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 410,
+            "right": 526,
+            "width": 116
+          },
+          {
+            "tag": "SPAN",
+            "cls": "m-count",
+            "left": 474,
+            "right": 516,
+            "width": 42
+          },
+          {
+            "tag": "SPAN",
+            "cls": "m-money",
+            "left": 436,
+            "right": 516,
+            "width": 79
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "SPAN",
+            "cls": "read read-thin",
+            "left": 536,
+            "right": 633,
+            "width": 98
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 649,
+            "right": 685,
+            "width": 36
+          }
+        ],
+        "minFontPx": 12,
+        "minFontElement": "P.kicker",
+        "h1": 1,
+        "tables": 4,
+        "tableRows": 64,
+        "figures": 5,
+        "figuresWithCaption": 5,
+        "moneyCells": 89,
+        "moneyCellsTabularNowrap": 88,
+        "moneyCellsNotCompliant": [
+          {
+            "tag": "TD",
+            "cls": "",
+            "tabular": false,
+            "nowrap": false,
+            "text": "Faixa de cheque convertida em "
+          }
+        ],
+        "jsErrors": [],
+        "readyState": "complete",
+        "checked": true,
+        "dom_bytes": 2060727
+      },
+      "runtime_error": null
+    },
+    "768": {
+      "path": "audit\\shots\\dashboard-768.png",
+      "width": 768,
+      "height": 1024,
+      "exists": false,
+      "bytes": null,
+      "dims": null,
+      "dims_ok": null,
+      "elapsed_s": null,
+      "exit_code": null,
+      "stderr_tail": "",
+      "runtime": {
+        "innerWidth": 750,
+        "innerHeight": 838,
+        "documentScrollWidth": 750,
+        "bodyScrollWidth": 750,
+        "horizontal_overflow": false,
+        "overflowElements": [
+          {
+            "tag": "TABLE",
+            "cls": "matrix",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "tbl-caption",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "THEAD",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TH",
+            "cls": "",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "TBODY",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "TR",
+            "cls": "matrix-total",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          }
+        ],
+        "minFontPx": 12,
+        "minFontElement": "P.kicker",
+        "h1": 1,
+        "tables": 4,
+        "tableRows": 64,
+        "figures": 5,
+        "figuresWithCaption": 5,
+        "moneyCells": 89,
+        "moneyCellsTabularNowrap": 88,
+        "moneyCellsNotCompliant": [
+          {
+            "tag": "TD",
+            "cls": "",
+            "tabular": false,
+            "nowrap": false,
+            "text": "Faixa de cheque convertida em "
+          }
+        ],
+        "jsErrors": [],
+        "readyState": "complete",
+        "checked": true,
+        "dom_bytes": 2059389
+      },
+      "runtime_error": null
+    },
+    "1440": {
+      "path": "audit\\shots\\dashboard-1440.png",
+      "width": 1440,
+      "height": 900,
+      "exists": false,
+      "bytes": null,
+      "dims": null,
+      "dims_ok": null,
+      "elapsed_s": null,
+      "exit_code": null,
+      "stderr_tail": "",
+      "runtime": {
+        "innerWidth": 1422,
+        "innerHeight": 714,
+        "documentScrollWidth": 1422,
+        "bodyScrollWidth": 1422,
+        "horizontal_overflow": false,
+        "overflowElements": [],
+        "minFontPx": 12,
+        "minFontElement": "P.kicker",
+        "h1": 1,
+        "tables": 4,
+        "tableRows": 64,
+        "figures": 5,
+        "figuresWithCaption": 5,
+        "moneyCells": 89,
+        "moneyCellsTabularNowrap": 88,
+        "moneyCellsNotCompliant": [
+          {
+            "tag": "TD",
+            "cls": "",
+            "tabular": false,
+            "nowrap": false,
+            "text": "Faixa de cheque convertida em "
+          }
+        ],
+        "jsErrors": [],
+        "readyState": "complete",
+        "checked": true,
+        "dom_bytes": 2056925
+      },
+      "runtime_error": null
+    }
+  },
+  "shots_enabled": false,
+  "overflow": {
+    "measured": true,
+    "per_viewport": {
+      "375": {
+        "innerWidth": 500,
+        "documentScrollWidth": 500,
+        "bodyScrollWidth": 500,
+        "horizontal_overflow": false,
+        "overflowElements": [
+          {
+            "tag": "TABLE",
+            "cls": "matrix",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "tbl-caption",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "THEAD",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TH",
+            "cls": "num-h",
+            "left": 410,
+            "right": 526,
+            "width": 116
+          },
+          {
+            "tag": "TH",
+            "cls": "",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "TBODY",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 410,
+            "right": 526,
+            "width": 116
+          },
+          {
+            "tag": "SPAN",
+            "cls": "m-count",
+            "left": 499,
+            "right": 516,
+            "width": 17
+          },
+          {
+            "tag": "SPAN",
+            "cls": "m-money",
+            "left": 444,
+            "right": 516,
+            "width": 72
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "SPAN",
+            "cls": "read read-dense",
+            "left": 536,
+            "right": 622,
+            "width": 86
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 637,
+            "right": 666,
+            "width": 29
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 536,
+            "right": 564,
+            "width": 29
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 410,
+            "right": 526,
+            "width": 116
+          },
+          {
+            "tag": "SPAN",
+            "cls": "m-count",
+            "left": 474,
+            "right": 516,
+            "width": 42
+          },
+          {
+            "tag": "SPAN",
+            "cls": "m-money",
+            "left": 436,
+            "right": 516,
+            "width": 79
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "SPAN",
+            "cls": "read read-thin",
+            "left": 536,
+            "right": 633,
+            "width": 98
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 649,
+            "right": 685,
+            "width": 36
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 643,
+            "right": 679,
+            "width": 36
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 410,
+            "right": 526,
+            "width": 116
+          },
+          {
+            "tag": "SPAN",
+            "cls": "m-count",
+            "left": 474,
+            "right": 516,
+            "width": 42
+          },
+          {
+            "tag": "SPAN",
+            "cls": "m-money",
+            "left": 436,
+            "right": 516,
+            "width": 79
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "SPAN",
+            "cls": "read read-thin",
+            "left": 536,
+            "right": 633,
+            "width": 98
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 649,
+            "right": 685,
+            "width": 36
+          }
+        ]
+      },
+      "768": {
+        "innerWidth": 750,
+        "documentScrollWidth": 750,
+        "bodyScrollWidth": 750,
+        "horizontal_overflow": false,
+        "overflowElements": [
+          {
+            "tag": "TABLE",
+            "cls": "matrix",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "tbl-caption",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "THEAD",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TH",
+            "cls": "",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "TBODY",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          },
+          {
+            "tag": "TR",
+            "cls": "matrix-total",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "read-cell",
+            "left": 526,
+            "right": 781,
+            "width": 255
+          }
+        ]
+      },
+      "1440": {
+        "innerWidth": 1422,
+        "documentScrollWidth": 1422,
+        "bodyScrollWidth": 1422,
+        "horizontal_overflow": false,
+        "overflowElements": []
+      }
+    }
+  },
+  "js_errors": [],
+  "dom_check": {
+    "checked": true,
+    "ok": true,
+    "detail": "DOM renderizado 1440px: h1=1, tables=4, tr=64, figures=5 (com figcaption=5); script DOM bytes=2056925",
+    "dom_path": "audit\\shots\\rendered_dom.html",
+    "h1": 1,
+    "tables": 4,
+    "table_rows": 64,
+    "figures": 5
+  },
+  "dpr": 1.0,
+  "hash": null,
+  "error": "3/3 screenshots falharam. Possivel bloqueio de sandbox (named pipes/mojo). stderr: ",
+  "limitations": [
+    "Sem screenshots nao e' possivel verificar larguras; medicao runtime fica incompleta."
+  ],
+  "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "captured": 0,
+  "total_viewports": 3,
+  "runtime_measured_viewports": 3,
+  "tabs": {
+    "insights": {
+      "hash": "insights",
+      "overflow": {
+        "measured": true,
+        "per_viewport": {
+          "375": {
+            "innerWidth": 500,
+            "documentScrollWidth": 500,
+            "bodyScrollWidth": 500,
+            "horizontal_overflow": false,
+            "overflowElements": [
+              {
+                "tag": "TABLE",
+                "cls": "matrix portfolio",
+                "left": 21,
+                "right": 781,
+                "width": 760
+              },
+              {
+                "tag": "CAPTION",
+                "cls": "tbl-caption",
+                "left": 21,
+                "right": 781,
+                "width": 760
+              },
+              {
+                "tag": "THEAD",
+                "cls": "",
+                "left": 21,
+                "right": 781,
+                "width": 760
+              },
+              {
+                "tag": "TR",
+                "cls": "",
+                "left": 21,
+                "right": 781,
+                "width": 760
+              },
+              {
+                "tag": "TH",
+                "cls": "num-h",
+                "left": 409,
+                "right": 528,
+                "width": 119
+              },
+              {
+                "tag": "TH",
+                "cls": "num-h",
+                "left": 528,
+                "right": 648,
+                "width": 119
+              },
+              {
+                "tag": "TH",
+                "cls": "num-h",
+                "left": 648,
+                "right": 781,
+                "width": 133
+              },
+              {
+                "tag": "TBODY",
+                "cls": "",
+                "left": 21,
+                "right": 781,
+                "width": 760
+              },
+              {
+                "tag": "TR",
+                "cls": "",
+                "left": 21,
+                "right": 781,
+                "width": 760
+              },
+              {
+                "tag": "TD",
+                "cls": "num-cell",
+                "left": 409,
+                "right": 528,
+                "width": 119
+              },
+              {
+                "tag": "SPAN",
+                "cls": "num",
+                "left": 439,
+                "right": 518,
+                "width": 79
+              },
+              {
+                "tag": "TD",
+                "cls": "num-cell",
+                "left": 528,
+                "right": 648,
+                "width": 119
+              },
+              {
+                "tag": "SPAN",
+                "cls": "num",
+                "left": 558,
+                "right": 638,
+                "width": 79
+              },
+              {
+                "tag": "TD",
+                "cls": "num-cell",
+                "left": 648,
+                "right": 781,
+                "width": 133
+              },
+              {
+                "tag": "SPAN",
+                "cls": "num",
+                "left": 735,
+                "right": 771,
+                "width": 36
+              },
+              {
+                "tag": "TR",
+                "cls": "",
+                "left": 21,
+                "right": 781,
+                "width": 760
+              },
+              {
+                "tag": "TD",
+                "cls": "num-cell",
+                "left": 409,
+                "right": 528,
+                "width": 119
+              },
+              {
+                "tag": "SPAN",
+                "cls": "num",
+                "left": 439,
+                "right": 518,
+                "width": 79
+              },
+              {
+                "tag": "TD",
+                "cls": "num-cell",
+                "left": 528,
+                "right": 648,
+                "width": 119
+              },
+              {
+                "tag": "SPAN",
+                "cls": "num",
+                "left": 558,
+                "right": 638,
+                "width": 79
+              },
+              {
+                "tag": "TD",
+                "cls": "num-cell",
+                "left": 648,
+                "right": 781,
+                "width": 133
+              },
+              {
+                "tag": "SPAN",
+                "cls": "num",
+                "left": 735,
+                "right": 771,
+                "width": 36
+              },
+              {
+                "tag": "TR",
+                "cls": "",
+                "left": 21,
+                "right": 781,
+                "width": 760
+              },
+              {
+                "tag": "TD",
+                "cls": "num-cell",
+                "left": 409,
+                "right": 528,
+                "width": 119
+              },
+              {
+                "tag": "SPAN",
+                "cls": "num",
+                "left": 439,
+                "right": 518,
+                "width": 79
+              },
+              {
+                "tag": "TD",
+                "cls": "num-cell",
+                "left": 528,
+                "right": 648,
+                "width": 119
+              },
+              {
+                "tag": "SPAN",
+                "cls": "num",
+                "left": 558,
+                "right": 638,
+                "width": 79
+              },
+              {
+                "tag": "TD",
+                "cls": "num-cell",
+                "left": 648,
+                "right": 781,
+                "width": 133
+              },
+              {
+                "tag": "SPAN",
+                "cls": "num",
+                "left": 735,
+                "right": 771,
+                "width": 36
+              },
+              {
+                "tag": "TR",
+                "cls": "",
+                "left": 21,
+                "right": 781,
+                "width": 760
+              }
+            ]
+          },
+          "1440": {
+            "innerWidth": 1422,
+            "documentScrollWidth": 1422,
+            "bodyScrollWidth": 1422,
+            "horizontal_overflow": false,
+            "overflowElements": []
+          }
+        }
+      },
+      "runtime_measured": 2,
+      "js_errors": []
+    },
+    "fundos": {
+      "hash": "fundos",
+      "overflow": {
+        "measured": true,
+        "per_viewport": {
+          "375": {
+            "innerWidth": 500,
+            "documentScrollWidth": 500,
+            "bodyScrollWidth": 500,
+            "horizontal_overflow": false,
+            "overflowElements": [
+              {
+                "tag": "TABLE",
+                "cls": "funds",
+                "left": 21,
+                "right": 1071,
+                "width": 1050
+              },
+              {
+                "tag": "CAPTION",
+                "cls": "tbl-caption",
+                "left": 21,
+                "right": 1071,
+                "width": 1050
+              },
+              {
+                "tag": "THEAD",
+                "cls": "",
+                "left": 21,
+                "right": 1071,
+                "width": 1050
+              },
+              {
+                "tag": "TR",
+                "cls": "",
+                "left": 21,
+                "right": 1071,
+                "width": 1050
+              },
+              {
+                "tag": "TH",
+                "cls": "th-static",
+                "left": 475,
+                "right": 613,
+                "width": 138
+              },
+              {
+                "tag": "TH",
+                "cls": "num-h",
+                "left": 613,
+                "right": 741,
+                "width": 128
+              },
+              {
+                "tag": "BUTTON",
+                "cls": "sort-btn",
+                "left": 613,
+                "right": 741,
+                "width": 128
+              },
+              {
+                "tag": "TH",
+                "cls": "num-h",
+                "left": 741,
+                "right": 900,
+                "width": 159
+              },
+              {
+                "tag": "BUTTON",
+                "cls": "sort-btn",
+                "left": 741,
+                "right": 900,
+                "width": 159
+              },
+              {
+                "tag": "SPAN",
+                "cls": "sort-ind",
+                "left": 882,
+                "right": 890,
+                "width": 7
+              },
+              {
+                "tag": "TH",
+                "cls": "th-static",
+                "left": 900,
+                "right": 987,
+                "width": 87
+              },
+              {
+                "tag": "TH",
+                "cls": "th-static",
+                "left": 987,
+                "right": 1071,
+                "width": 84
+              },
+              {
+                "tag": "TBODY",
+                "cls": "",
+                "left": 21,
+                "right": 1071,
+                "width": 1050
+              },
+              {
+                "tag": "TR",
+                "cls": "",
+                "left": 21,
+                "right": 1071,
+                "width": 1050
+              },
+              {
+                "tag": "TD",
+                "cls": "c-stages",
+                "left": 475,
+                "right": 613,
+                "width": 138
+              },
+              {
+                "tag": "SPAN",
+                "cls": "badge",
+                "left": 485,
+                "right": 536,
+                "width": 51
+              },
+              {
+                "tag": "SPAN",
+                "cls": "badge",
+                "left": 485,
+                "right": 600,
+                "width": 115
+              },
+              {
+                "tag": "TD",
+                "cls": "num-cell",
+                "left": 613,
+                "right": 741,
+                "width": 128
+              },
+              {
+                "tag": "SPAN",
+                "cls": "nd",
+                "left": 710,
+                "right": 731,
+                "width": 22
+              },
+              {
+                "tag": "SPAN",
+                "cls": "vh",
+                "left": 730,
+                "right": 731,
+                "width": 1
+              },
+              {
+                "tag": "TD",
+                "cls": "num-cell",
+                "left": 741,
+                "right": 900,
+                "width": 159
+              },
+              {
+                "tag": "SPAN",
+                "cls": "num",
+                "left": 804,
+                "right": 890,
+                "width": 86
+              },
+              {
+                "tag": "TD",
+                "cls": "c-method",
+                "left": 900,
+                "right": 987,
+                "width": 87
+              },
+              {
+                "tag": "SPAN",
+                "cls": "method",
+                "left": 910,
+                "right": 977,
+                "width": 67
+              },
+              {
+                "tag": "TD",
+                "cls": "c-source",
+                "left": 987,
+                "right": 1071,
+                "width": 84
+              },
+              {
+                "tag": "A",
+                "cls": "src-link",
+                "left": 997,
+                "right": 1022,
+                "width": 25
+              },
+              {
+                "tag": "TR",
+                "cls": "",
+                "left": 21,
+                "right": 1071,
+                "width": 1050
+              },
+              {
+                "tag": "TD",
+                "cls": "c-stages",
+                "left": 475,
+                "right": 613,
+                "width": 138
+              },
+              {
+                "tag": "SPAN",
+                "cls": "badge",
+                "left": 485,
+                "right": 524,
+                "width": 40
+              },
+              {
+                "tag": "SPAN",
+                "cls": "badge",
+                "left": 527,
+                "right": 578,
+                "width": 51
+              }
+            ]
+          },
+          "1440": {
+            "innerWidth": 1422,
+            "documentScrollWidth": 1422,
+            "bodyScrollWidth": 1422,
+            "horizontal_overflow": false,
+            "overflowElements": []
+          }
+        }
+      },
+      "runtime_measured": 2,
+      "js_errors": []
+    },
+    "metodo": {
+      "hash": "metodo",
+      "overflow": {
+        "measured": true,
+        "per_viewport": {
+          "375": {
+            "innerWidth": 500,
+            "documentScrollWidth": 500,
+            "bodyScrollWidth": 500,
+            "horizontal_overflow": false,
+            "overflowElements": [
+              {
+                "tag": "TABLE",
+                "cls": "method-table",
+                "left": 21,
+                "right": 661,
+                "width": 640
+              },
+              {
+                "tag": "CAPTION",
+                "cls": "tbl-caption",
+                "left": 21,
+                "right": 661,
+                "width": 640
+              },
+              {
+                "tag": "THEAD",
+                "cls": "",
+                "left": 21,
+                "right": 661,
+                "width": 640
+              },
+              {
+                "tag": "TR",
+                "cls": "",
+                "left": 21,
+                "right": 661,
+                "width": 640
+              },
+              {
+                "tag": "TH",
+                "cls": "",
+                "left": 304,
+                "right": 661,
+                "width": 357
+              },
+              {
+                "tag": "TBODY",
+                "cls": "",
+                "left": 21,
+                "right": 661,
+                "width": 640
+              },
+              {
+                "tag": "TR",
+                "cls": "",
+                "left": 21,
+                "right": 661,
+                "width": 640
+              },
+              {
+                "tag": "TD",
+                "cls": "",
+                "left": 304,
+                "right": 661,
+                "width": 357
+              },
+              {
+                "tag": "TR",
+                "cls": "",
+                "left": 21,
+                "right": 661,
+                "width": 640
+              },
+              {
+                "tag": "TD",
+                "cls": "",
+                "left": 304,
+                "right": 661,
+                "width": 357
+              },
+              {
+                "tag": "TR",
+                "cls": "",
+                "left": 21,
+                "right": 661,
+                "width": 640
+              },
+              {
+                "tag": "TD",
+                "cls": "",
+                "left": 304,
+                "right": 661,
+                "width": 357
+              }
+            ]
+          }
+        }
+      },
+      "runtime_measured": 1,
+      "js_errors": []
+    }
+  },
+  "measurement_scope": {
+    "default_tab": "achados (375,768,1440)",
+    "other_tabs": {
+      "insights": [
+        "375",
+        "1440"
+      ],
+      "fundos": [
+        "375",
+        "1440"
+      ],
+      "metodo": [
+        "375",
+        "1440"
+      ]
+    },
+    "note": "Chrome no Windows clampa a janela (375->500, 768->750, 1440->1422). Criterio: documentScrollWidth <= innerWidth+1. Build v4: H1 neutro centrado + bloco .answer-first."
+  }
+}

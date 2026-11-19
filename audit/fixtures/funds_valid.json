@@ -1,0 +1,59 @@
+{
+  "funds": [
+    {
+      "fund_id": "cvm:00.000.001/0001-01",
+      "firm_name": "Alfa Gestora",
+      "vehicle_name": "FIP Alfa Capital Semente",
+      "regulatory_id": "00.000.001/0001-01",
+      "geographic_cut": "BRASIL_LOCAL",
+      "hq_country": "BR",
+      "target_stages": ["PRE_SEED", "SEED"],
+      "stage_classification_method": "REGULATORY_CLASS_CVM_BNDES",
+      "estimated_ticket_min_usd": 100000,
+      "estimated_ticket_max_usd": 500000,
+      "aum_or_offering_usd": 15000000,
+      "brazil_deals_count": 12,
+      "lead_investor_rate": 0.4,
+      "active_status": true,
+      "primary_source_name": "CVM - Informe Quadrimestral FIP",
+      "primary_source_url": "https://dados.cvm.gov.br/dataset/fip-doc-inf_quadrimestral",
+      "estimate_basis": "VL_PATRIM_LIQ CVM 2026-06-30 convertido por PTAX de venda",
+      "undisclosed_fields": [],
+      "evidence_urls": ["https://dados.cvm.gov.br/dataset/fip-doc-inf_quadrimestral"]
+    },
+    {
+      "fund_id": "sec:0000000001",
+      "firm_name": "Beta Ventures LLC",
+      "vehicle_name": "Beta Fund II, L.P.",
+      "regulatory_id": "0000000001",
+      "geographic_cut": "GLOBAL_ATIVO_BR",
+      "hq_country": "US",
+      "target_stages": ["SEED", "SERIES_A"],
+      "stage_classification_method": "DECLARED_THESIS",
+      "estimated_ticket_min_usd": 500000,
+      "estimated_ticket_max_usd": 3000000,
+      "aum_or_offering_usd": 120000000,
+      "active_status": true,
+      "primary_source_name": "SEC EDGAR Form D",
+      "primary_source_url": "https://data.sec.gov/",
+      "undisclosed_fields": ["brazil_deals_count"]
+    },
+    {
+      "fund_id": "sec:0000000002",
+      "firm_name": "Gama Capital Partners",
+      "vehicle_name": "Gama Ventures III LP",
+      "regulatory_id": null,
+      "geographic_cut": "GLOBAL_EX_BR",
+      "hq_country": "GB",
+      "target_stages": ["SERIES_A"],
+      "stage_classification_method": "IMPUTED_BY_TICKET_HEURISTIC",
+      "estimated_ticket_min_usd": null,
+      "estimated_ticket_max_usd": null,
+      "aum_or_offering_usd": null,
+      "active_status": false,
+      "primary_source_name": "SEC EDGAR Form D",
+      "primary_source_url": "https://www.sec.gov/data-research/sec-markets-data/form-d-data-sets",
+      "undisclosed_fields": ["estimated_ticket_min_usd", "estimated_ticket_max_usd", "aum_or_offering_usd"]
+    }
+  ]
+}

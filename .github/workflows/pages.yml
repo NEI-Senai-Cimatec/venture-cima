@@ -1,0 +1,53 @@
+name: Deploy dashboard to GitHub Pages
+
+# Publica o dashboard executivo (arquivo unico autossuficiente) no GitHub Pages.
+# Fonte de verdade: dashboard/index.html (gerado por pipeline/render.py).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare site
+        run: |
+          set -euo pipefail
+          test -f dashboard/index.html
+          mkdir -p _site
+          cp dashboard/index.html _site/index.html
+          touch _site/.nojekyll
+          ls -lh _site
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

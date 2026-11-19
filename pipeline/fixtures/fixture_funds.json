@@ -1,0 +1,945 @@
+{
+ "__fixture__": true,
+ "note": "Fixture de desenvolvimento gerado de dados reais CVM/SEC. NAO publicar como dataset final.",
+ "records": [
+  {
+   "fund_id": "cvm:22985157000156",
+   "firm_name": "APEX GROUP INVESTIMENTOS LTDA.",
+   "vehicle_name": "INTERNET - FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA - RESPONSABILIDADE LIMITADA",
+   "regulatory_id": "22.985.157/0001-56",
+   "geographic_cut": "BRASIL_LOCAL",
+   "hq_country": "BR",
+   "target_stages": [
+    "SERIES_B",
+    "LATE_STAGE_GROWTH"
+   ],
+   "stage_classification_method": "REGULATORY_CLASS_CVM_BNDES",
+   "estimated_ticket_min_usd": null,
+   "estimated_ticket_max_usd": null,
+   "aum_or_offering_usd": 44984098971.14,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "CVM - Registro de Fundos e Classes (RCVM 175)",
+   "primary_source_url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+   "estimate_basis": "Patrimonio_Liquido 2025-04-30 (BRL 242914134444.13) / PTAX 5.4 (fixture)",
+   "undisclosed_fields": [
+    "estimated_ticket_min_usd",
+    "estimated_ticket_max_usd",
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+   ],
+   "resolution": {
+    "firm_key": "cnpj_gestor:23025053000162",
+    "vehicle_key": "cnpj:22985157000156",
+    "method": "CPF_CNPJ_Gestor",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "cvm:20082573000119",
+   "firm_name": "APEX GROUP INVESTIMENTOS LTDA.",
+   "vehicle_name": "PORTO SUDESTE ROYALTIES FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES EM  INFRA RESP LIMITADA",
+   "regulatory_id": "20.082.573/0001-19",
+   "geographic_cut": "BRASIL_LOCAL",
+   "hq_country": "BR",
+   "target_stages": [
+    "SEED",
+    "SERIES_A"
+   ],
+   "stage_classification_method": "IMPUTED_BY_TICKET_HEURISTIC",
+   "estimated_ticket_min_usd": null,
+   "estimated_ticket_max_usd": null,
+   "aum_or_offering_usd": 3656565545.19,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "CVM - Registro de Fundos e Classes (RCVM 175)",
+   "primary_source_url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+   "estimate_basis": "Patrimonio_Liquido 2025-04-30 (BRL 19745453944.0) / PTAX 5.4 (fixture)",
+   "undisclosed_fields": [
+    "estimated_ticket_min_usd",
+    "estimated_ticket_max_usd",
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+   ],
+   "resolution": {
+    "firm_key": "cnpj_gestor:23025053000162",
+    "vehicle_key": "cnpj:20082573000119",
+    "method": "CPF_CNPJ_Gestor",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "cvm:22450865000192",
+   "firm_name": "BROOKFIELD BRASIL ASSET MANAGEMENT INVESTIMENTOS LTDA",
+   "vehicle_name": "NOVA INFRAESTRUTURA FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES",
+   "regulatory_id": "22.450.865/0001-92",
+   "geographic_cut": "BRASIL_LOCAL",
+   "hq_country": "BR",
+   "target_stages": [
+    "SEED",
+    "SERIES_A"
+   ],
+   "stage_classification_method": "IMPUTED_BY_TICKET_HEURISTIC",
+   "estimated_ticket_min_usd": null,
+   "estimated_ticket_max_usd": null,
+   "aum_or_offering_usd": 2861590633.88,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "CVM - Registro de Fundos e Classes (RCVM 175)",
+   "primary_source_url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+   "estimate_basis": "Patrimonio_Liquido 2024-08-31 (BRL 15452589422.93) / PTAX 5.4 (fixture)",
+   "undisclosed_fields": [
+    "estimated_ticket_min_usd",
+    "estimated_ticket_max_usd",
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+   ],
+   "resolution": {
+    "firm_key": "cnpj_gestor:07885392000162",
+    "vehicle_key": "cnpj:22450865000192",
+    "method": "CPF_CNPJ_Gestor",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "cvm:35866628000159",
+   "firm_name": "TMF BRASIL SERVICOS DE ADMINISTRACAO DE FUNDOS LTDA",
+   "vehicle_name": "DYN DC FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA RESPONSABILIDADE LIMITADA",
+   "regulatory_id": "35.866.628/0001-59",
+   "geographic_cut": "BRASIL_LOCAL",
+   "hq_country": "BR",
+   "target_stages": [
+    "SERIES_B",
+    "LATE_STAGE_GROWTH"
+   ],
+   "stage_classification_method": "REGULATORY_CLASS_CVM_BNDES",
+   "estimated_ticket_min_usd": null,
+   "estimated_ticket_max_usd": null,
+   "aum_or_offering_usd": 2185311752.59,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "CVM - Registro de Fundos e Classes (RCVM 175)",
+   "primary_source_url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+   "estimate_basis": "Patrimonio_Liquido 2025-04-30 (BRL 11800683463.99) / PTAX 5.4 (fixture)",
+   "undisclosed_fields": [
+    "estimated_ticket_min_usd",
+    "estimated_ticket_max_usd",
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+   ],
+   "resolution": {
+    "firm_key": "cnpj_gestor:18313996000150",
+    "vehicle_key": "cnpj:35866628000159",
+    "method": "CPF_CNPJ_Gestor",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "cvm:52867115000181",
+   "firm_name": "MERAKI CAPITAL GESTÃO DE RECURSOS LTDA.",
+   "vehicle_name": "MERAKI STRATOS FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA",
+   "regulatory_id": "52.867.115/0001-81",
+   "geographic_cut": "BRASIL_LOCAL",
+   "hq_country": "BR",
+   "target_stages": [
+    "SERIES_B",
+    "LATE_STAGE_GROWTH"
+   ],
+   "stage_classification_method": "REGULATORY_CLASS_CVM_BNDES",
+   "estimated_ticket_min_usd": null,
+   "estimated_ticket_max_usd": null,
+   "aum_or_offering_usd": 12092070.67,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "CVM - Registro de Fundos e Classes (RCVM 175)",
+   "primary_source_url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+   "estimate_basis": "Patrimonio_Liquido 2024-08-31 (BRL 65297181.61) / PTAX 5.4 (fixture)",
+   "undisclosed_fields": [
+    "estimated_ticket_min_usd",
+    "estimated_ticket_max_usd",
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+   ],
+   "resolution": {
+    "firm_key": "cnpj_gestor:38710359000125",
+    "vehicle_key": "cnpj:52867115000181",
+    "method": "CPF_CNPJ_Gestor",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "cvm:45893816000120",
+   "firm_name": "GAMA CAPITAL GESTÃO DE RECURSOS LTDA.",
+   "vehicle_name": "GAMA III EDUCACAO FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA RESPONSABILIDADE LIMITADA",
+   "regulatory_id": "45.893.816/0001-20",
+   "geographic_cut": "BRASIL_LOCAL",
+   "hq_country": "BR",
+   "target_stages": [
+    "SERIES_B",
+    "LATE_STAGE_GROWTH"
+   ],
+   "stage_classification_method": "REGULATORY_CLASS_CVM_BNDES",
+   "estimated_ticket_min_usd": null,
+   "estimated_ticket_max_usd": null,
+   "aum_or_offering_usd": 11904842.28,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "CVM - Registro de Fundos e Classes (RCVM 175)",
+   "primary_source_url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+   "estimate_basis": "Patrimonio_Liquido 2025-04-30 (BRL 64286148.3) / PTAX 5.4 (fixture)",
+   "undisclosed_fields": [
+    "estimated_ticket_min_usd",
+    "estimated_ticket_max_usd",
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+   ],
+   "resolution": {
+    "firm_key": "cnpj_gestor:38304730000159",
+    "vehicle_key": "cnpj:45893816000120",
+    "method": "CPF_CNPJ_Gestor",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "cvm:59201200000155",
+   "firm_name": "ALAOF DO BRASIL ADMINISTRADORA DE VALORES MOBILIARIOS E CONSULTORIA LTDA",
+   "vehicle_name": "FLAVOR FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA",
+   "regulatory_id": "59.201.200/0001-55",
+   "geographic_cut": "BRASIL_LOCAL",
+   "hq_country": "BR",
+   "target_stages": [
+    "SERIES_B",
+    "LATE_STAGE_GROWTH"
+   ],
+   "stage_classification_method": "REGULATORY_CLASS_CVM_BNDES",
+   "estimated_ticket_min_usd": null,
+   "estimated_ticket_max_usd": null,
+   "aum_or_offering_usd": 11904371.34,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "CVM - Registro de Fundos e Classes (RCVM 175)",
+   "primary_source_url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+   "estimate_basis": "Patrimonio_Liquido  (BRL 64283605.22) / PTAX 5.4 (fixture)",
+   "undisclosed_fields": [
+    "estimated_ticket_min_usd",
+    "estimated_ticket_max_usd",
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+   ],
+   "resolution": {
+    "firm_key": "cnpj_gestor:15089883000125",
+    "vehicle_key": "cnpj:59201200000155",
+    "method": "CPF_CNPJ_Gestor",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "cvm:28398439000133",
+   "firm_name": "FORS CAPITAL PARTNERS LTDA",
+   "vehicle_name": "4T VENTURES FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA",
+   "regulatory_id": "28.398.439/0001-33",
+   "geographic_cut": "BRASIL_LOCAL",
+   "hq_country": "BR",
+   "target_stages": [
+    "SERIES_B",
+    "LATE_STAGE_GROWTH"
+   ],
+   "stage_classification_method": "REGULATORY_CLASS_CVM_BNDES",
+   "estimated_ticket_min_usd": null,
+   "estimated_ticket_max_usd": null,
+   "aum_or_offering_usd": 11901035.54,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "CVM - Registro de Fundos e Classes (RCVM 175)",
+   "primary_source_url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+   "estimate_basis": "Patrimonio_Liquido 2025-04-30 (BRL 64265591.93) / PTAX 5.4 (fixture)",
+   "undisclosed_fields": [
+    "estimated_ticket_min_usd",
+    "estimated_ticket_max_usd",
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+   ],
+   "resolution": {
+    "firm_key": "cnpj_gestor:07462720000118",
+    "vehicle_key": "cnpj:28398439000133",
+    "method": "CPF_CNPJ_Gestor",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "cvm:64125652000135",
+   "firm_name": "VALORA IMOBILIÁRIO E INFRAESTRUTURA LTDA.",
+   "vehicle_name": "VALORA INFRA DÍVIDA CDI FIP EM INFRAESTRUTURA - RESPONSABILIDADE LIMITADA",
+   "regulatory_id": "64.125.652/0001-35",
+   "geographic_cut": "BRASIL_LOCAL",
+   "hq_country": "BR",
+   "target_stages": [
+    "SEED",
+    "SERIES_A"
+   ],
+   "stage_classification_method": "IMPUTED_BY_TICKET_HEURISTIC",
+   "estimated_ticket_min_usd": null,
+   "estimated_ticket_max_usd": null,
+   "aum_or_offering_usd": 11893438.04,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "CVM - Registro de Fundos e Classes (RCVM 175)",
+   "primary_source_url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+   "estimate_basis": "Patrimonio_Liquido  (BRL 64224565.39) / PTAX 5.4 (fixture)",
+   "undisclosed_fields": [
+    "estimated_ticket_min_usd",
+    "estimated_ticket_max_usd",
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+   ],
+   "resolution": {
+    "firm_key": "cnpj_gestor:07559989000117",
+    "vehicle_key": "cnpj:64125652000135",
+    "method": "CPF_CNPJ_Gestor",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "cvm:11083096000115",
+   "firm_name": "GENIAL GESTÃO LTDA.",
+   "vehicle_name": "OLEO E GAS FUNDO DE INVESTIMENTO EM PARTICIPACOES MULTIESTRATEGIA",
+   "regulatory_id": "11.083.096/0001-15",
+   "geographic_cut": "BRASIL_LOCAL",
+   "hq_country": "BR",
+   "target_stages": [
+    "SERIES_B",
+    "LATE_STAGE_GROWTH"
+   ],
+   "stage_classification_method": "REGULATORY_CLASS_CVM_BNDES",
+   "estimated_ticket_min_usd": null,
+   "estimated_ticket_max_usd": null,
+   "aum_or_offering_usd": -1150024.59,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "CVM - Registro de Fundos e Classes (RCVM 175)",
+   "primary_source_url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+   "estimate_basis": "Patrimonio_Liquido 2025-04-30 (BRL -6210132.8) / PTAX 5.4 (fixture)",
+   "undisclosed_fields": [
+    "estimated_ticket_min_usd",
+    "estimated_ticket_max_usd",
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+   ],
+   "resolution": {
+    "firm_key": "cnpj_gestor:22119959000183",
+    "vehicle_key": "cnpj:11083096000115",
+    "method": "CPF_CNPJ_Gestor",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "cvm:34427343000159",
+   "firm_name": "PLANNER CORRETORA DE VALORES S.A.",
+   "vehicle_name": "BRIDGEWATER FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA",
+   "regulatory_id": "34.427.343/0001-59",
+   "geographic_cut": "BRASIL_LOCAL",
+   "hq_country": "BR",
+   "target_stages": [
+    "SERIES_B",
+    "LATE_STAGE_GROWTH"
+   ],
+   "stage_classification_method": "REGULATORY_CLASS_CVM_BNDES",
+   "estimated_ticket_min_usd": null,
+   "estimated_ticket_max_usd": null,
+   "aum_or_offering_usd": -3111165.17,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "CVM - Registro de Fundos e Classes (RCVM 175)",
+   "primary_source_url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+   "estimate_basis": "Patrimonio_Liquido 2025-04-30 (BRL -16800291.92) / PTAX 5.4 (fixture)",
+   "undisclosed_fields": [
+    "estimated_ticket_min_usd",
+    "estimated_ticket_max_usd",
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+   ],
+   "resolution": {
+    "firm_key": "cnpj_gestor:00806535000154",
+    "vehicle_key": "cnpj:34427343000159",
+    "method": "CPF_CNPJ_Gestor",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "cvm:46268679000103",
+   "firm_name": "WNT GESTORA DE RECURSOS LTDA",
+   "vehicle_name": "ARACÁ FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA",
+   "regulatory_id": "46.268.679/0001-03",
+   "geographic_cut": "BRASIL_LOCAL",
+   "hq_country": "BR",
+   "target_stages": [
+    "SERIES_B",
+    "LATE_STAGE_GROWTH"
+   ],
+   "stage_classification_method": "REGULATORY_CLASS_CVM_BNDES",
+   "estimated_ticket_min_usd": null,
+   "estimated_ticket_max_usd": null,
+   "aum_or_offering_usd": -8171060.61,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "CVM - Registro de Fundos e Classes (RCVM 175)",
+   "primary_source_url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+   "estimate_basis": "Patrimonio_Liquido  (BRL -44123727.29) / PTAX 5.4 (fixture)",
+   "undisclosed_fields": [
+    "estimated_ticket_min_usd",
+    "estimated_ticket_max_usd",
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+   ],
+   "resolution": {
+    "firm_key": "cnpj_gestor:28529686000121",
+    "vehicle_key": "cnpj:46268679000103",
+    "method": "CPF_CNPJ_Gestor",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "cvm:26452143000128",
+   "firm_name": "REAG PORTFÓLIO SOLUTIONS LTDA.",
+   "vehicle_name": "NEW META FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA",
+   "regulatory_id": "26.452.143/0001-28",
+   "geographic_cut": "BRASIL_LOCAL",
+   "hq_country": "BR",
+   "target_stages": [
+    "SERIES_B",
+    "LATE_STAGE_GROWTH"
+   ],
+   "stage_classification_method": "REGULATORY_CLASS_CVM_BNDES",
+   "estimated_ticket_min_usd": null,
+   "estimated_ticket_max_usd": null,
+   "aum_or_offering_usd": -10100773.66,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "CVM - Registro de Fundos e Classes (RCVM 175)",
+   "primary_source_url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+   "estimate_basis": "Patrimonio_Liquido 2024-08-31 (BRL -54544177.77) / PTAX 5.4 (fixture)",
+   "undisclosed_fields": [
+    "estimated_ticket_min_usd",
+    "estimated_ticket_max_usd",
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+   ],
+   "resolution": {
+    "firm_key": "cnpj_gestor:48954141000170",
+    "vehicle_key": "cnpj:26452143000128",
+    "method": "CPF_CNPJ_Gestor",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "cvm:51517966000131",
+   "firm_name": "REAG JUS GESTÃO DE ATIVOS JUDICIAIS LTDA.",
+   "vehicle_name": "EAGLE EYE INVESTMENTS FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA",
+   "regulatory_id": "51.517.966/0001-31",
+   "geographic_cut": "BRASIL_LOCAL",
+   "hq_country": "BR",
+   "target_stages": [
+    "SERIES_B",
+    "LATE_STAGE_GROWTH"
+   ],
+   "stage_classification_method": "REGULATORY_CLASS_CVM_BNDES",
+   "estimated_ticket_min_usd": null,
+   "estimated_ticket_max_usd": null,
+   "aum_or_offering_usd": -99677113.11,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "CVM - Registro de Fundos e Classes (RCVM 175)",
+   "primary_source_url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+   "estimate_basis": "Patrimonio_Liquido  (BRL -538256410.81) / PTAX 5.4 (fixture)",
+   "undisclosed_fields": [
+    "estimated_ticket_min_usd",
+    "estimated_ticket_max_usd",
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+   ],
+   "resolution": {
+    "firm_key": "cnpj_gestor:46356742000155",
+    "vehicle_key": "cnpj:51517966000131",
+    "method": "CPF_CNPJ_Gestor",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "sec:0002155697-26-000001",
+   "firm_name": "COSTANOA LA GROWTH,",
+   "vehicle_name": "Costanoa LA Growth, L.P.",
+   "regulatory_id": "2155697000",
+   "geographic_cut": "GLOBAL_EX_BR",
+   "hq_country": "US",
+   "target_stages": [
+    "SEED",
+    "SERIES_A"
+   ],
+   "stage_classification_method": "IMPUTED_BY_TICKET_HEURISTIC",
+   "estimated_ticket_min_usd": 500000.0,
+   "estimated_ticket_max_usd": 3000000.0,
+   "aum_or_offering_usd": 50000000.0,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "SEC EDGAR - Form D",
+   "primary_source_url": "https://www.sec.gov/Archives/edgar/data/2155697/000215569726000001/0002155697-26-000001-index.htm",
+   "estimate_basis": "TOTALOFFERINGAMOUNT Form D filing 30-SEP-2026",
+   "undisclosed_fields": [
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://www.sec.gov/Archives/edgar/data/2155697/000215569726000001/0002155697-26-000001-index.htm"
+   ],
+   "resolution": {
+    "firm_key": "sec_cik:2155697000",
+    "vehicle_key": "sec_acc:0002155697-26-000001",
+    "method": "CIK",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "sec:0001929098-26-000001",
+   "firm_name": "WAVE OPPORTUNITY",
+   "vehicle_name": "WAVE Opportunity Fund I LP",
+   "regulatory_id": "1929098000",
+   "geographic_cut": "GLOBAL_EX_BR",
+   "hq_country": "US",
+   "target_stages": [
+    "SEED",
+    "SERIES_A"
+   ],
+   "stage_classification_method": "IMPUTED_BY_TICKET_HEURISTIC",
+   "estimated_ticket_min_usd": 500000.0,
+   "estimated_ticket_max_usd": 3000000.0,
+   "aum_or_offering_usd": 100000000.0,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "SEC EDGAR - Form D",
+   "primary_source_url": "https://www.sec.gov/Archives/edgar/data/1929098/000192909826000001/0001929098-26-000001-index.htm",
+   "estimate_basis": "TOTALOFFERINGAMOUNT Form D filing 30-SEP-2026",
+   "undisclosed_fields": [
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1929098/000192909826000001/0001929098-26-000001-index.htm"
+   ],
+   "resolution": {
+    "firm_key": "sec_cik:1929098000",
+    "vehicle_key": "sec_acc:0001929098-26-000001",
+    "method": "CIK",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "sec:0001231919-26-001414",
+   "firm_name": "COSTANOA LA EARLY,",
+   "vehicle_name": "Costanoa LA Early, L.P.",
+   "regulatory_id": "2155695000",
+   "geographic_cut": "GLOBAL_EX_BR",
+   "hq_country": "US",
+   "target_stages": [
+    "SEED",
+    "SERIES_A"
+   ],
+   "stage_classification_method": "IMPUTED_BY_TICKET_HEURISTIC",
+   "estimated_ticket_min_usd": 500000.0,
+   "estimated_ticket_max_usd": 3000000.0,
+   "aum_or_offering_usd": 50000000.0,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "SEC EDGAR - Form D",
+   "primary_source_url": "https://www.sec.gov/Archives/edgar/data/2155695/000123191926001414/0001231919-26-001414-index.htm",
+   "estimate_basis": "TOTALOFFERINGAMOUNT Form D filing 30-SEP-2026",
+   "undisclosed_fields": [
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://www.sec.gov/Archives/edgar/data/2155695/000123191926001414/0001231919-26-001414-index.htm"
+   ],
+   "resolution": {
+    "firm_key": "sec_cik:2155695000",
+    "vehicle_key": "sec_acc:0001231919-26-001414",
+    "method": "CIK",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "sec:0002134718-26-000090",
+   "firm_name": "SCP OPPORTUNITY CXXXV",
+   "vehicle_name": "SCP Opportunity CXXXV LP",
+   "regulatory_id": "2155988000",
+   "geographic_cut": "GLOBAL_EX_BR",
+   "hq_country": "US",
+   "target_stages": [
+    "SEED",
+    "SERIES_A"
+   ],
+   "stage_classification_method": "IMPUTED_BY_TICKET_HEURISTIC",
+   "estimated_ticket_min_usd": 500000.0,
+   "estimated_ticket_max_usd": 3000000.0,
+   "aum_or_offering_usd": 10000000.0,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "SEC EDGAR - Form D",
+   "primary_source_url": "https://www.sec.gov/Archives/edgar/data/2155988/000213471826000090/0002134718-26-000090-index.htm",
+   "estimate_basis": "TOTALOFFERINGAMOUNT Form D filing 30-SEP-2026",
+   "undisclosed_fields": [
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://www.sec.gov/Archives/edgar/data/2155988/000213471826000090/0002134718-26-000090-index.htm"
+   ],
+   "resolution": {
+    "firm_key": "sec_cik:2155988000",
+    "vehicle_key": "sec_acc:0002134718-26-000090",
+    "method": "CIK",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "sec:0001231919-26-001413",
+   "firm_name": "HOUSE HOLDINGS 1.7,",
+   "vehicle_name": "House Holdings 1.7, LP",
+   "regulatory_id": "2154181000",
+   "geographic_cut": "GLOBAL_EX_BR",
+   "hq_country": "US",
+   "target_stages": [
+    "SEED",
+    "SERIES_A"
+   ],
+   "stage_classification_method": "IMPUTED_BY_TICKET_HEURISTIC",
+   "estimated_ticket_min_usd": 500000.0,
+   "estimated_ticket_max_usd": 3000000.0,
+   "aum_or_offering_usd": 14600000.0,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "SEC EDGAR - Form D",
+   "primary_source_url": "https://www.sec.gov/Archives/edgar/data/2154181/000123191926001413/0001231919-26-001413-index.htm",
+   "estimate_basis": "TOTALOFFERINGAMOUNT Form D filing 30-SEP-2026",
+   "undisclosed_fields": [
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://www.sec.gov/Archives/edgar/data/2154181/000123191926001413/0001231919-26-001413-index.htm"
+   ],
+   "resolution": {
+    "firm_key": "sec_cik:2154181000",
+    "vehicle_key": "sec_acc:0001231919-26-001413",
+    "method": "CIK",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "sec:0002068694-26-000002",
+   "firm_name": "MAINE FUTURE",
+   "vehicle_name": "Maine Future Fund, LP",
+   "regulatory_id": "2068694000",
+   "geographic_cut": "GLOBAL_EX_BR",
+   "hq_country": "US",
+   "target_stages": [
+    "SEED",
+    "SERIES_A"
+   ],
+   "stage_classification_method": "IMPUTED_BY_TICKET_HEURISTIC",
+   "estimated_ticket_min_usd": 500000.0,
+   "estimated_ticket_max_usd": 3000000.0,
+   "aum_or_offering_usd": 25000000.0,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "SEC EDGAR - Form D",
+   "primary_source_url": "https://www.sec.gov/Archives/edgar/data/2068694/000206869426000002/0002068694-26-000002-index.htm",
+   "estimate_basis": "TOTALOFFERINGAMOUNT Form D filing 30-SEP-2026",
+   "undisclosed_fields": [
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://www.sec.gov/Archives/edgar/data/2068694/000206869426000002/0002068694-26-000002-index.htm"
+   ],
+   "resolution": {
+    "firm_key": "sec_cik:2068694000",
+    "vehicle_key": "sec_acc:0002068694-26-000002",
+    "method": "CIK",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "sec:0002124230-26-000001",
+   "firm_name": "FUNDOMO SA-001,",
+   "vehicle_name": "Fundomo SA-001, LP",
+   "regulatory_id": "2124230000",
+   "geographic_cut": "GLOBAL_EX_BR",
+   "hq_country": "US",
+   "target_stages": [
+    "SEED",
+    "SERIES_A"
+   ],
+   "stage_classification_method": "IMPUTED_BY_TICKET_HEURISTIC",
+   "estimated_ticket_min_usd": 500000.0,
+   "estimated_ticket_max_usd": 3000000.0,
+   "aum_or_offering_usd": 10312653.0,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "SEC EDGAR - Form D",
+   "primary_source_url": "https://www.sec.gov/Archives/edgar/data/2124230/000212423026000001/0002124230-26-000001-index.htm",
+   "estimate_basis": "TOTALOFFERINGAMOUNT Form D filing 30-SEP-2026",
+   "undisclosed_fields": [
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://www.sec.gov/Archives/edgar/data/2124230/000212423026000001/0002124230-26-000001-index.htm"
+   ],
+   "resolution": {
+    "firm_key": "sec_cik:2124230000",
+    "vehicle_key": "sec_acc:0002124230-26-000001",
+    "method": "CIK",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "sec:0002149959-26-000001",
+   "firm_name": "FUNDOMO TT-002,",
+   "vehicle_name": "Fundomo TT-002, LP",
+   "regulatory_id": "2149959000",
+   "geographic_cut": "GLOBAL_EX_BR",
+   "hq_country": "US",
+   "target_stages": [
+    "SEED",
+    "SERIES_A"
+   ],
+   "stage_classification_method": "IMPUTED_BY_TICKET_HEURISTIC",
+   "estimated_ticket_min_usd": 500000.0,
+   "estimated_ticket_max_usd": 3000000.0,
+   "aum_or_offering_usd": 12501259.0,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "SEC EDGAR - Form D",
+   "primary_source_url": "https://www.sec.gov/Archives/edgar/data/2149959/000214995926000001/0002149959-26-000001-index.htm",
+   "estimate_basis": "TOTALOFFERINGAMOUNT Form D filing 30-SEP-2026",
+   "undisclosed_fields": [
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://www.sec.gov/Archives/edgar/data/2149959/000214995926000001/0002149959-26-000001-index.htm"
+   ],
+   "resolution": {
+    "firm_key": "sec_cik:2149959000",
+    "vehicle_key": "sec_acc:0002149959-26-000001",
+    "method": "CIK",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "sec:0002067580-26-000003",
+   "firm_name": "PREFACE",
+   "vehicle_name": "Preface Ventures IV-A, L.P.",
+   "regulatory_id": "2067580000",
+   "geographic_cut": "GLOBAL_EX_BR",
+   "hq_country": "US",
+   "target_stages": [
+    "SEED",
+    "SERIES_A"
+   ],
+   "stage_classification_method": "IMPUTED_BY_TICKET_HEURISTIC",
+   "estimated_ticket_min_usd": 500000.0,
+   "estimated_ticket_max_usd": 3000000.0,
+   "aum_or_offering_usd": 56557000.0,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "SEC EDGAR - Form D",
+   "primary_source_url": "https://www.sec.gov/Archives/edgar/data/2067580/000206758026000003/0002067580-26-000003-index.htm",
+   "estimate_basis": "TOTALOFFERINGAMOUNT Form D filing 30-SEP-2026",
+   "undisclosed_fields": [
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://www.sec.gov/Archives/edgar/data/2067580/000206758026000003/0002067580-26-000003-index.htm"
+   ],
+   "resolution": {
+    "firm_key": "sec_cik:2067580000",
+    "vehicle_key": "sec_acc:0002067580-26-000003",
+    "method": "CIK",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "sec:0002067576-26-000003",
+   "firm_name": "PREFACE",
+   "vehicle_name": "Preface Ventures IV, L.P.",
+   "regulatory_id": "2067576000",
+   "geographic_cut": "GLOBAL_EX_BR",
+   "hq_country": "US",
+   "target_stages": [
+    "SEED",
+    "SERIES_A"
+   ],
+   "stage_classification_method": "IMPUTED_BY_TICKET_HEURISTIC",
+   "estimated_ticket_min_usd": 500000.0,
+   "estimated_ticket_max_usd": 3000000.0,
+   "aum_or_offering_usd": 56557000.0,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "SEC EDGAR - Form D",
+   "primary_source_url": "https://www.sec.gov/Archives/edgar/data/2067576/000206757626000003/0002067576-26-000003-index.htm",
+   "estimate_basis": "TOTALOFFERINGAMOUNT Form D filing 30-SEP-2026",
+   "undisclosed_fields": [
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://www.sec.gov/Archives/edgar/data/2067576/000206757626000003/0002067576-26-000003-index.htm"
+   ],
+   "resolution": {
+    "firm_key": "sec_cik:2067576000",
+    "vehicle_key": "sec_acc:0002067576-26-000003",
+    "method": "CIK",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "sec:0002108963-26-000002",
+   "firm_name": "VERDIS SEED VENTURE",
+   "vehicle_name": "Verdis Seed Venture Capital IV, L.P.",
+   "regulatory_id": "2108963000",
+   "geographic_cut": "GLOBAL_EX_BR",
+   "hq_country": "US",
+   "target_stages": [
+    "SEED",
+    "SERIES_A"
+   ],
+   "stage_classification_method": "IMPUTED_BY_TICKET_HEURISTIC",
+   "estimated_ticket_min_usd": 500000.0,
+   "estimated_ticket_max_usd": 3000000.0,
+   "aum_or_offering_usd": 150000000.0,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "SEC EDGAR - Form D",
+   "primary_source_url": "https://www.sec.gov/Archives/edgar/data/2108963/000210896326000002/0002108963-26-000002-index.htm",
+   "estimate_basis": "TOTALOFFERINGAMOUNT Form D filing 30-SEP-2026",
+   "undisclosed_fields": [
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://www.sec.gov/Archives/edgar/data/2108963/000210896326000002/0002108963-26-000002-index.htm"
+   ],
+   "resolution": {
+    "firm_key": "sec_cik:2108963000",
+    "vehicle_key": "sec_acc:0002108963-26-000002",
+    "method": "CIK",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  },
+  {
+   "fund_id": "sec:0001231919-26-001404",
+   "firm_name": "AI ALL STAR",
+   "vehicle_name": "AI All Star Fund 2, L.P.",
+   "regulatory_id": "2153226000",
+   "geographic_cut": "GLOBAL_EX_BR",
+   "hq_country": "US",
+   "target_stages": [
+    "SEED",
+    "SERIES_A"
+   ],
+   "stage_classification_method": "IMPUTED_BY_TICKET_HEURISTIC",
+   "estimated_ticket_min_usd": 500000.0,
+   "estimated_ticket_max_usd": 3000000.0,
+   "aum_or_offering_usd": 50000000.0,
+   "brazil_deals_count": 0,
+   "lead_investor_rate": null,
+   "active_status": true,
+   "primary_source_name": "SEC EDGAR - Form D",
+   "primary_source_url": "https://www.sec.gov/Archives/edgar/data/2153226/000123191926001404/0001231919-26-001404-index.htm",
+   "estimate_basis": "TOTALOFFERINGAMOUNT Form D filing 30-SEP-2026",
+   "undisclosed_fields": [
+    "lead_investor_rate"
+   ],
+   "evidence_urls": [
+    "https://www.sec.gov/Archives/edgar/data/2153226/000123191926001404/0001231919-26-001404-index.htm"
+   ],
+   "resolution": {
+    "firm_key": "sec_cik:2153226000",
+    "vehicle_key": "sec_acc:0001231919-26-001404",
+    "method": "CIK",
+    "confidence": "high"
+   },
+   "__fixture__": true
+  }
+ ],
+ "kpis": {}
+}

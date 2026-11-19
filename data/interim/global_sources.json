@@ -1,0 +1,126 @@
+{
+  "sources": [
+    {
+      "name": "BCB PTAX - CotacaoDolarPeriodo (BRL/USD)",
+      "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='01-01-2024'&@dataFinalCotacao='11-18-2026'&$format=json&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao",
+      "status": 200,
+      "bytes": 67858,
+      "sha256": "10ff01226e92595bccc3acaabab0a4cec938344c282d5e8559ee06792c8c35c7",
+      "records": 724,
+      "notes": "Serie de venda PTAX 2024-01-02..2026-11-17, 724 cotacoes; campo last = cotacao_venda 5.7851 em 2026-11-17."
+    },
+    {
+      "name": "SEC Form D Data Set 2024q4 (2024q4_d.zip)",
+      "url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2024q4_d.zip",
+      "status": 200,
+      "bytes": 3278867,
+      "sha256": "931e1ec5f8777d4d276690de3b8b688cfc72c852bea3c6f06d8ddae0b8080696",
+      "records": 1907,
+      "notes": "13611 offerings no trimestre; 1907 VC; 1583 com TOTALOFFERINGAMOUNT numerico, 324 'Indefinite', 0 sem valor; 1907 com pais resolvido."
+    },
+    {
+      "name": "SEC Form D Data Set 2025q1 (2025q1_d.zip)",
+      "url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2025q1_d.zip",
+      "status": 200,
+      "bytes": 3519235,
+      "sha256": "d98c166e1b7995a2daf0632028825cd3217186299912ae4cdee0e1e3dd7c281c",
+      "records": 1976,
+      "notes": "14757 offerings no trimestre; 1976 VC; 1606 com TOTALOFFERINGAMOUNT numerico, 370 'Indefinite', 0 sem valor; 1976 com pais resolvido."
+    },
+    {
+      "name": "SEC Form D Data Set 2025q2 (2025q2_d.zip)",
+      "url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2025q2_d.zip",
+      "status": 200,
+      "bytes": 3171828,
+      "sha256": "ea133398badf32d0abf6ecc92bdcd7db4c6daafd901f007b380dc5fccee64ff2",
+      "records": 1924,
+      "notes": "13146 offerings no trimestre; 1924 VC; 1614 com TOTALOFFERINGAMOUNT numerico, 310 'Indefinite', 0 sem valor; 1924 com pais resolvido."
+    },
+    {
+      "name": "SEC Form D Data Set 2025q3 (2025q3_d.zip)",
+      "url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2025q3_d.zip",
+      "status": 200,
+      "bytes": 3358303,
+      "sha256": "18c57a72d6d19b65b51ad55a43c18bfd78aadf88643437fcfca2a279a9f0a26b",
+      "records": 2148,
+      "notes": "13979 offerings no trimestre; 2148 VC; 1756 com TOTALOFFERINGAMOUNT numerico, 392 'Indefinite', 0 sem valor; 2148 com pais resolvido."
+    },
+    {
+      "name": "SEC Form D Data Set 2025q4 (2025q4_d.zip)",
+      "url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2025q4_d.zip",
+      "status": 200,
+      "bytes": 3490382,
+      "sha256": "74cd9fc70ef008e5cbd27ffa7fab7c715947d8a712d3a28dcda98790248a0f29",
+      "records": 2454,
+      "notes": "14637 offerings no trimestre; 2454 VC; 2064 com TOTALOFFERINGAMOUNT numerico, 390 'Indefinite', 0 sem valor; 2454 com pais resolvido."
+    },
+    {
+      "name": "SEC Form D Data Set 2026q1 (2026q1_d.zip)",
+      "url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2026q1_d.zip",
+      "status": 200,
+      "bytes": 3648126,
+      "sha256": "3d2fb8915fd6c22747b7935f05d1cc66523d2bc1134896d1f03c6f1c16fad9d8",
+      "records": 2547,
+      "notes": "15734 offerings no trimestre; 2547 VC; 2119 com TOTALOFFERINGAMOUNT numerico, 428 'Indefinite', 0 sem valor; 2547 com pais resolvido."
+    },
+    {
+      "name": "SEC Form D Data Set 2026q2 (2026q2_d.zip)",
+      "url": "https://www.sec.gov/files/datastandardsinnovation/data/form-d-data-sets/2026q2_d.zip",
+      "status": 200,
+      "bytes": 3805493,
+      "sha256": "e7a08365a5600d1e72357687c76cda20075c00e6817008fcd9fa7064a984592a",
+      "records": 2983,
+      "notes": "16640 offerings no trimestre; 2983 VC; 2421 com TOTALOFFERINGAMOUNT numerico, 562 'Indefinite', 0 sem valor; 2982 com pais resolvido."
+    },
+    {
+      "name": "SEC Form D Data Set 2026q3 (2026q3_d.zip)",
+      "url": "https://www.sec.gov/files/datastandardsinnovation/data/form-d-data-sets/2026q3_d.zip",
+      "status": 200,
+      "bytes": 3652689,
+      "sha256": "03669a23e724645a8bbcad51822cf7f4b27f91c3f2bedac9dcff3c23e68e84bf",
+      "records": 2872,
+      "notes": "15952 offerings no trimestre; 2872 VC; 2259 com TOTALOFFERINGAMOUNT numerico, 613 'Indefinite', 0 sem valor; 2872 com pais resolvido."
+    },
+    {
+      "name": "SEC Form D Data Sets - veiculos de VC (agregado 2024q4..2026q3)",
+      "url": "https://www.sec.gov/data-research/sec-markets-data/form-d-data-sets",
+      "status": 200,
+      "bytes": 18855508,
+      "sha256": "6e2b18d41a4f2918ff6444543d7ac80ab447f301e33ef348d03ebcc1ed7c48c8",
+      "records": 18811,
+      "notes": "18811 veiculos VC de 8 ZIPs trimestrais (sem dedupe por CIK: 1 linha por ACCESSIONNUMBER). TOTALOFFERINGAMOUNT: 15422 numericos, 3389 'Indefinite' -> 100.00% divulgado. sha256/bytes acima referem-se ao JSONL final."
+    },
+    {
+      "name": "Wikidata Query Service (SPARQL) - gestoras de VC",
+      "url": "https://query.wikidata.org/sparql",
+      "status": 200,
+      "bytes": 1300632,
+      "sha256": "379531919ec496274aedd0ea0d6b7101ad41ba629ea7969da3c483c92b66dd36",
+      "records": 407,
+      "notes": "Descoberta: P31=Q3487908 (355 linhas), P452=Q219409 OR P31/P279*=Q5418962 (168 linhas), categorias enwiki (327 QIDs). 640 QIDs enriquecidos, 407 com pais ISO2. sha256 acima = hash do JSONL final; bytes = soma dos bytes das respostas SPARQL/API."
+    }
+  ],
+  "wikidata_qid_used": {
+    "venture_capital_firm": "Q3487908",
+    "venture_capital_industry": "Q219409",
+    "private_equity_firm": "Q5418962",
+    "spec_qid_invalido": "Q1961622",
+    "nota_correcao": "Q1961622 = 'NUW' (Wikimedia disambiguation page, P31=Q4167410); QID correto de 'venture capital firm' = Q3487908 (wbsearchentities).",
+    "coletado_em_utc": "2026-11-18T16:01:03+00:00"
+  },
+  "limitations": [
+    "[BCB PTAX] A API publica serie apenas dias uteis com boletim PTAX; feriados/fins de semana nao possuem cotacao. O campo last e a cotacao de venda mais recente disponivel na data de coleta.",
+    "[BCB PTAX] cotacao_compra/cotacao_venda preservadas exatamente como publicadas (sem arredondamento).",
+    "[SEC Form D] Os campos OVER100RECIPIENTFLAG (OFFERING) e OVER100PERSONSFLAG (FORMDSUBMISSION) vem vazios em 100% das linhas VC em 2024q4..2026q3; payload.over100_recipient_flag=null e listado em payload._undisclosed.",
+    "[SEC Form D] 1 registro possui JURISDICTIONOFINC/STATEORCOUNTRY='X0' (codigo de pais do EDGAR nao mapeado de forma inequivoca); country_hint=null + _undisclosed.",
+    "[SEC Form D] 'Indefinite' em TOTALOFFERINGAMOUNT/TOTALREMAINING nao e convertido em numero; o campo USD equivalente fica null e entra em _undisclosed (valores so em USD absolutos, como na fonte).",
+    "[SEC Form D] D e D/A sao tratados como offerings distintos (ACCESSIONNUMBER diferente); a deduplicacao por CIK/gestora e responsabilidade da etapa de transformacao.",
+    "[Wikidata] Q1961622 citado na spec e uma pagina de desambiguacao ('NUW', P31=Q4167410); substituido por Q3487908 ('Venture capital firm') obtido via wbsearchentities.",
+    "[Wikidata] Classe Q3487908 tem base curada pequena; uniao com P452=Q219409, P31/P279*=Q5418962 e categorias enwiki foi necessaria para cobertura.",
+    "[Wikidata] 215 itens descobertos foram descartados por nao terem P17 (pais) resolvivel em ISO2; 18 itens excluidos por tipo (humano/lista/desambiguacao/artigo) e 0 nao retornaram detalhes no enriquecimento.",
+    "[Wikidata] P571 (fundacao) pode ter precisao apenas de ano; a data canonica do repositorio (ex.: 1999-01-01) e preservada sem inferencia.",
+    "[Wikidata] Categorias Wikimedia sao usadas apenas como canal de descoberta de QIDs; todos os atributos vem de declaracoes do Wikidata via SPARQL.",
+    "[Wikidata] country_iso2 reflete P17 (pais da entidade no Wikidata) e pode divergir da sede declarada em P159 (preservada em hq_location_qid/hq_label); nenhum ajuste e inferido.",
+    "[Wikidata] websites sao preservados exatamente como declarados no repositorio (podem ser http://)."
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "generated_at": "2026-11-18T19:31:47+00:00",
+  "html": "dashboard\\index.html",
+  "out_dir": "audit\\shots",
+  "viewports": {
+    "375": {
+      "path": "audit\\shots\\dashboard-375.png",
+      "width": 375,
+      "height": 812,
+      "exists": false,
+      "bytes": null,
+      "dims": null,
+      "dims_ok": null,
+      "elapsed_s": null,
+      "exit_code": null,
+      "stderr_tail": "",
+      "runtime": {
+        "innerWidth": 500,
+        "innerHeight": 626,
+        "documentScrollWidth": 500,
+        "bodyScrollWidth": 500,
+        "horizontal_overflow": false,
+        "overflowElements": [
+          {
+            "tag": "TABLE",
+            "cls": "matrix portfolio",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "tbl-caption",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "THEAD",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TH",
+            "cls": "num-h",
+            "left": 409,
+            "right": 528,
+            "width": 119
+          },
+          {
+            "tag": "TH",
+            "cls": "num-h",
+            "left": 528,
+            "right": 648,
+            "width": 119
+          },
+          {
+            "tag": "TH",
+            "cls": "num-h",
+            "left": 648,
+            "right": 781,
+            "width": 133
+          },
+          {
+            "tag": "TBODY",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 409,
+            "right": 528,
+            "width": 119
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 439,
+            "right": 518,
+            "width": 79
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 528,
+            "right": 648,
+            "width": 119
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 558,
+            "right": 638,
+            "width": 79
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 648,
+            "right": 781,
+            "width": 133
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 735,
+            "right": 771,
+            "width": 36
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 409,
+            "right": 528,
+            "width": 119
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 439,
+            "right": 518,
+            "width": 79
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 528,
+            "right": 648,
+            "width": 119
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 558,
+            "right": 638,
+            "width": 79
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 648,
+            "right": 781,
+            "width": 133
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 735,
+            "right": 771,
+            "width": 36
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 409,
+            "right": 528,
+            "width": 119
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 439,
+            "right": 518,
+            "width": 79
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 528,
+            "right": 648,
+            "width": 119
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 558,
+            "right": 638,
+            "width": 79
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 648,
+            "right": 781,
+            "width": 133
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 735,
+            "right": 771,
+            "width": 36
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          }
+        ],
+        "minFontPx": 12,
+        "minFontElement": "P.kicker",
+        "h1": 1,
+        "tables": 4,
+        "tableRows": 64,
+        "figures": 5,
+        "figuresWithCaption": 5,
+        "moneyCells": 89,
+        "moneyCellsTabularNowrap": 88,
+        "moneyCellsNotCompliant": [
+          {
+            "tag": "TD",
+            "cls": "",
+            "tabular": false,
+            "nowrap": false,
+            "text": "Faixa de cheque convertida em "
+          }
+        ],
+        "jsErrors": [],
+        "readyState": "complete",
+        "checked": true,
+        "dom_bytes": 2060651
+      },
+      "runtime_error": null
+    },
+    "1440": {
+      "path": "audit\\shots\\dashboard-1440.png",
+      "width": 1440,
+      "height": 900,
+      "exists": false,
+      "bytes": null,
+      "dims": null,
+      "dims_ok": null,
+      "elapsed_s": null,
+      "exit_code": null,
+      "stderr_tail": "",
+      "runtime": {
+        "innerWidth": 1422,
+        "innerHeight": 714,
+        "documentScrollWidth": 1422,
+        "bodyScrollWidth": 1422,
+        "horizontal_overflow": false,
+        "overflowElements": [],
+        "minFontPx": 12,
+        "minFontElement": "P.kicker",
+        "h1": 1,
+        "tables": 4,
+        "tableRows": 64,
+        "figures": 5,
+        "figuresWithCaption": 5,
+        "moneyCells": 89,
+        "moneyCellsTabularNowrap": 88,
+        "moneyCellsNotCompliant": [
+          {
+            "tag": "TD",
+            "cls": "",
+            "tabular": false,
+            "nowrap": false,
+            "text": "Faixa de cheque convertida em "
+          }
+        ],
+        "jsErrors": [],
+        "readyState": "complete",
+        "checked": true,
+        "dom_bytes": 2056925
+      },
+      "runtime_error": null
+    }
+  },
+  "shots_enabled": false,
+  "overflow": {
+    "measured": true,
+    "per_viewport": {
+      "375": {
+        "innerWidth": 500,
+        "documentScrollWidth": 500,
+        "bodyScrollWidth": 500,
+        "horizontal_overflow": false,
+        "overflowElements": [
+          {
+            "tag": "TABLE",
+            "cls": "matrix portfolio",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "tbl-caption",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "THEAD",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TH",
+            "cls": "num-h",
+            "left": 409,
+            "right": 528,
+            "width": 119
+          },
+          {
+            "tag": "TH",
+            "cls": "num-h",
+            "left": 528,
+            "right": 648,
+            "width": 119
+          },
+          {
+            "tag": "TH",
+            "cls": "num-h",
+            "left": 648,
+            "right": 781,
+            "width": 133
+          },
+          {
+            "tag": "TBODY",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 409,
+            "right": 528,
+            "width": 119
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 439,
+            "right": 518,
+            "width": 79
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 528,
+            "right": 648,
+            "width": 119
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 558,
+            "right": 638,
+            "width": 79
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 648,
+            "right": 781,
+            "width": 133
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 735,
+            "right": 771,
+            "width": 36
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 409,
+            "right": 528,
+            "width": 119
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 439,
+            "right": 518,
+            "width": 79
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 528,
+            "right": 648,
+            "width": 119
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 558,
+            "right": 638,
+            "width": 79
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 648,
+            "right": 781,
+            "width": 133
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 735,
+            "right": 771,
+            "width": 36
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 409,
+            "right": 528,
+            "width": 119
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 439,
+            "right": 518,
+            "width": 79
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 528,
+            "right": 648,
+            "width": 119
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 558,
+            "right": 638,
+            "width": 79
+          },
+          {
+            "tag": "TD",
+            "cls": "num-cell",
+            "left": 648,
+            "right": 781,
+            "width": 133
+          },
+          {
+            "tag": "SPAN",
+            "cls": "num",
+            "left": 735,
+            "right": 771,
+            "width": 36
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 781,
+            "width": 760
+          }
+        ]
+      },
+      "1440": {
+        "innerWidth": 1422,
+        "documentScrollWidth": 1422,
+        "bodyScrollWidth": 1422,
+        "horizontal_overflow": false,
+        "overflowElements": []
+      }
+    }
+  },
+  "js_errors": [],
+  "dom_check": {
+    "checked": true,
+    "ok": true,
+    "detail": "DOM renderizado 1440px: h1=1, tables=4, tr=64, figures=5 (com figcaption=5); script DOM bytes=2056925",
+    "dom_path": "audit\\shots\\rendered_dom.html",
+    "h1": 1,
+    "tables": 4,
+    "table_rows": 64,
+    "figures": 5
+  },
+  "dpr": 1.0,
+  "hash": "insights",
+  "error": "2/3 screenshots falharam. Possivel bloqueio de sandbox (named pipes/mojo). stderr: ",
+  "limitations": [
+    "Sem screenshots nao e' possivel verificar larguras; medicao runtime fica incompleta."
+  ],
+  "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "captured": 0,
+  "total_viewports": 3,
+  "runtime_measured_viewports": 2
+}

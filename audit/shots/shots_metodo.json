@@ -1,0 +1,265 @@
+{
+  "generated_at": "2026-11-18T19:35:13+00:00",
+  "html": "dashboard\\index.html",
+  "out_dir": "audit\\shots",
+  "viewports": {
+    "375": {
+      "path": "audit\\shots\\dashboard-375.png",
+      "width": 375,
+      "height": 812,
+      "exists": false,
+      "bytes": null,
+      "dims": null,
+      "dims_ok": null,
+      "elapsed_s": null,
+      "exit_code": null,
+      "stderr_tail": "",
+      "runtime": {
+        "innerWidth": 500,
+        "innerHeight": 626,
+        "documentScrollWidth": 500,
+        "bodyScrollWidth": 500,
+        "horizontal_overflow": false,
+        "overflowElements": [
+          {
+            "tag": "TABLE",
+            "cls": "method-table",
+            "left": 21,
+            "right": 661,
+            "width": 640
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "tbl-caption",
+            "left": 21,
+            "right": 661,
+            "width": 640
+          },
+          {
+            "tag": "THEAD",
+            "cls": "",
+            "left": 21,
+            "right": 661,
+            "width": 640
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 661,
+            "width": 640
+          },
+          {
+            "tag": "TH",
+            "cls": "",
+            "left": 304,
+            "right": 661,
+            "width": 357
+          },
+          {
+            "tag": "TBODY",
+            "cls": "",
+            "left": 21,
+            "right": 661,
+            "width": 640
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 661,
+            "width": 640
+          },
+          {
+            "tag": "TD",
+            "cls": "",
+            "left": 304,
+            "right": 661,
+            "width": 357
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 661,
+            "width": 640
+          },
+          {
+            "tag": "TD",
+            "cls": "",
+            "left": 304,
+            "right": 661,
+            "width": 357
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 661,
+            "width": 640
+          },
+          {
+            "tag": "TD",
+            "cls": "",
+            "left": 304,
+            "right": 661,
+            "width": 357
+          }
+        ],
+        "minFontPx": 12,
+        "minFontElement": "P.kicker",
+        "h1": 1,
+        "tables": 4,
+        "tableRows": 64,
+        "figures": 5,
+        "figuresWithCaption": 5,
+        "moneyCells": 89,
+        "moneyCellsTabularNowrap": 88,
+        "moneyCellsNotCompliant": [
+          {
+            "tag": "TD",
+            "cls": "",
+            "tabular": false,
+            "nowrap": false,
+            "text": "Faixa de cheque convertida em "
+          }
+        ],
+        "jsErrors": [],
+        "readyState": "complete",
+        "checked": true,
+        "dom_bytes": 2058345
+      },
+      "runtime_error": null
+    },
+    "1440": {
+      "path": "audit\\shots\\dashboard-1440.png",
+      "width": 1440,
+      "height": 900,
+      "exists": false,
+      "bytes": null,
+      "dims": null,
+      "dims_ok": null,
+      "elapsed_s": null,
+      "exit_code": null,
+      "stderr_tail": "",
+      "runtime": {
+        "checked": false,
+        "error": "dump-dom nao retornou HTML; stderr: "
+      },
+      "runtime_error": "dump-dom nao retornou HTML; stderr: "
+    }
+  },
+  "shots_enabled": false,
+  "overflow": {
+    "measured": true,
+    "per_viewport": {
+      "375": {
+        "innerWidth": 500,
+        "documentScrollWidth": 500,
+        "bodyScrollWidth": 500,
+        "horizontal_overflow": false,
+        "overflowElements": [
+          {
+            "tag": "TABLE",
+            "cls": "method-table",
+            "left": 21,
+            "right": 661,
+            "width": 640
+          },
+          {
+            "tag": "CAPTION",
+            "cls": "tbl-caption",
+            "left": 21,
+            "right": 661,
+            "width": 640
+          },
+          {
+            "tag": "THEAD",
+            "cls": "",
+            "left": 21,
+            "right": 661,
+            "width": 640
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 661,
+            "width": 640
+          },
+          {
+            "tag": "TH",
+            "cls": "",
+            "left": 304,
+            "right": 661,
+            "width": 357
+          },
+          {
+            "tag": "TBODY",
+            "cls": "",
+            "left": 21,
+            "right": 661,
+            "width": 640
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 661,
+            "width": 640
+          },
+          {
+            "tag": "TD",
+            "cls": "",
+            "left": 304,
+            "right": 661,
+            "width": 357
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 661,
+            "width": 640
+          },
+          {
+            "tag": "TD",
+            "cls": "",
+            "left": 304,
+            "right": 661,
+            "width": 357
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "left": 21,
+            "right": 661,
+            "width": 640
+          },
+          {
+            "tag": "TD",
+            "cls": "",
+            "left": 304,
+            "right": 661,
+            "width": 357
+          }
+        ]
+      }
+    }
+  },
+  "js_errors": [],
+  "dom_check": {
+    "checked": false,
+    "detail": "probe de DOM nao executou em nenhum viewport: dump-dom nao retornou HTML; stderr: "
+  },
+  "dpr": 1.0,
+  "hash": "metodo",
+  "error": "2/3 screenshots falharam. Possivel bloqueio de sandbox (named pipes/mojo). stderr: ",
+  "limitations": [
+    "Sem screenshots nao e' possivel verificar larguras; medicao runtime fica incompleta."
+  ],
+  "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "captured": 0,
+  "total_viewports": 3,
+  "runtime_measured_viewports": 1
+}

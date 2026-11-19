@@ -1,0 +1,1423 @@
+{
+ "https://abvcap.com.br/publicacao/consolidacao-de-dados-2o-trimestre-2026/": {
+  "error": null,
+  "final_url": "https://abvcap.com.br/publicacao/consolidacao-de-dados-2o-trimestre-2026/",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:11+00:00"
+ },
+ "https://abvcap.com.br/publicacoes/": {
+  "error": null,
+  "final_url": "https://abvcap.com.br/publicacoes/",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:13+00:00"
+ },
+ "https://brouky.tech/data": {
+  "error": null,
+  "final_url": "https://brouky.tech/data",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:13+00:00"
+ },
+ "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip": {
+  "error": null,
+  "final_url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:06+00:00"
+ },
+ "https://dados.cvm.gov.br/dataset/fi-cad": {
+  "error": null,
+  "final_url": "https://dados.cvm.gov.br/dataset/fi-cad",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:14+00:00"
+ },
+ "https://dados.cvm.gov.br/dataset/fip-doc-inf_quadrimestral": {
+  "error": null,
+  "final_url": "https://dados.cvm.gov.br/dataset/fip-doc-inf_quadrimestral",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:14+00:00"
+ },
+ "https://dados.cvm.gov.br/group/fundos-de-investimento": {
+  "error": null,
+  "final_url": "https://dados.cvm.gov.br/group/fundos-de-investimento",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:45:46+00:00"
+ },
+ "https://dadosabertos.bndes.gov.br/": {
+  "error": null,
+  "final_url": "https://dadosabertos.bndes.gov.br/",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:15+00:00"
+ },
+ "https://dadosabertos.bndes.gov.br/dataset/renda-variavel": {
+  "error": null,
+  "final_url": "https://dadosabertos.bndes.gov.br/dataset/renda-variavel",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:16+00:00"
+ },
+ "https://data.sec.gov/": {
+  "error": null,
+  "final_url": "https://data.sec.gov/",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:45:46+00:00"
+ },
+ "https://growthlist.co/blog/startup-funding-stages/": {
+  "error": null,
+  "final_url": "https://growthlist.co/blog/startup-funding-stages/",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:17+00:00"
+ },
+ "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/": {
+  "error": null,
+  "final_url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:19+00:00"
+ },
+ "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='01-01-2024'&@dataFinalCotacao='11-18-2026'&$format=json&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao": {
+  "error": null,
+  "final_url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='01-01-2024'&@dataFinalCotacao='11-18-2026'&$format=json&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:20+00:00"
+ },
+ "https://query.wikidata.org/": {
+  "error": null,
+  "final_url": "https://query.wikidata.org/",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:45:47+00:00"
+ },
+ "https://query.wikidata.org/sparql": {
+  "error": "TimeoutError: The read operation timed out",
+  "final_url": "https://query.wikidata.org/sparql",
+  "ok": false,
+  "status": null,
+  "ts": "2026-11-18T15:59:07+00:00"
+ },
+ "https://shizune.co/investors/vc-funds-brazil/table.md": {
+  "error": null,
+  "final_url": "https://shizune.co/investors/vc-funds-brazil/table.md",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:45:48+00:00"
+ },
+ "https://shizune.co/investors/venture-capital-vc-funds-brazil": {
+  "error": null,
+  "final_url": "https://shizune.co/investors/venture-capital-vc-funds-brazil",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:22+00:00"
+ },
+ "https://shizune.co/investors/venture-capital-vc-funds-brazil/table.md": {
+  "error": null,
+  "final_url": "https://shizune.co/investors/venture-capital-vc-funds-brazil/table.md",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:45:49+00:00"
+ },
+ "https://www.bndes.gov.br/wps/portal/site/home/mercado-de-capitais/fundos-de-investimentos/dados-agregados": {
+  "error": null,
+  "final_url": "https://www.bndes.gov.br/wps/portal/site/home/mercado-de-capitais/fundos-de-investimentos/dados-agregados",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:45:50+00:00"
+ },
+ "https://www.lavca.org/research/2025-latin-american-startup-ecosystem-insights/": {
+  "error": null,
+  "final_url": "https://www.lavca.org/research/2025-latin-american-startup-ecosystem-insights/",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:23+00:00"
+ },
+ "https://www.openvc.app/investor-database": {
+  "error": null,
+  "final_url": "https://www.openvc.app/investor-database",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:24+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1116046/000111604625000001/0001116046-25-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1116046/000111604625000001/0001116046-25-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:18+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1116046/000111604626000002/0001116046-26-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1116046/000111604626000002/0001116046-26-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:18+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1116046/000111604626000003/0001116046-26-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1116046/000111604626000003/0001116046-26-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:19+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1424890/000142489025000002/0001424890-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1424890/000142489025000002/0001424890-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:19+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1572721/000121390025031711/0001213900-25-031711-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1572721/000121390025031711/0001213900-25-031711-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:20+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1580772/000158077226000002/0001580772-26-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1580772/000158077226000002/0001580772-26-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:20+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1609775/000160977524000001/0001609775-24-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1609775/000160977524000001/0001609775-24-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:20+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1623081/000090266424005896/0000902664-24-005896-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1623081/000090266424005896/0000902664-24-005896-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:21+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1623081/000090266425004432/0000902664-25-004432-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1623081/000090266425004432/0000902664-25-004432-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:21+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1631915/000101297525000197/0001012975-25-000197-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1631915/000101297525000197/0001012975-25-000197-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:22+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1658184/000165818426000002/0001658184-26-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1658184/000165818426000002/0001658184-26-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:22+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1661173/000166117324000001/0001661173-24-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1661173/000166117324000001/0001661173-24-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:23+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1668156/000119983526000308/0001199835-26-000308-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1668156/000119983526000308/0001199835-26-000308-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:23+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1669095/000166909525000004/0001669095-25-000004-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1669095/000166909525000004/0001669095-25-000004-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:24+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1685090/000168509025000003/0001685090-25-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1685090/000168509025000003/0001685090-25-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:25+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1692446/000203926625000008/0002039266-25-000008-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1692446/000203926625000008/0002039266-25-000008-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:28+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1706803/000131586326000147/0001315863-26-000147-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1706803/000131586326000147/0001315863-26-000147-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:28+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1706803/000131586326000520/0001315863-26-000520-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1706803/000131586326000520/0001315863-26-000520-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:29+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1706860/000131586326000254/0001315863-26-000254-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1706860/000131586326000254/0001315863-26-000254-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:29+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1706860/000131586326000255/0001315863-26-000255-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1706860/000131586326000255/0001315863-26-000255-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:29+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1711370/000090266425000952/0000902664-25-000952-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1711370/000090266425000952/0000902664-25-000952-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:30+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1711370/000090266426000973/0000902664-26-000973-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1711370/000090266426000973/0000902664-26-000973-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:30+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1719706/000171970625000002/0001719706-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1719706/000171970625000002/0001719706-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:30+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1730557/000131586325000652/0001315863-25-000652-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1730557/000131586325000652/0001315863-25-000652-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:31+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1730557/000131586326000617/0001315863-26-000617-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1730557/000131586326000617/0001315863-26-000617-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:31+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1737590/000173759025000002/0001737590-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1737590/000173759025000002/0001737590-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:31+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1744281/000174428126000001/0001744281-26-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1744281/000174428126000001/0001744281-26-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:32+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1749271/000174927124000001/0001749271-24-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1749271/000174927124000001/0001749271-24-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:33+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1749658/000090572925000013/0000905729-25-000013-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1749658/000090572925000013/0000905729-25-000013-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:34+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1751746/000175174624000003/0001751746-24-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1751746/000175174624000003/0001751746-24-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:35+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1752146/000175214625000002/0001752146-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1752146/000175214625000002/0001752146-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:35+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1756362/000175636225000002/0001756362-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1756362/000175636225000002/0001756362-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:36+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1759772/000175977224000001/0001759772-24-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1759772/000175977224000001/0001759772-24-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:37+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1759908/000131586325000272/0001315863-25-000272-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1759908/000131586325000272/0001315863-25-000272-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:38+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1764371/000139834425003009/0001398344-25-003009-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1764371/000139834425003009/0001398344-25-003009-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:39+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1774251/000177425125000001/0001774251-25-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1774251/000177425125000001/0001774251-25-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:39+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1779931/000177993125000001/0001779931-25-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1779931/000177993125000001/0001779931-25-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:40+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1781832/000178183225000002/0001781832-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1781832/000178183225000002/0001781832-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:41+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1781832/000178183226000001/0001781832-26-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1781832/000178183226000001/0001781832-26-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:41+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1782849/000178284925000003/0001782849-25-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1782849/000178284925000003/0001782849-25-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:42+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1784097/000178409724000002/0001784097-24-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1784097/000178409724000002/0001784097-24-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:42+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1784164/000178416425000001/0001784164-25-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1784164/000178416425000001/0001784164-25-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:43+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1784244/000178424426000003/0001784244-26-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1784244/000178424426000003/0001784244-26-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:45+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1787386/000178738624000001/0001787386-24-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1787386/000178738624000001/0001787386-24-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:46+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1788046/000131586325000639/0001315863-25-000639-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1788046/000131586325000639/0001315863-25-000639-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:46+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1788046/000131586326000613/0001315863-26-000613-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1788046/000131586326000613/0001315863-26-000613-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:47+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1790025/000179002524000001/0001790025-24-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1790025/000179002524000001/0001790025-24-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:48+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1790078/000179007824000001/0001790078-24-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1790078/000179007824000001/0001790078-24-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:49+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1791861/000179186125000003/0001791861-25-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1791861/000179186125000003/0001791861-25-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:50+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1792757/000179275724000002/0001792757-24-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1792757/000179275724000002/0001792757-24-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:50+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1792757/000179275725000003/0001792757-25-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1792757/000179275725000003/0001792757-25-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:51+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1792757/000179275726000001/0001792757-26-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1792757/000179275726000001/0001792757-26-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:52+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000003/0001795841-26-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000003/0001795841-26-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:53+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000004/0001795841-26-000004-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000004/0001795841-26-000004-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:54+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000005/0001795841-26-000005-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000005/0001795841-26-000005-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:55+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000006/0001795841-26-000006-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000006/0001795841-26-000006-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:55+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000007/0001795841-26-000007-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000007/0001795841-26-000007-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:56+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000009/0001795841-26-000009-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000009/0001795841-26-000009-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:56+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000010/0001795841-26-000010-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000010/0001795841-26-000010-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:57+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000011/0001795841-26-000011-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000011/0001795841-26-000011-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:57+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000012/0001795841-26-000012-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000012/0001795841-26-000012-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:58+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000013/0001795841-26-000013-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000013/0001795841-26-000013-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:55:59+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000014/0001795841-26-000014-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000014/0001795841-26-000014-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:00+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000015/0001795841-26-000015-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1795841/000179584126000015/0001795841-26-000015-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:00+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1797048/000179704825000001/0001797048-25-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1797048/000179704825000001/0001797048-25-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:01+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1799242/000179924226000003/0001799242-26-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1799242/000179924226000003/0001799242-26-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:02+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1802471/000180247125000001/0001802471-25-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1802471/000180247125000001/0001802471-25-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:03+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1802622/000180262225000002/0001802622-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1802622/000180262225000002/0001802622-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:03+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1805872/000180587224000001/0001805872-24-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1805872/000180587224000001/0001805872-24-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:05+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1809223/000180922324000001/0001809223-24-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1809223/000180922324000001/0001809223-24-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:06+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1809394/000180939425000002/0001809394-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1809394/000180939425000002/0001809394-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:06+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1811143/000181114326000004/0001811143-26-000004-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1811143/000181114326000004/0001811143-26-000004-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:07+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1814506/000089706925000883/0000897069-25-000883-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1814506/000089706925000883/0000897069-25-000883-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:08+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1815754/000181575426000002/0001815754-26-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1815754/000181575426000002/0001815754-26-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:09+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1816698/000181669825000002/0001816698-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1816698/000181669825000002/0001816698-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:12+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1817393/000181739325000002/0001817393-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1817393/000181739325000002/0001817393-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:13+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1818048/000181804825000002/0001818048-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1818048/000181804825000002/0001818048-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:14+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1819423/000181942325000002/0001819423-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1819423/000181942325000002/0001819423-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:15+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1819423/000181942326000002/0001819423-26-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1819423/000181942326000002/0001819423-26-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:16+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1820401/000182040124000001/0001820401-24-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1820401/000182040124000001/0001820401-24-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:16+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1822290/000093583624000784/0000935836-24-000784-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1822290/000093583624000784/0000935836-24-000784-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:18+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1822290/000093583625000084/0000935836-25-000084-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1822290/000093583625000084/0000935836-25-000084-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:18+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1823980/000182398025000002/0001823980-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1823980/000182398025000002/0001823980-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:19+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1823980/000202825324000004/0002028253-24-000004-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1823980/000202825324000004/0002028253-24-000004-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:20+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1826762/000182676226000002/0001826762-26-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1826762/000182676226000002/0001826762-26-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:20+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1828455/000202825324000003/0002028253-24-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1828455/000202825324000003/0002028253-24-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:21+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1829033/000182903325000003/0001829033-25-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1829033/000182903325000003/0001829033-25-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:21+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1829189/000182918926000004/0001829189-26-000004-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1829189/000182918926000004/0001829189-26-000004-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:22+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1829189/000187321125000002/0001873211-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1829189/000187321125000002/0001873211-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:23+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1831129/000156611425000019/0001566114-25-000019-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1831129/000156611425000019/0001566114-25-000019-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:24+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1831129/000156611426000023/0001566114-26-000023-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1831129/000156611426000023/0001566114-26-000023-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:26+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1831527/000183152724000001/0001831527-24-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1831527/000183152724000001/0001831527-24-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:27+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1831527/000183152725000003/0001831527-25-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1831527/000183152725000003/0001831527-25-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:27+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1831718/000147083126000782/0001470831-26-000782-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1831718/000147083126000782/0001470831-26-000782-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:27+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1832780/000183278024000001/0001832780-24-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1832780/000183278024000001/0001832780-24-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:28+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1833790/000183379026000003/0001833790-26-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1833790/000183379026000003/0001833790-26-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:28+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1835050/000183505025000001/0001835050-25-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1835050/000183505025000001/0001835050-25-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:29+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1835063/000183506326000003/0001835063-26-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1835063/000183506326000003/0001835063-26-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:29+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1837190/000204131724000003/0002041317-24-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1837190/000204131724000003/0002041317-24-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:31+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1837194/000183719425000002/0001837194-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1837194/000183719425000002/0001837194-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:31+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1837195/000183719525000004/0001837195-25-000004-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1837195/000183719525000004/0001837195-25-000004-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:32+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1837197/000183719724000001/0001837197-24-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1837197/000183719724000001/0001837197-24-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:32+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1838724/000194104025000023/0001941040-25-000023-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1838724/000194104025000023/0001941040-25-000023-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:33+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1838724/000194104026000035/0001941040-26-000035-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1838724/000194104026000035/0001941040-26-000035-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:33+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1840267/000184026725000002/0001840267-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1840267/000184026725000002/0001840267-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:33+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1840267/000184026726000001/0001840267-26-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1840267/000184026726000001/0001840267-26-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:34+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1841781/000177993125000002/0001779931-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1841781/000177993125000002/0001779931-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:35+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1844836/000163658725000001/0001636587-25-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1844836/000163658725000001/0001636587-25-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:35+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1844836/000163658726000017/0001636587-26-000017-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1844836/000163658726000017/0001636587-26-000017-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:36+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1845954/000184595426000002/0001845954-26-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1845954/000184595426000002/0001845954-26-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:37+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1849350/000184935024000001/0001849350-24-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1849350/000184935024000001/0001849350-24-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:37+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1849375/000184937525000001/0001849375-25-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1849375/000184937525000001/0001849375-25-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:38+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1849375/000184937526000001/0001849375-26-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1849375/000184937526000001/0001849375-26-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:39+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1850220/000185022025000002/0001850220-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1850220/000185022025000002/0001850220-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:40+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1850220/000185022026000003/0001850220-26-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1850220/000185022026000003/0001850220-26-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:41+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1850754/000185075425000002/0001850754-25-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1850754/000185075425000002/0001850754-25-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:42+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1850754/000185075425000003/0001850754-25-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1850754/000185075425000003/0001850754-25-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:43+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1850754/000185075426000002/0001850754-26-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1850754/000185075426000002/0001850754-26-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:43+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1852387/000185238724000001/0001852387-24-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1852387/000185238724000001/0001852387-24-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:44+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1852875/000204875324000003/0002048753-24-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1852875/000204875324000003/0002048753-24-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:56:45+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1901975/000090266426000112/0000902664-26-000112-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1901975/000090266426000112/0000902664-26-000112-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:15+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1910314/000090266426001482/0000902664-26-001482-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1910314/000090266426001482/0000902664-26-001482-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:16+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/1981267/000090266426003772/0000902664-26-003772-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1981267/000090266426003772/0000902664-26-003772-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:10:36+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2001180/000101297524000504/0001012975-24-000504-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2001180/000101297524000504/0001012975-24-000504-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:24+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2004522/000090266426001741/0000902664-26-001741-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2004522/000090266426001741/0000902664-26-001741-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:17+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2031430/000089706924001952/0000897069-24-001952-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2031430/000089706924001952/0000897069-24-001952-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:06+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2031431/000089706924001953/0000897069-24-001953-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2031431/000089706924001953/0000897069-24-001953-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:07+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2032239/000090266426001757/0000902664-26-001757-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2032239/000090266426001757/0000902664-26-001757-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:17+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2043472/000090266424006392/0000902664-24-006392-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2043472/000090266424006392/0000902664-24-006392-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:14+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2044374/000204437424000001/0002044374-24-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2044374/000204437424000001/0002044374-24-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:25+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2056251/000089706925000554/0000897069-25-000554-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2056251/000089706925000554/0000897069-25-000554-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:08+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2059002/000205900225000001/0002059002-25-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2059002/000205900225000001/0002059002-25-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:25+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2059945/000205994525000001/0002059945-25-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2059945/000205994525000001/0002059945-25-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:25+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2060779/000090266426001891/0000902664-26-001891-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2060779/000090266426001891/0000902664-26-001891-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:19+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2062644/000206264425000001/0002062644-25-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2062644/000206264425000001/0002062644-25-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:26+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2064680/000089914025000558/0000899140-25-000558-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2064680/000089914025000558/0000899140-25-000558-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:14+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2066268/000089706925000895/0000897069-25-000895-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2066268/000089706925000895/0000897069-25-000895-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:09+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2074230/000207423025000001/0002074230-25-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2074230/000207423025000001/0002074230-25-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:26+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2074231/000207423125000001/0002074231-25-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2074231/000207423125000001/0002074231-25-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:27+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2076758/000089843226000353/0000898432-26-000353-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2076758/000089843226000353/0000898432-26-000353-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:12+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2082667/000090266426003713/0000902664-26-003713-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2082667/000090266426003713/0000902664-26-003713-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:10:36+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2082668/000090266426003712/0000902664-26-003712-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2082668/000090266426003712/0000902664-26-003712-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:10:35+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2084728/000123191925000237/0001231919-25-000237-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2084728/000123191925000237/0001231919-25-000237-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:27+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2086650/000089843225000736/0000898432-25-000736-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2086650/000089843225000736/0000898432-25-000736-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:09+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2089217/000090445426000201/0000904454-26-000201-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2089217/000090445426000201/0000904454-26-000201-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:10:37+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2090924/000089843225000826/0000898432-25-000826-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2090924/000089843225000826/0000898432-25-000826-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:10+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2090925/000090514825004354/0000905148-25-004354-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2090925/000090514825004354/0000905148-25-004354-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:27+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2093566/000209356626000001/0002093566-26-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2093566/000209356626000001/0002093566-26-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:28+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2094109/000209410925000004/0002094109-25-000004-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2094109/000209410925000004/0002094109-25-000004-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:28+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2095406/000089843225000880/0000898432-25-000880-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2095406/000089843225000880/0000898432-25-000880-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:10+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2107560/000210756026000003/0002107560-26-000003-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2107560/000210756026000003/0002107560-26-000003-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:28+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2109009/000090266426000728/0000902664-26-000728-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2109009/000090266426000728/0000902664-26-000728-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:15+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2112131/000123191926000265/0001231919-26-000265-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2112131/000123191926000265/0001231919-26-000265-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:28+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2114651/000211465126000001/0002114651-26-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2114651/000211465126000001/0002114651-26-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:29+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2123887/000212388726000002/0002123887-26-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2123887/000212388726000002/0002123887-26-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:29+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2123891/000212389126000002/0002123891-26-000002-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2123891/000212389126000002/0002123891-26-000002-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:30+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2124708/000089843226000199/0000898432-26-000199-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2124708/000089843226000199/0000898432-26-000199-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:10+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2125228/000089843226000205/0000898432-26-000205-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2125228/000089843226000205/0000898432-26-000205-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:11+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2127613/000089843226000406/0000898432-26-000406-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2127613/000089843226000406/0000898432-26-000406-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:14+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2127771/000212777126000001/0002127771-26-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2127771/000212777126000001/0002127771-26-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:30+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2128359/000089843226000405/0000898432-26-000405-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2128359/000089843226000405/0000898432-26-000405-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:13+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2128360/000089843226000404/0000898432-26-000404-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2128360/000089843226000404/0000898432-26-000404-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:07:12+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2128986/000212898626000001/0002128986-26-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2128986/000212898626000001/0002128986-26-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:31+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2136880/000213688026000001/0002136880-26-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2136880/000213688026000001/0002136880-26-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:31+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2138027/000213802726000001/0002138027-26-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2138027/000213802726000001/0002138027-26-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:31+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2138046/000101297526000844/0001012975-26-000844-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2138046/000101297526000844/0001012975-26-000844-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:32+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2138636/000213863626000001/0002138636-26-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2138636/000213863626000001/0002138636-26-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:33+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2141438/000214143826000001/0002141438-26-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2141438/000214143826000001/0002141438-26-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:33+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2145477/000090266426003137/0000902664-26-003137-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2145477/000090266426003137/0000902664-26-003137-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:10:35+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2148780/000214878026000001/0002148780-26-000001-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2148780/000214878026000001/0002148780-26-000001-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:33+00:00"
+ },
+ "https://www.sec.gov/Archives/edgar/data/2150244/000123191926001057/0001231919-26-001057-index.htm": {
+  "error": null,
+  "final_url": "https://www.sec.gov/Archives/edgar/data/2150244/000123191926001057/0001231919-26-001057-index.htm",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:34+00:00"
+ },
+ "https://www.sec.gov/data-research/sec-markets-data/form-d-data-sets": {
+  "error": null,
+  "final_url": "https://www.sec.gov/data-research/sec-markets-data/form-d-data-sets",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:34+00:00"
+ },
+ "https://www.sec.gov/files/datastandardsinnovation/data/form-d-data-sets/2026q2_d.zip": {
+  "error": null,
+  "final_url": "https://www.sec.gov/files/datastandardsinnovation/data/form-d-data-sets/2026q2_d.zip",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:34+00:00"
+ },
+ "https://www.sec.gov/files/datastandardsinnovation/data/form-d-data-sets/2026q3_d.zip": {
+  "error": null,
+  "final_url": "https://www.sec.gov/files/datastandardsinnovation/data/form-d-data-sets/2026q3_d.zip",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:35+00:00"
+ },
+ "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2024q4_d.zip": {
+  "error": null,
+  "final_url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2024q4_d.zip",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:36+00:00"
+ },
+ "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2025q1_d.zip": {
+  "error": null,
+  "final_url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2025q1_d.zip",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:36+00:00"
+ },
+ "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2025q2_d.zip": {
+  "error": null,
+  "final_url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2025q2_d.zip",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:36+00:00"
+ },
+ "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2025q3_d.zip": {
+  "error": null,
+  "final_url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2025q3_d.zip",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:37+00:00"
+ },
+ "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2025q4_d.zip": {
+  "error": null,
+  "final_url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2025q4_d.zip",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:37+00:00"
+ },
+ "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2026q1_d.zip": {
+  "error": null,
+  "final_url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2026q1_d.zip",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T16:13:37+00:00"
+ },
+ "https://www.wikidata.org/wiki/Q100787435": {
+  "error": null,
+  "final_url": "https://www.wikidata.org/wiki/Q100787435",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:58:24+00:00"
+ },
+ "https://www.wikidata.org/wiki/Q101423216": {
+  "error": null,
+  "final_url": "https://www.wikidata.org/wiki/Q101423216",
+  "ok": true,
+  "status": 200,
+  "ts": "2026-11-18T15:58:25+00:00"
+ }
+}

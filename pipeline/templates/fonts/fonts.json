@@ -1,0 +1,44 @@
+[
+ {
+  "family": "Space Grotesk",
+  "weight": "600",
+  "style": "normal",
+  "file": "space-grotesk-600.woff2"
+ },
+ {
+  "family": "Space Grotesk",
+  "weight": "700",
+  "style": "normal",
+  "file": "space-grotesk-700.woff2"
+ },
+ {
+  "family": "IBM Plex Sans",
+  "weight": "400",
+  "style": "normal",
+  "file": "ibm-plex-sans-400.woff2"
+ },
+ {
+  "family": "IBM Plex Sans",
+  "weight": "500",
+  "style": "normal",
+  "file": "ibm-plex-sans-500.woff2"
+ },
+ {
+  "family": "IBM Plex Sans",
+  "weight": "600",
+  "style": "normal",
+  "file": "ibm-plex-sans-600.woff2"
+ },
+ {
+  "family": "IBM Plex Mono",
+  "weight": "400",
+  "style": "normal",
+  "file": "ibm-plex-mono-400.woff2"
+ },
+ {
+  "family": "IBM Plex Mono",
+  "weight": "500",
+  "style": "normal",
+  "file": "ibm-plex-mono-500.woff2"
+ }
+]

@@ -1,0 +1,372 @@
+{
+ "generated_at": "2026-11-18T16:57:21+00:00",
+ "fx": {
+  "pair": "BRL/USD",
+  "source": "BCB PTAX",
+  "source_url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='01-01-2024'&@dataFinalCotacao='11-18-2026'&$format=json&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao",
+  "reference_date": "2026-11-17",
+  "rate": 5.7851,
+  "points": 724,
+  "method": "cotacao de venda PTAX da competencia mais proxima <= data do informe"
+ },
+ "counts": {
+  "total": 7521,
+  "by_cut": {
+   "BRASIL_LOCAL": 2147,
+   "GLOBAL_ATIVO_BR": 99,
+   "GLOBAL_EX_BR": 5275
+  },
+  "by_primary_stage": {
+   "PRE_SEED": 279,
+   "SEED": 3351,
+   "SERIES_A": 1554,
+   "SERIES_B": 1278,
+   "LATE_STAGE_GROWTH": 1059,
+   "VENTURE_DEBT": 0
+  },
+  "by_stage_membership": {
+   "PRE_SEED": 279,
+   "SEED": 3495,
+   "SERIES_A": 4158,
+   "SERIES_B": 1582,
+   "LATE_STAGE_GROWTH": 1308,
+   "VENTURE_DEBT": 0
+  },
+  "by_primary_stage_and_cut": {
+   "BRASIL_LOCAL": {
+    "PRE_SEED": 199,
+    "SEED": 415,
+    "SERIES_A": 637,
+    "SERIES_B": 638,
+    "LATE_STAGE_GROWTH": 258,
+    "VENTURE_DEBT": 0
+   },
+   "GLOBAL_ATIVO_BR": {
+    "PRE_SEED": 18,
+    "SEED": 80,
+    "SERIES_A": 1,
+    "SERIES_B": 0,
+    "LATE_STAGE_GROWTH": 0,
+    "VENTURE_DEBT": 0
+   },
+   "GLOBAL_EX_BR": {
+    "PRE_SEED": 62,
+    "SEED": 2856,
+    "SERIES_A": 916,
+    "SERIES_B": 640,
+    "LATE_STAGE_GROWTH": 801,
+    "VENTURE_DEBT": 0
+   }
+  },
+  "by_stage_membership_and_cut": {
+   "BRASIL_LOCAL": {
+    "PRE_SEED": 199,
+    "SEED": 479,
+    "SERIES_A": 810,
+    "SERIES_B": 699,
+    "LATE_STAGE_GROWTH": 475,
+    "VENTURE_DEBT": 0
+   },
+   "GLOBAL_ATIVO_BR": {
+    "PRE_SEED": 18,
+    "SEED": 98,
+    "SERIES_A": 93,
+    "SERIES_B": 60,
+    "LATE_STAGE_GROWTH": 1,
+    "VENTURE_DEBT": 0
+   },
+   "GLOBAL_EX_BR": {
+    "PRE_SEED": 62,
+    "SEED": 2918,
+    "SERIES_A": 3255,
+    "SERIES_B": 823,
+    "LATE_STAGE_GROWTH": 832,
+    "VENTURE_DEBT": 0
+   }
+  },
+  "by_classification_method": {
+   "IMPUTED_BY_TICKET_HEURISTIC": 6688,
+   "REGULATORY_CLASS_CVM_BNDES": 309,
+   "DECLARED_THESIS": 524
+  },
+  "active": 7521
+ },
+ "capital": {
+  "by_primary_stage_usd": {
+   "PRE_SEED": 4528668388.46,
+   "SEED": 50209549820.28,
+   "SERIES_A": 23774020538.44,
+   "SERIES_B": 153123779952.42,
+   "LATE_STAGE_GROWTH": 222411415098.09,
+   "VENTURE_DEBT": 0.0
+  },
+  "by_cut_usd": {
+   "BRASIL_LOCAL": 191236030407.69,
+   "GLOBAL_ATIVO_BR": 6086409657.0,
+   "GLOBAL_EX_BR": 256724993733.0
+  },
+  "total_usd": 454047433797.69,
+  "dry_powder_usd": 158178872748.0,
+  "dry_powder_global_usd": 158178872748.0,
+  "dry_powder_br_usd": null,
+  "dry_powder_br_status": "nao_publicado",
+  "dry_powder_br_reason": "Os campos VL_CAP_COMPROM/VL_CAP_INTEGR do Informe Quadrimestral da CVM sao internamente inconsistentes em 19,6% das linhas (capital integralizado > comprometido) e contem erro de escala conhecido; por isso nao sustentam um indicador de dry powder. A liquidez brasileira e medida por PL crescente entre os dois ultimos informes (regra 1.3 da spec).",
+  "dry_powder_coverage_records": 3108,
+  "cvm_capital_reporting": {
+   "committed_brl_reportado": 1242939230630.29,
+   "integralizado_brl_reportado": 956929904181.27,
+   "registros_com_inconsistencia": 574,
+   "registros_com_escala_suspeita": 33,
+   "usado_em_kpi": false,
+   "motivo": "fonte com 1.130 de 5.754 linhas (19,6%) declarando integralizado > comprometido, 658 linhas com comprometido=0 e erro de escala (ex.: HMV R$ 305,9 bi de comprometido com PL de R$ 0,4 bi)"
+  },
+  "median_aum_usd": 15307000.0,
+  "top10_share": 0.1738
+ },
+ "kpis": {
+  "brasil_funds": 2147,
+  "brasil_median_aum_usd": 14643756.02,
+  "brasil_capital_usd": 191236030407.69,
+  "global_active_br": 99,
+  "global_ex_br": 5275,
+  "cross_border_index": 0.0184,
+  "cross_border_definition": "fundos com hq_country != BR classificados como GLOBAL_ATIVO_BR (deal no Brasil via Shizune) sobre o total de fundos nao-brasileiros",
+  "brasil_liquidez_pl_em_alta_share": 0.6339,
+  "brasil_liquidez_pl_em_alta_fundos": 1262,
+  "brasil_liquidez_base_fundos": 1991,
+  "brasil_liquidez_definicao": "share de fundos com patrimonio liquido crescente entre os dois ultimos informes quadrimestrais (regra 1.3 da spec)",
+  "global_funds_still_raising_share": 0.5618,
+  "global_funds_still_raising": 1746,
+  "declared_thesis_records": 524,
+  "regulatory_class_records": 309,
+  "ticket_heuristic_records": 6688
+ },
+ "density_by_stage": {
+  "BRASIL_LOCAL": {
+   "PRE_SEED": {
+    "funds": 199,
+    "capital_usd": 1026389290.46
+   },
+   "SEED": {
+    "funds": 479,
+    "capital_usd": 3383397157.48
+   },
+   "SERIES_A": {
+    "funds": 810,
+    "capital_usd": 14105767434.08
+   },
+   "SERIES_B": {
+    "funds": 699,
+    "capital_usd": 133707302136.07
+   },
+   "LATE_STAGE_GROWTH": {
+    "funds": 475,
+    "capital_usd": 162911856564.9
+   },
+   "VENTURE_DEBT": {
+    "funds": 0,
+    "capital_usd": 0
+   }
+  },
+  "GLOBAL_ATIVO_BR": {
+   "PRE_SEED": {
+    "funds": 18,
+    "capital_usd": 1267335000.0
+   },
+   "SEED": {
+    "funds": 98,
+    "capital_usd": 6086409657.0
+   },
+   "SERIES_A": {
+    "funds": 93,
+    "capital_usd": 6033857558.0
+   },
+   "SERIES_B": {
+    "funds": 60,
+    "capital_usd": 4381821758.0
+   },
+   "LATE_STAGE_GROWTH": {
+    "funds": 1,
+    "capital_usd": 0
+   },
+   "VENTURE_DEBT": {
+    "funds": 0,
+    "capital_usd": 0
+   }
+  },
+  "GLOBAL_EX_BR": {
+   "PRE_SEED": {
+    "funds": 62,
+    "capital_usd": 2234944098.0
+   },
+   "SEED": {
+    "funds": 2918,
+    "capital_usd": 45242463553.0
+   },
+   "SERIES_A": {
+    "funds": 3255,
+    "capital_usd": 55066957112.0
+   },
+   "SERIES_B": {
+    "funds": 823,
+    "capital_usd": 64759104447.0
+   },
+   "LATE_STAGE_GROWTH": {
+    "funds": 832,
+    "capital_usd": 183013990225.0
+   },
+   "VENTURE_DEBT": {
+    "funds": 0,
+    "capital_usd": 0
+   }
+  }
+ },
+ "sources": [
+  {
+   "name": "CVM - Registro de Fundos e Classes (RCVM 175)",
+   "url": "https://dados.cvm.gov.br/dataset/fi-cad",
+   "license": "Licenca Aberta de Bases de Dados (ODbL) - dados.cvm.gov.br",
+   "records": 2147
+  },
+  {
+   "name": "CVM - Informe Quadrimestral de FIP",
+   "url": "https://dados.cvm.gov.br/dataset/fip-doc-inf_quadrimestral",
+   "license": "Licenca Aberta de Bases de Dados (ODbL) - dados.cvm.gov.br",
+   "records": null
+  },
+  {
+   "name": "BNDES - Renda Variavel / Carteira de Fundos",
+   "url": "https://dadosabertos.bndes.gov.br/dataset/renda-variavel",
+   "license": "Dados abertos BNDES",
+   "records": 881
+  },
+  {
+   "name": "SEC EDGAR - Form D Data Sets",
+   "url": "https://www.sec.gov/data-research/sec-markets-data/form-d-data-sets",
+   "license": "Dominio publico (SEC)",
+   "records": null
+  },
+  {
+   "name": "Wikidata Query Service (SPARQL)",
+   "url": "https://query.wikidata.org/",
+   "license": "CC0 1.0 (Wikidata)",
+   "records": 401
+  },
+  {
+   "name": "Shizune - Investors Database",
+   "url": "https://shizune.co/investors/venture-capital-vc-funds-brazil/table.md",
+   "license": "Conteudo publico citavel (shizune.co)",
+   "records": 281
+  },
+  {
+   "name": "Banco Central do Brasil - PTAX",
+   "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='01-01-2024'&@dataFinalCotacao='11-18-2026'&$format=json&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao",
+   "license": "Dados abertos BCB (OData)",
+   "records": 724
+  },
+  {
+   "name": "BCB PTAX - CotacaoDolarPeriodo (BRL/USD)",
+   "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='01-01-2024'&@dataFinalCotacao='11-18-2026'&$format=json&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao",
+   "license": "Dominio publico / aberto",
+   "records": 724
+  },
+  {
+   "name": "SEC Form D Data Set 2024q4 (2024q4_d.zip)",
+   "url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2024q4_d.zip",
+   "license": "Dominio publico / aberto",
+   "records": 1907
+  },
+  {
+   "name": "SEC Form D Data Set 2025q1 (2025q1_d.zip)",
+   "url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2025q1_d.zip",
+   "license": "Dominio publico / aberto",
+   "records": 1976
+  },
+  {
+   "name": "SEC Form D Data Set 2025q2 (2025q2_d.zip)",
+   "url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2025q2_d.zip",
+   "license": "Dominio publico / aberto",
+   "records": 1924
+  },
+  {
+   "name": "SEC Form D Data Set 2025q3 (2025q3_d.zip)",
+   "url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2025q3_d.zip",
+   "license": "Dominio publico / aberto",
+   "records": 2148
+  },
+  {
+   "name": "SEC Form D Data Set 2025q4 (2025q4_d.zip)",
+   "url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2025q4_d.zip",
+   "license": "Dominio publico / aberto",
+   "records": 2454
+  },
+  {
+   "name": "SEC Form D Data Set 2026q1 (2026q1_d.zip)",
+   "url": "https://www.sec.gov/files/structureddata/data/form-d-data-sets/2026q1_d.zip",
+   "license": "Dominio publico / aberto",
+   "records": 2547
+  },
+  {
+   "name": "SEC Form D Data Set 2026q2 (2026q2_d.zip)",
+   "url": "https://www.sec.gov/files/datastandardsinnovation/data/form-d-data-sets/2026q2_d.zip",
+   "license": "Dominio publico / aberto",
+   "records": 2983
+  },
+  {
+   "name": "SEC Form D Data Set 2026q3 (2026q3_d.zip)",
+   "url": "https://www.sec.gov/files/datastandardsinnovation/data/form-d-data-sets/2026q3_d.zip",
+   "license": "Dominio publico / aberto",
+   "records": 2872
+  },
+  {
+   "name": "SEC Form D Data Sets - veiculos de VC (agregado 2024q4..2026q3)",
+   "url": "https://www.sec.gov/data-research/sec-markets-data/form-d-data-sets",
+   "license": "Dominio publico / aberto",
+   "records": 18811
+  },
+  {
+   "name": "Wikidata Query Service (SPARQL) - gestoras de VC",
+   "url": "https://query.wikidata.org/sparql",
+   "license": "Dominio publico / aberto",
+   "records": 407
+  },
+  {
+   "name": "Shizune - Investors Database (charts table.md)",
+   "url": "https://shizune.co/investors/venture-capital-vc-funds-brazil/table.md",
+   "license": "Conteudo publico citavel (shizune.co)",
+   "records": 435
+  },
+  {
+   "name": "OpenVC - Investor Database / VC List of VC Lists",
+   "url": "https://www.openvc.app/investor-database",
+   "license": "Acesso aberto (bloqueado por Cloudflare na coleta)",
+   "records": 0
+  },
+  {
+   "name": "Brouky - VC & Startup Data Reports",
+   "url": "https://brouky.tech/data",
+   "license": "Conteudo publico citavel (brouky.tech)",
+   "records": null
+  },
+  {
+   "name": "ABVCAP + TTR Data - Consolidacao de Dados 2o Trimestre 2026",
+   "url": "https://abvcap.com.br/publicacao/consolidacao-de-dados-2o-trimestre-2026/",
+   "license": "Publicacao citavel (ABVCAP + TTR Data)",
+   "records": null
+  },
+  {
+   "name": "LAVCA - 2025 Latin American Startup Ecosystem Insights",
+   "url": "https://www.lavca.org/research/2025-latin-american-startup-ecosystem-insights/",
+   "license": "Publicacao citavel (LAVCA)",
+   "records": null
+  }
+ ],
+ "notes": [
+  "Contagem por estagio primario soma o total de registros; a contagem por participacao (by_stage_membership) soma mais que o total porque um fundo pode atuar em mais de um estagio.",
+  "Capital por estagio usa o estagio primario para evitar dupla contagem do mesmo patrimonio.",
+  "Valores BRL convertidos pela PTAX de venda do BCB da competencia mais proxima anterior.",
+  "Liquidez Brasil: percentual de fundos com PL crescente entre os dois ultimos informes quadrimestrais (regra 1.3 da spec). Dry powder estrutural e publicado apenas para o Form D da SEC (offering - sold), onde o campo e consistente; no Informe Quadrimestral da CVM os campos de capital comprometido/integralizado sao internamente inconsistentes e por isso foram preservados por registro com flag de qualidade, sem compor KPI.",
+  "Estagios sem tese declarada nem classe regulatoria sao imputados pelo porte do veiculo nas faixas empiricas Growth List (registrado em stage_classification_method).",
+  "Nenhum valor ausente na fonte oficial foi estimado: campos nao divulgados recebem null e constam em undisclosed_fields de cada registro."
+ ]
+}

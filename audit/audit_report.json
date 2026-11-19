@@ -1,0 +1,2130 @@
+{
+  "generated_at": "2026-11-18T19:50:45+00:00",
+  "auditor": "pipeline/gates.py (independente, adversarial)",
+  "determinism": {
+    "method": "sha256(json.dumps(records, ensure_ascii=False, sort_keys=True))",
+    "note": "Arquivos funds.json/kpis.json/dashboard/index.html incluem 'generated_at' no envelope; o hash do ARQUIVO muda entre builds. A estabilidade e' do CONTEUDO (array records / rows do data island), nao do envelope byte-a-byte.",
+    "records_count": 7521,
+    "records_content_sha256": "972f12637b7168e8f1bd4da45de6f05e77c066ccc467281a94024456432e958e",
+    "dashboard_rows_sha256": "7030bad57c3bf2ba0a8b3b04c2ce72b1e19eff0c68418a0e5e653fb6e3b2275d"
+  },
+  "spec": "spec_agente_mapeamento_vc.md",
+  "environment": {
+    "python": "3.14.3",
+    "node": "C:\\Program Files\\nodejs\\node.EXE",
+    "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "network_enabled": true,
+    "http_rate_limit_s": 0.3,
+    "http_cache": "audit/http_checks.json",
+    "os": "win32",
+    "cwd": "C:\\Users\\Micro\\source\\repos\\venture-cima",
+    "sandbox_note": "Chrome headless nao inicia no sandbox do auditor (mojo/named pipes bloqueados: platform_channel.cc 'Acesso negado'). Medicao runtime do dashboard foi executada pelo Lead fora do sandbox via tools/screenshots.py com probe JS (--dump-dom): scrollWidth/overflow/JS/DOM/fontes efetivas; PNGs de --screenshot nao sao possiveis no ambiente e ficam SKIP documentado (nunca FAIL por limitacao de ambiente)."
+  },
+  "artifacts": [
+    {
+      "path": "data/manifest.jsonl",
+      "exists": true,
+      "bytes": 690198,
+      "mtime_utc": "2026-11-18T18:31:42+00:00",
+      "sha256": "d5a6d669c3db796809861ce97f6b207155e3ef86e4e0d2d3bb12cd52db92f15c"
+    },
+    {
+      "path": "data/interim/br_bndes_portfolio.jsonl",
+      "exists": true,
+      "bytes": 679237,
+      "mtime_utc": "2026-11-18T15:52:35+00:00",
+      "sha256": "10b0e019830d15ef5bd747da833e20010e8a0381c298d36353c9c87fddf15656",
+      "lines": 881
+    },
+    {
+      "path": "data/interim/br_firms.jsonl",
+      "exists": true,
+      "bytes": 185526,
+      "mtime_utc": "2026-11-18T15:52:35+00:00",
+      "sha256": "823fe8be6b305e1716d1908af0cc48b74e405fca8fdd33d4ffb9267fff08cf32",
+      "lines": 418
+    },
+    {
+      "path": "data/interim/br_funds.jsonl",
+      "exists": true,
+      "bytes": 3277369,
+      "mtime_utc": "2026-11-18T15:52:35+00:00",
+      "sha256": "8c2144f246e00656728936ab3077ef9d777f5e7b5b02ac383a573fd526ce63be",
+      "lines": 2147
+    },
+    {
+      "path": "data/interim/sec_formd_vehicles.jsonl",
+      "exists": true,
+      "bytes": 18855508,
+      "mtime_utc": "2026-11-18T15:58:59+00:00",
+      "sha256": "6e2b18d41a4f2918ff6444543d7ac80ab447f301e33ef348d03ebcc1ed7c48c8",
+      "lines": 18811
+    },
+    {
+      "path": "data/interim/shizune_firms.jsonl",
+      "exists": true,
+      "bytes": 326222,
+      "mtime_utc": "2026-11-18T15:45:42+00:00",
+      "sha256": "2a674509f90c75e46a03d3ecbd4f3be0574944b06f6c89cff41fd41e2315fa32",
+      "lines": 435
+    },
+    {
+      "path": "data/interim/wikidata_firms.jsonl",
+      "exists": true,
+      "bytes": 210736,
+      "mtime_utc": "2026-11-18T16:01:04+00:00",
+      "sha256": "379531919ec496274aedd0ea0d6b7101ad41ba629ea7969da3c483c92b66dd36",
+      "lines": 407
+    },
+    {
+      "path": "data/canonical/funds.json",
+      "exists": true,
+      "bytes": 15827134,
+      "mtime_utc": "2026-11-18T16:57:21+00:00",
+      "sha256": "b55fc5fd884876566dccf822524a171654b99ac79e68e655e9647d83d647d2fd"
+    },
+    {
+      "path": "data/canonical/kpis.json",
+      "exists": true,
+      "bytes": 12589,
+      "mtime_utc": "2026-11-18T16:57:21+00:00",
+      "sha256": "ca824d324bf0d632056eea20ea886e0fe12c99eaacf7895adc52daccf3796161"
+    },
+    {
+      "path": "dashboard/index.html",
+      "exists": true,
+      "bytes": 2050435,
+      "mtime_utc": "2026-11-18T19:23:04+00:00",
+      "sha256": "0e742e2bd005bfeecaa8f5fca8548e759e55e6331f9dd5143e58ecbe83ef7007"
+    },
+    {
+      "path": "audit/shots/shots_report.json",
+      "exists": true,
+      "bytes": 37121,
+      "mtime_utc": "2026-11-18T19:40:01+00:00",
+      "sha256": "35c3ff4bcbd64f2602f84f3e6993f3ea8da5de58eef295a412b3e9e1171feb9a",
+      "runtime_measured_viewports": 3,
+      "generated_at": "2026-11-18T19:25:49+00:00",
+      "shots_enabled": false
+    },
+    {
+      "path": "audit/shots/v2-achados.png",
+      "exists": true,
+      "bytes": 340474,
+      "png_dims": [
+        1440,
+        3200
+      ]
+    },
+    {
+      "path": "audit/shots/v3-achados-1440.png",
+      "exists": true,
+      "bytes": 335142,
+      "png_dims": [
+        1440,
+        2600
+      ]
+    },
+    {
+      "path": "audit/shots/v3-achados-500.png",
+      "exists": true,
+      "bytes": 151022,
+      "png_dims": [
+        500,
+        2400
+      ]
+    },
+    {
+      "path": "audit/shots/v3-insights-1440.png",
+      "exists": true,
+      "bytes": 381198,
+      "png_dims": [
+        1440,
+        3000
+      ]
+    },
+    {
+      "path": "audit/shots/v4-achados-1440.png",
+      "exists": true,
+      "bytes": 340335,
+      "png_dims": [
+        1440,
+        2600
+      ]
+    },
+    {
+      "path": "audit/shots/v4-header-1440.png",
+      "exists": true,
+      "bytes": 123690,
+      "png_dims": [
+        1440,
+        1250
+      ]
+    },
+    {
+      "path": "audit/shots/v4-header-500.png",
+      "exists": true,
+      "bytes": 74295,
+      "png_dims": [
+        500,
+        1400
+      ]
+    }
+  ],
+  "gates": {
+    "1": {
+      "gate": 1,
+      "name": "Integridade de extração e conformidade de rede",
+      "status": "pass",
+      "method": "Leitura literal de data/manifest.jsonl + releitura e re-hash dos bytes em data/raw/ + decodificacao latin1 dos CSVs da CVM a partir do cache + validacao dos registros de data/interim/*.jsonl contra contract/interim_record.schema.json com validador JSON Schema proprio.",
+      "counts": {
+        "pass": 20,
+        "fail": 0,
+        "pending": 0,
+        "skip": 2
+      },
+      "checks": [
+        {
+          "id": "g1.manifest.present",
+          "description": "data/manifest.jsonl existe e nao esta vazio",
+          "status": "pass",
+          "detail": "1133 entradas de auditoria de rede",
+          "evidence": {
+            "entries": 1133,
+            "raw_lines": 1133
+          }
+        },
+        {
+          "id": "g1.manifest.jsonl_valid",
+          "description": "todas as linhas do manifest sao JSON de objeto",
+          "status": "pass",
+          "detail": "1133 entradas parseadas",
+          "evidence": {}
+        },
+        {
+          "id": "g1.manifest.required_keys",
+          "description": "entradas do manifest possuem ts_utc/source/url/status",
+          "status": "pass",
+          "detail": "1133 entradas completas",
+          "evidence": {}
+        },
+        {
+          "id": "g1.manifest.https_urls",
+          "description": "toda URL do manifest usa https",
+          "status": "pass",
+          "detail": "1133 URLs https verificadas",
+          "evidence": {}
+        },
+        {
+          "id": "g1.ua.declared",
+          "description": "toda requisicao declara User-Agent institucional",
+          "status": "pass",
+          "detail": "1133 entradas com User-Agent declarado",
+          "evidence": {}
+        },
+        {
+          "id": "g1.sec.user_agent",
+          "description": "requisicoes a *.sec.gov enviam User-Agent com contato",
+          "status": "pass",
+          "detail": "276 requisicoes SEC com UA = 'PesquisaAcademicaVC/1.0 (pesquisador@universidade.edu.br)'",
+          "evidence": {
+            "requests": 276,
+            "user_agent": "PesquisaAcademicaVC/1.0 (pesquisador@universidade.edu.br)"
+          }
+        },
+        {
+          "id": "g1.sec.rate_limit",
+          "description": "intervalo minimo >= 0.1 s entre requests SEC",
+          "status": "pass",
+          "detail": "min_interval_s minimo declarado = 0.200s em 276 requests",
+          "evidence": {
+            "min_interval_s": 0.2,
+            "requests": 276
+          }
+        },
+        {
+          "id": "g1.sec.rate_limit_observed",
+          "description": "gaps reais entre requests SEC >= 100 ms",
+          "status": "skip",
+          "detail": "ts_utc do manifest tem resolucao de 1 segundo (sem fracao): gaps observados nao sao conclusivos; a garantia vem do min_interval_s declarado (>= 0.1s) e do throttle do coletor, validados acima",
+          "evidence": {
+            "samples": 41,
+            "declared_min_interval_s": 0.2
+          }
+        },
+        {
+          "id": "g1.http.used_provenance",
+          "description": "toda URL usada como proveniencia de registro responde 200/301/302",
+          "status": "pass",
+          "detail": "19238 URLs usadas verificadas: 50 via manifest 200 + 19188 via padrao de host (4 amostras HTTP em 2 hosts)",
+          "evidence": {
+            "host_verdict": {
+              "www.sec.gov": "padrao verificado (2 amostra(s) 2xx/3xx; 18781 URLs)",
+              "www.wikidata.org": "padrao verificado (2 amostra(s) 2xx/3xx; 407 URLs)"
+            }
+          }
+        },
+        {
+          "id": "g1.http.discovery_probes",
+          "description": "endpoints de descoberta que falharam sao documentados como limitacao",
+          "status": "skip",
+          "detail": "14 URL(s) de descoberta falharam (404/403/504) e NAO sao usadas por registros; documentacao: data/interim/directories_availability.json",
+          "evidence": {
+            "probes": [
+              {
+                "url": "https://shizune.co/investors/pre-seed-investors-brazil/table.md",
+                "statuses": [
+                  404,
+                  404,
+                  404,
+                  404
+                ],
+                "source": "shizune_brazil",
+                "used_in_records": false
+              },
+              {
+                "url": "https://shizune.co/investors/seed-investors-brazil/table.md",
+                "statuses": [
+                  404,
+                  404,
+                  404,
+                  404
+                ],
+                "source": "shizune_brazil",
+                "used_in_records": false
+              },
+              {
+                "url": "https://shizune.co/investors/series-a-investors-brazil/table.md",
+                "statuses": [
+                  404,
+                  404,
+                  404,
+                  404
+                ],
+                "source": "shizune_brazil",
+                "used_in_records": false
+              },
+              {
+                "url": "https://shizune.co/investors/series-b-investors-brazil/table.md",
+                "statuses": [
+                  404,
+                  404,
+                  404,
+                  404
+                ],
+                "source": "shizune_brazil",
+                "used_in_records": false
+              },
+              {
+                "url": "https://shizune.co/investors/venture-debt-investors-brazil/table.md",
+                "statuses": [
+                  404,
+                  404,
+                  404,
+                  404
+                ],
+                "source": "shizune_brazil",
+                "used_in_records": false
+              },
+              {
+                "url": "https://query.wikidata.org/sparql?format=json&query=SELECT%20%3Fc%20%3FcLabel%20%28COUNT%28%3Fx%29%20AS%20%3Fn%29%20WHERE%20%7B%20%3Fc%20rdfs%3Alabel%20%3Fl%20.%20FILTER%",
+                "statuses": [
+                  504,
+                  504,
+                  504
+                ],
+                "source": "wikidata_sparql",
+                "used_in_records": false
+              },
+              {
+                "url": "https://www.openvc.app/investor-database",
+                "statuses": [
+                  403,
+                  403,
+                  403,
+                  403,
+                  403,
+                  403,
+                  403,
+                  403,
+                  403
+                ],
+                "source": "link_check_all",
+                "used_in_records": false
+              },
+              {
+                "url": "https://www.openvc.app/blog/vc-list",
+                "statuses": [
+                  403,
+                  403,
+                  403,
+                  403,
+                  403,
+                  403,
+                  403,
+                  403
+                ],
+                "source": "openvc",
+                "used_in_records": false
+              },
+              {
+                "url": "https://shizune.co/investors/vc-funds/table.md",
+                "statuses": [
+                  404,
+                  404,
+                  404
+                ],
+                "source": "shizune_brazil",
+                "used_in_records": false
+              },
+              {
+                "url": "https://query.wikidata.org/sparql?format=json&query=SELECT%20%28COUNT%28DISTINCT%20%3Ff%29%20AS%20%3Fc%29%20WHERE%20%7B%0A%20%20%3Ff%20wdt%3AP31/wdt%3AP279%2A%20wd%3AQ432",
+                "statuses": [
+                  504,
+                  504,
+                  504
+                ],
+                "source": "wikidata_sparql",
+                "used_in_records": false
+              }
+            ],
+            "documentation": "data/interim/directories_availability.json"
+          }
+        },
+        {
+          "id": "g1.cache.sha256_declared",
+          "description": "todo arquivo baixado tem sha256 no manifest",
+          "status": "pass",
+          "detail": "202 URLs baixadas possuem sha256",
+          "evidence": {}
+        },
+        {
+          "id": "g1.cache.sha256_integrity",
+          "description": "bytes em data/raw batem com sha256 do manifest",
+          "status": "pass",
+          "detail": "202 arquivo(s) de cache re-hashados e conferidos byte a byte",
+          "evidence": {
+            "files": 202
+          }
+        },
+        {
+          "id": "g1.cvm.encoding",
+          "description": "CSVs da CVM decodificados em latin1 com ';' sem corrupcao",
+          "status": "pass",
+          "detail": "4 arquivo(s) latin1 com ';' e 67276 linhas; acentos preservados",
+          "evidence": {
+            "files": [
+              {
+                "url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/cad_fi.csv",
+                "bytes": 17920929,
+                "rows": 46805,
+                "header_fields": 41,
+                "separator_semicolon": true,
+                "latin1_replacement_chars": 0,
+                "nul_bytes": 0,
+                "non_ascii_chars": 91722,
+                "mojibake_sequences": 85,
+                "mojibake_ratio": 0.000926,
+                "header_sample": "TP_FUNDO;CNPJ_FUNDO;DENOM_SOCIAL;DT_REG;DT_CONST;CD_CVM;DT_CANCEL;SIT;DT_INI_SIT;DT_INI_ATIV;DT_INI_EXERC;DT_FIM_EXERC;CLASSE;DT_INI_CLASSE;RENTAB_FUNDO;COND..."
+              },
+              {
+                "url": "https://dados.cvm.gov.br/dados/FIP/DOC/INF_QUADRIMESTRAL/DADOS/inf_quadrimestral_fip_2024.csv",
+                "bytes": 4685908,
+                "rows": 6821,
+                "header_fields": 55,
+                "separator_semicolon": true,
+                "latin1_replacement_chars": 0,
+                "nul_bytes": 0,
+                "non_ascii_chars": 17513,
+                "mojibake_sequences": 3,
+                "mojibake_ratio": 0.000171,
+                "header_sample": "TP_FUNDO_CLASSE;CNPJ_FUNDO_CLASSE;DENOM_SOCIAL;DT_COMPTC;VL_PATRIM_LIQ;QT_COTA;VL_PATRIM_COTA;NR_COTST;ENTID_INVEST;PUBLICO_ALVO;VL_CAP_COMPROM;QT_COTA_SUBSC..."
+              },
+              {
+                "url": "https://dados.cvm.gov.br/dados/FIP/DOC/INF_QUADRIMESTRAL/DADOS/inf_quadrimestral_fip_2025.csv",
+                "bytes": 5485807,
+                "rows": 7896,
+                "header_fields": 55,
+                "separator_semicolon": true,
+                "latin1_replacement_chars": 0,
+                "nul_bytes": 0,
+                "non_ascii_chars": 20190,
+                "mojibake_sequences": 3,
+                "mojibake_ratio": 0.000149,
+                "header_sample": "TP_FUNDO_CLASSE;CNPJ_FUNDO_CLASSE;DENOM_SOCIAL;DT_COMPTC;VL_PATRIM_LIQ;QT_COTA;VL_PATRIM_COTA;NR_COTST;ENTID_INVEST;PUBLICO_ALVO;VL_CAP_COMPROM;QT_COTA_SUBSC..."
+              },
+              {
+                "url": "https://dados.cvm.gov.br/dados/FIP/DOC/INF_QUADRIMESTRAL/DADOS/inf_quadrimestral_fip_2026.csv",
+                "bytes": 4013090,
+                "rows": 5754,
+                "header_fields": 55,
+                "separator_semicolon": true,
+                "latin1_replacement_chars": 0,
+                "nul_bytes": 0,
+                "non_ascii_chars": 14486,
+                "mojibake_sequences": 2,
+                "mojibake_ratio": 0.000138,
+                "header_sample": "TP_FUNDO_CLASSE;CNPJ_FUNDO_CLASSE;DENOM_SOCIAL;DT_COMPTC;VL_PATRIM_LIQ;QT_COTA;VL_PATRIM_COTA;NR_COTST;ENTID_INVEST;PUBLICO_ALVO;VL_CAP_COMPROM;QT_COTA_SUBSC..."
+              }
+            ]
+          }
+        },
+        {
+          "id": "g1.interim.present",
+          "description": "data/interim/*.jsonl existe com registros",
+          "status": "pass",
+          "detail": "23099 registro(s) em 6 arquivo(s)",
+          "evidence": {
+            "files": [
+              {
+                "file": "data/interim/br_bndes_portfolio.jsonl",
+                "records": 881,
+                "invalid": 0
+              },
+              {
+                "file": "data/interim/br_firms.jsonl",
+                "records": 418,
+                "invalid": 0
+              },
+              {
+                "file": "data/interim/br_funds.jsonl",
+                "records": 2147,
+                "invalid": 0
+              },
+              {
+                "file": "data/interim/sec_formd_vehicles.jsonl",
+                "records": 18811,
+                "invalid": 0
+              },
+              {
+                "file": "data/interim/shizune_firms.jsonl",
+                "records": 435,
+                "invalid": 0
+              },
+              {
+                "file": "data/interim/wikidata_firms.jsonl",
+                "records": 407,
+                "invalid": 0
+              }
+            ]
+          }
+        },
+        {
+          "id": "g1.interim.schema",
+          "description": "registros interinos validados contra interim_record.schema.json",
+          "status": "pass",
+          "detail": "100% (23099) dos registros interinos validos",
+          "evidence": {}
+        },
+        {
+          "id": "g1.interim.source_id",
+          "description": "source_id dos registros interinos pertence ao enum do contrato",
+          "status": "pass",
+          "detail": "6 fontes, todas no enum do contrato (14 ids, lido de contract/interim_record.schema.json)",
+          "evidence": {}
+        },
+        {
+          "id": "g1.interim.record_id_unique",
+          "description": "record_id unico por fonte nos registros interinos",
+          "status": "pass",
+          "detail": "23099 chaves (source_id, record_id) unicas",
+          "evidence": {}
+        },
+        {
+          "id": "g1.interim.row_counts",
+          "description": "todo arquivo interino tem > 0 registros",
+          "status": "pass",
+          "detail": "6 arquivo(s), 23099 registros em 6 fontes",
+          "evidence": {
+            "records_by_source": {
+              "bndes_fundos_carteira": 881,
+              "cvm_registro_fundo_classe": 2565,
+              "sec_formd": 18811,
+              "shizune_brazil": 85,
+              "shizune_global": 350,
+              "wikidata_sparql": 407
+            }
+          }
+        },
+        {
+          "id": "g1.interim.source_coverage",
+          "description": "cobertura minima de fontes da spec (secao 1.1)",
+          "status": "pass",
+          "detail": "5 grupos cobertos: ['atividade_deals_br', 'cvm_regulatorio_br', 'fomento_publico_br', 'grafo_semantico_global', 'regulatorio_global_sec']",
+          "evidence": {}
+        },
+        {
+          "id": "g1.interim.fx_ptax",
+          "description": "PTAX (BCB) presente para conversao de valores CVM",
+          "status": "pass",
+          "detail": "PTAX auditavel via data/interim/fx_brl_usd.json (presente) rate=5.7851 ref=2026-11-17",
+          "evidence": {
+            "kpis_fx": {
+              "pair": "BRL/USD",
+              "source": "BCB PTAX",
+              "source_url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='01-01-2024'&@dataFinalCotacao='11-18-2026'&$format=json&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao",
+              "reference_date": "2026-11-17",
+              "rate": 5.7851,
+              "points": 724,
+              "method": "cotacao de venda PTAX da competencia mais proxima <= data do informe"
+            }
+          }
+        },
+        {
+          "id": "g1.interim.traceability",
+          "description": "retrieved_from dos registros aponta para cache/manifest",
+          "status": "pass",
+          "detail": "100% (22664) dos retrieved_from com cache/manifest",
+          "evidence": {}
+        },
+        {
+          "id": "g1.openvc.fallback",
+          "description": "OpenVC sem HTTP 403, ou fallback documentado",
+          "status": "pass",
+          "detail": "403 encontrado, mas fallback comprovado (interim=0, manifest200=0, doc=True)",
+          "evidence": {
+            "openvc_403": [
+              "https://www.openvc.app/investor-database",
+              "https://www.openvc.app/investor-database",
+              "https://www.openvc.app/blog/vc-list",
+              "https://www.openvc.app/blog/vc-list",
+              "https://www.openvc.app/investor-database"
+            ],
+            "interim_openvc_records": 0,
+            "manifest_openvc_200": 0,
+            "documented_fallback": "README.md"
+          }
+        }
+      ],
+      "metrics": {
+        "manifest_entries": 1133,
+        "manifest_raw_lines": 1133,
+        "sec_requests": 276,
+        "sec_min_interval_declared_s": 0.2,
+        "http_used_urls": 19238,
+        "http_used_verified_manifest": 50,
+        "http_used_verified_pattern": 19188,
+        "http_used_unverified_hosts": 0,
+        "http_used_live_urls_checked": 4,
+        "http_used_hosts": 2,
+        "http_used_host_verdict": {
+          "www.sec.gov": "padrao verificado (2 amostra(s) 2xx/3xx; 18781 URLs)",
+          "www.wikidata.org": "padrao verificado (2 amostra(s) 2xx/3xx; 407 URLs)"
+        },
+        "http_200_sources": 202,
+        "http_discovery_failed": 14,
+        "cache_files_verified": 202,
+        "cvm_csvs": [
+          {
+            "url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/cad_fi.csv",
+            "bytes": 17920929,
+            "rows": 46805,
+            "header_fields": 41,
+            "separator_semicolon": true,
+            "latin1_replacement_chars": 0,
+            "nul_bytes": 0,
+            "non_ascii_chars": 91722,
+            "mojibake_sequences": 85,
+            "mojibake_ratio": 0.000926,
+            "header_sample": "TP_FUNDO;CNPJ_FUNDO;DENOM_SOCIAL;DT_REG;DT_CONST;CD_CVM;DT_CANCEL;SIT;DT_INI_SIT;DT_INI_ATIV;DT_INI_EXERC;DT_FIM_EXERC;CLASSE;DT_INI_CLASSE;RENTAB_FUNDO;COND..."
+          },
+          {
+            "url": "https://dados.cvm.gov.br/dados/FIP/DOC/INF_QUADRIMESTRAL/DADOS/inf_quadrimestral_fip_2024.csv",
+            "bytes": 4685908,
+            "rows": 6821,
+            "header_fields": 55,
+            "separator_semicolon": true,
+            "latin1_replacement_chars": 0,
+            "nul_bytes": 0,
+            "non_ascii_chars": 17513,
+            "mojibake_sequences": 3,
+            "mojibake_ratio": 0.000171,
+            "header_sample": "TP_FUNDO_CLASSE;CNPJ_FUNDO_CLASSE;DENOM_SOCIAL;DT_COMPTC;VL_PATRIM_LIQ;QT_COTA;VL_PATRIM_COTA;NR_COTST;ENTID_INVEST;PUBLICO_ALVO;VL_CAP_COMPROM;QT_COTA_SUBSC..."
+          },
+          {
+            "url": "https://dados.cvm.gov.br/dados/FIP/DOC/INF_QUADRIMESTRAL/DADOS/inf_quadrimestral_fip_2025.csv",
+            "bytes": 5485807,
+            "rows": 7896,
+            "header_fields": 55,
+            "separator_semicolon": true,
+            "latin1_replacement_chars": 0,
+            "nul_bytes": 0,
+            "non_ascii_chars": 20190,
+            "mojibake_sequences": 3,
+            "mojibake_ratio": 0.000149,
+            "header_sample": "TP_FUNDO_CLASSE;CNPJ_FUNDO_CLASSE;DENOM_SOCIAL;DT_COMPTC;VL_PATRIM_LIQ;QT_COTA;VL_PATRIM_COTA;NR_COTST;ENTID_INVEST;PUBLICO_ALVO;VL_CAP_COMPROM;QT_COTA_SUBSC..."
+          },
+          {
+            "url": "https://dados.cvm.gov.br/dados/FIP/DOC/INF_QUADRIMESTRAL/DADOS/inf_quadrimestral_fip_2026.csv",
+            "bytes": 4013090,
+            "rows": 5754,
+            "header_fields": 55,
+            "separator_semicolon": true,
+            "latin1_replacement_chars": 0,
+            "nul_bytes": 0,
+            "non_ascii_chars": 14486,
+            "mojibake_sequences": 2,
+            "mojibake_ratio": 0.000138,
+            "header_sample": "TP_FUNDO_CLASSE;CNPJ_FUNDO_CLASSE;DENOM_SOCIAL;DT_COMPTC;VL_PATRIM_LIQ;QT_COTA;VL_PATRIM_COTA;NR_COTST;ENTID_INVEST;PUBLICO_ALVO;VL_CAP_COMPROM;QT_COTA_SUBSC..."
+          }
+        ],
+        "interim_files": [
+          {
+            "file": "data/interim/br_bndes_portfolio.jsonl",
+            "records": 881,
+            "invalid": 0
+          },
+          {
+            "file": "data/interim/br_firms.jsonl",
+            "records": 418,
+            "invalid": 0
+          },
+          {
+            "file": "data/interim/br_funds.jsonl",
+            "records": 2147,
+            "invalid": 0
+          },
+          {
+            "file": "data/interim/sec_formd_vehicles.jsonl",
+            "records": 18811,
+            "invalid": 0
+          },
+          {
+            "file": "data/interim/shizune_firms.jsonl",
+            "records": 435,
+            "invalid": 0
+          },
+          {
+            "file": "data/interim/wikidata_firms.jsonl",
+            "records": 407,
+            "invalid": 0
+          }
+        ],
+        "interim_records": 23099,
+        "interim_invalid": 0,
+        "interim_records_by_source": {
+          "bndes_fundos_carteira": 881,
+          "cvm_registro_fundo_classe": 2565,
+          "sec_formd": 18811,
+          "shizune_brazil": 85,
+          "shizune_global": 350,
+          "wikidata_sparql": 407
+        },
+        "missing_source_groups": []
+      },
+      "limitations": [],
+      "notes": [
+        "O auditor usa cache HTTP proprio em audit/http_checks.json e NAO escreve em data/manifest.jsonl/data/raw (escopo de escrita de outros agentes)."
+      ],
+      "seconds": 200.25
+    },
+    "2": {
+      "gate": 2,
+      "name": "Conformidade com o contrato SDD e zero alucinação",
+      "status": "pass",
+      "method": "Validacao de 100% dos registros de data/canonical/funds.json contra contract/venture_capital_fund.schema.json com validador JSON Schema draft 2020-12 implementado do zero (sem jsonschema) + invariantes de rastreabilidade + amostra de URLs verificada por HTTP real (rate-limit 0.3s, cache em audit/http_checks.json) + aritmetica dos KPIs.",
+      "counts": {
+        "pass": 27,
+        "fail": 0,
+        "pending": 0,
+        "skip": 0
+      },
+      "checks": [
+        {
+          "id": "g2.funds.present",
+          "description": "data/canonical/funds.json existe e e carregavel",
+          "status": "pass",
+          "detail": "JSON carregado de data/canonical/funds.json",
+          "evidence": {
+            "records": 7521,
+            "bytes": 15827134
+          }
+        },
+        {
+          "id": "g2.funds.nonempty",
+          "description": "dataset canonico nao esta vazio",
+          "status": "pass",
+          "detail": "7521 registros",
+          "evidence": {}
+        },
+        {
+          "id": "g2.schema.present",
+          "description": "contrato venture_capital_fund.schema.json disponivel",
+          "status": "pass",
+          "detail": "schema carregado com 13 campos obrigatorios e 20 propriedades",
+          "evidence": {
+            "required": [
+              "fund_id",
+              "firm_name",
+              "vehicle_name",
+              "geographic_cut",
+              "hq_country",
+              "target_stages",
+              "stage_classification_method",
+              "estimated_ticket_min_usd",
+              "estimated_ticket_max_usd",
+              "aum_or_offering_usd",
+              "active_status",
+              "primary_source_name",
+              "primary_source_url"
+            ]
+          }
+        },
+        {
+          "id": "g2.schema.valid",
+          "description": "100% dos registros validam contra o contrato SDD",
+          "status": "pass",
+          "detail": "7521/7521 registros validos contra JSON Schema 2020-12",
+          "evidence": {}
+        },
+        {
+          "id": "g2.determinism.records_hash",
+          "description": "hash canonico do CONTEUDO de records computado e estavel",
+          "status": "pass",
+          "detail": "sha256(json.dumps(records, ensure_ascii=False, sort_keys=True)) = 972f12637b7168e8f1bd4da45de6f05e77c066ccc467281a94024456432e958e para 7521 registros (envelopes generated_at nao entram no hash)",
+          "evidence": {
+            "records": 7521,
+            "content_sha256": "972f12637b7168e8f1bd4da45de6f05e77c066ccc467281a94024456432e958e",
+            "method": "sha256(json.dumps(records, ensure_ascii=False, sort_keys=True))"
+          }
+        },
+        {
+          "id": "g2.invariance.https",
+          "description": "assert all(primary_source_url.startswith('https://'))",
+          "status": "pass",
+          "detail": "7521/7521 registros com primary_source_url https",
+          "evidence": {}
+        },
+        {
+          "id": "g2.fund_id.unique",
+          "description": "fund_id unico em 100% do dataset",
+          "status": "pass",
+          "detail": "7521 fund_id unicos",
+          "evidence": {}
+        },
+        {
+          "id": "g2.regulatory.unique",
+          "description": "regulatory_id (CNPJ/CIK) nao duplicado entre veiculos",
+          "status": "pass",
+          "detail": "7521 regulatory_id distintos sem duplicata",
+          "evidence": {}
+        },
+        {
+          "id": "g2.regulatory.format",
+          "description": "regulatory_id segue formato CNPJ (14) ou CIK (10)",
+          "status": "pass",
+          "detail": "todos os regulatory_id preenchidos sao CNPJ/CIK plausiveis",
+          "evidence": {}
+        },
+        {
+          "id": "g2.geo.cut",
+          "description": "geographic_cut pertence ao enum da spec",
+          "status": "pass",
+          "detail": "7521 registros em ['BRASIL_LOCAL', 'GLOBAL_ATIVO_BR', 'GLOBAL_EX_BR']",
+          "evidence": {}
+        },
+        {
+          "id": "g2.stages.valid",
+          "description": "target_stages nao vazio e subset do enum",
+          "status": "pass",
+          "detail": "todos os registros possuem >= 1 estagio valido; contagem por estagio: LATE_STAGE_GROWTH=1308, PRE_SEED=279, SEED=3495, SERIES_A=4158, SERIES_B=1582, VENTURE_DEBT=0",
+          "evidence": {}
+        },
+        {
+          "id": "g2.method.valid",
+          "description": "stage_classification_method pertence ao enum",
+          "status": "pass",
+          "detail": "metodos: DECLARED_THESIS=524, IMPUTED_BY_TICKET_HEURISTIC=6688, REGULATORY_CLASS_CVM_BNDES=309",
+          "evidence": {}
+        },
+        {
+          "id": "g2.hq.iso2",
+          "description": "hq_country e ISO-3166-1 alpha-2 valido",
+          "status": "pass",
+          "detail": "31 paises distintos, todos ISO-2",
+          "evidence": {}
+        },
+        {
+          "id": "g2.source_name.present",
+          "description": "primary_source_name preenchido",
+          "status": "pass",
+          "detail": "todos os registros citam a fonte primaria por nome",
+          "evidence": {}
+        },
+        {
+          "id": "g2.money.nonnegative",
+          "description": "nenhum valor monetario negativo",
+          "status": "pass",
+          "detail": "todos os campos monetarios sao >= 0 ou null",
+          "evidence": {}
+        },
+        {
+          "id": "g2.money.numeric",
+          "description": "campos monetarios sao numericos ou null",
+          "status": "pass",
+          "detail": "tipos conferidos",
+          "evidence": {}
+        },
+        {
+          "id": "g2.ticket.range",
+          "description": "estimated_ticket_min_usd <= estimated_ticket_max_usd",
+          "status": "pass",
+          "detail": "faixas de cheque consistentes",
+          "evidence": {}
+        },
+        {
+          "id": "g2.undisclosed.trace",
+          "description": "campo monetario null declarado em undisclosed_fields",
+          "status": "pass",
+          "detail": "todo campo monetario null esta sinalizado como nao divulgado",
+          "evidence": {}
+        },
+        {
+          "id": "g2.estimate_basis",
+          "description": "valor CVM convertido possui estimate_basis (PTAX/data-base)",
+          "status": "pass",
+          "detail": "todo AUM oriundo de CVM declara base de conversao (ou nao ha AUM CVM)",
+          "evidence": {}
+        },
+        {
+          "id": "g2.evidence_urls.https",
+          "description": "evidence_urls usam https",
+          "status": "pass",
+          "detail": "todas as evidence_urls sao https (ou campo ausente)",
+          "evidence": {}
+        },
+        {
+          "id": "g2.urls.http_sample",
+          "description": "amostra de URLs de fonte responde 200/301/302",
+          "status": "pass",
+          "detail": "25 URLs distintas respondem OK (amostra de 2171 registros)",
+          "evidence": {
+            "status_counts": {
+              "200": 25
+            }
+          }
+        },
+        {
+          "id": "g2.kpis.present",
+          "description": "data/canonical/kpis.json existe e e carregavel",
+          "status": "pass",
+          "detail": "KPIs carregados de data/canonical/kpis.json",
+          "evidence": {
+            "keys": [
+              "capital",
+              "counts",
+              "density_by_stage",
+              "fx",
+              "generated_at",
+              "kpis",
+              "notes",
+              "sources"
+            ]
+          }
+        },
+        {
+          "id": "g2.kpis.consistency",
+          "description": "soma por estagio == total declarado no kpis.json",
+          "status": "pass",
+          "detail": "5 bloco(s) primary/primary_and_cut/capital com soma == total; 4 bloco(s) membership isentos (multiestagio por design)",
+          "evidence": {}
+        },
+        {
+          "id": "g2.kpis.cross_check",
+          "description": "contagens de KPI por estagio == recalculo independente do dataset",
+          "status": "pass",
+          "detail": "1 bloco(s) de membership global e 3 bloco(s) de membership por corte conferem com 7521 registros (multiestagio contado por estagio)",
+          "evidence": {
+            "computed": {
+              "LATE_STAGE_GROWTH": 1308,
+              "PRE_SEED": 279,
+              "SEED": 3495,
+              "SERIES_A": 4158,
+              "SERIES_B": 1582,
+              "VENTURE_DEBT": 0
+            },
+            "computed_cut": {
+              "BRASIL_LOCAL": {
+                "SERIES_A": 810,
+                "SEED": 479,
+                "SERIES_B": 699,
+                "LATE_STAGE_GROWTH": 475,
+                "PRE_SEED": 199
+              },
+              "GLOBAL_EX_BR": {
+                "SEED": 2918,
+                "SERIES_A": 3255,
+                "LATE_STAGE_GROWTH": 832,
+                "SERIES_B": 823,
+                "PRE_SEED": 62
+              },
+              "GLOBAL_ATIVO_BR": {
+                "SEED": 98,
+                "SERIES_B": 60,
+                "SERIES_A": 93,
+                "PRE_SEED": 18,
+                "LATE_STAGE_GROWTH": 1
+              }
+            }
+          }
+        },
+        {
+          "id": "g2.kpis.capital",
+          "description": "capital.by_primary_stage_usd soma == capital.total_usd",
+          "status": "pass",
+          "detail": "1 bloco(s) de capital conferem com o total declarado",
+          "evidence": {}
+        },
+        {
+          "id": "g2.kpis.capital_nonnegative",
+          "description": "capital/dry powder nao-negativos no kpis.json",
+          "status": "pass",
+          "detail": "nenhum valor negativo de capital/dry powder encontrado",
+          "evidence": {}
+        },
+        {
+          "id": "g2.kpis.total_funds",
+          "description": "total de fundos declarado no KPI == len(funds.json)",
+          "status": "pass",
+          "detail": "1 campo(s) de total == 7521",
+          "evidence": {}
+        }
+      ],
+      "metrics": {
+        "schema_invalid_records": 0,
+        "records_content_sha256": "972f12637b7168e8f1bd4da45de6f05e77c066ccc467281a94024456432e958e",
+        "records_count": 7521,
+        "funds_by_stage": {
+          "LATE_STAGE_GROWTH": 1308,
+          "PRE_SEED": 279,
+          "SEED": 3495,
+          "SERIES_A": 4158,
+          "SERIES_B": 1582,
+          "VENTURE_DEBT": 0
+        },
+        "funds_by_cut": {
+          "BRASIL_LOCAL": 2147,
+          "GLOBAL_ATIVO_BR": 99,
+          "GLOBAL_EX_BR": 5275
+        },
+        "url_sample": {
+          "records_sampled": 2171,
+          "unique_urls_checked": 25,
+          "http_status_counts": {
+            "200": 25
+          },
+          "broken": 0,
+          "unverified": 0,
+          "cached_results": 25,
+          "rate_limit_s": 0.3
+        },
+        "kpi_stage_blocks": 9
+      },
+      "limitations": [],
+      "notes": [],
+      "seconds": 141.52
+    },
+    "3": {
+      "gate": 3,
+      "name": "Linter anti-AI-Slop (texto e design)",
+      "status": "pass",
+      "method": "Analise estatica do HTML/CSS de dashboard/index.html: DOM parseado, texto visivel normalizado para casar o lexico bloqueado, regras CSS parseadas para gradientes/sombras/icones, contagem de valores numericos reais e inspecao de <figure>/<figcaption> e cards de estatistica. Hero validado em dois formatos: H1 quantitativo (legado) ou H1 neutro/centralizado + bloco .answer-first com >=2 numeros e <=170 chars (semantica task-8).",
+      "counts": {
+        "pass": 18,
+        "fail": 0,
+        "pending": 0,
+        "skip": 1
+      },
+      "checks": [
+        {
+          "id": "g3.html.present",
+          "description": "dashboard/index.html existe",
+          "status": "pass",
+          "detail": "2050435 bytes em dashboard/index.html",
+          "evidence": {
+            "bytes": 2050435,
+            "sha256": "0e742e2bd005bfeecaa8f5fca8548e759e55e6331f9dd5143e58ecbe83ef7007"
+          }
+        },
+        {
+          "id": "g3.lexicon.body",
+          "description": "ausencia de cliches genericos de IA no texto visivel",
+          "status": "pass",
+          "detail": "15 termos proibidos varridos em 34129 caracteres de texto visivel",
+          "evidence": {}
+        },
+        {
+          "id": "g3.lexicon.headings",
+          "description": "titulos sem rotulos vagos ('Introducao', 'Conclusao', etc.)",
+          "status": "pass",
+          "detail": "23 headings inspecionados",
+          "evidence": {}
+        },
+        {
+          "id": "g3.visual.gradients",
+          "description": "sem gradientes decorativos em fundo de pagina/texto",
+          "status": "pass",
+          "detail": "nenhum linear-gradient/radial-gradient em background ou color",
+          "evidence": {}
+        },
+        {
+          "id": "g3.visual.shadows",
+          "description": "sem box-shadow difuso acima de 4px",
+          "status": "pass",
+          "detail": "nenhuma box-shadow com blur > 4px no CSS",
+          "evidence": {}
+        },
+        {
+          "id": "g3.visual.emoji_headings",
+          "description": "sem emojis em cabecalhos",
+          "status": "pass",
+          "detail": "23 headings sem emoji Unicode",
+          "evidence": {}
+        },
+        {
+          "id": "g3.visual.generic_icons",
+          "description": "sem icones genericos de foguete/lampada/robo",
+          "status": "pass",
+          "detail": "nenhuma ocorrencia de foguete/lampada/robo em texto, alt, aria-label ou classe",
+          "evidence": {}
+        },
+        {
+          "id": "g3.figures.min",
+          "description": "pelo menos 2 visualizacoes em <figure> (Gráfico 1 e 2 da spec)",
+          "status": "pass",
+          "detail": "5 <figure> encontrados",
+          "evidence": {
+            "figures": 5
+          }
+        },
+        {
+          "id": "g3.figures.figcaption",
+          "description": "todo <figure> tem <figcaption> nao vazio",
+          "status": "pass",
+          "detail": "5 figuras com figcaption",
+          "evidence": {}
+        },
+        {
+          "id": "g3.figures.source",
+          "description": "todo <figcaption> cita unidade/fonte (link ou nome da fonte)",
+          "status": "pass",
+          "detail": "5 figcaptions citam fonte/link",
+          "evidence": {}
+        },
+        {
+          "id": "g3.numbers.real",
+          "description": "presenca de numeros reais formatados (>= 30 ocorrencias)",
+          "status": "pass",
+          "detail": "435 ocorrencias (157 valores distintos) de moeda/percentual/milhar",
+          "evidence": {
+            "samples": [
+              "US$ 3,0 bi",
+              "8,1%",
+              "US$ 75,0 mi",
+              "1.262",
+              "69%",
+              "US$ 45,2 bi",
+              "35,7%",
+              "US$ 257 bi",
+              "US$ 2,0 bi",
+              "3.255"
+            ]
+          }
+        },
+        {
+          "id": "g3.cards.nonempty",
+          "description": "cards de estatistica contem numero real",
+          "status": "pass",
+          "detail": "12 card(s) de estatistica com valores numericos",
+          "evidence": {}
+        },
+        {
+          "id": "g3.cards.sourced",
+          "description": "KPI cards comparam Brasil vs Global ou citam fonte",
+          "status": "skip",
+          "detail": "6 card(s) com numero sem fonte nem comparacao",
+          "evidence": {
+            "violations": [
+              {
+                "path": "div.wrap < section.section < div.statgrid < div.statcell",
+                "text": "veiculos mapeados 7.521"
+              },
+              {
+                "path": "div.wrap < section.section < div.statgrid < div.statcell",
+                "text": "gestoras 5.064"
+              },
+              {
+                "path": "div.wrap < section.section < div.statgrid < div.statcell",
+                "text": "capital declarado us$ 454 bi"
+              },
+              {
+                "path": "div.wrap < section.section < div.statgrid < div.statcell",
+                "text": "mediana de porte us$ 15,3 mi"
+              },
+              {
+                "path": "div.wrap < section.section < div.statgrid < div.statcell",
+                "text": "p25 de porte us$ 4,9 mi"
+              },
+              {
+                "path": "div.wrap < section.section < div.statgrid < div.statcell",
+                "text": "p75 de porte us$ 60,0 mi"
+              }
+            ]
+          }
+        },
+        {
+          "id": "g3.hero.h1_unique",
+          "description": "H1 unico no documento",
+          "status": "pass",
+          "detail": "1 <h1> encontrado",
+          "evidence": {}
+        },
+        {
+          "id": "g3.hero.answer_first",
+          "description": "bloco .answer-first com conclusao quantitativa (>=2 numeros, <=170 chars, rotulo 'Conclusao principal' ou 'Leitura principal')",
+          "status": "pass",
+          "detail": "rotulo encontrado: 'leitura principal'; 3 numeros distintos: 1,8%, 5.374, 92,4%; 143 chars: '92,4% do capital sob gestoras brasileiras está em teses Série B+, mas só 1,8% dos 5.374 veículos estrangeiros mapeados têm atividade no Brasil.'",
+          "evidence": {
+            "tokens": [
+              "1,8%",
+              "5.374",
+              "92,4%"
+            ],
+            "length": 143,
+            "label_found": "leitura principal"
+          }
+        },
+        {
+          "id": "g3.hero.title_neutral",
+          "description": "H1 neutro, sem digitos/percentuais/moeda",
+          "status": "pass",
+          "detail": "h1 = 'Fundos de Venture Capital no Brasil e no exterior, por fase de maturidade'",
+          "evidence": {}
+        },
+        {
+          "id": "g3.hero.centered",
+          "description": "hero/H1 centralizado (text-align:center)",
+          "status": "pass",
+          "detail": "text-align computado = 'center'",
+          "evidence": {}
+        },
+        {
+          "id": "g3.numeracao.semantica",
+          "description": "numeracao semantica de secoes e' unica (01, 02, ...)",
+          "status": "pass",
+          "detail": "2 marcador(es) .sec-num unicos (01, 02); faixa de metricas sem tokens 0N",
+          "evidence": {
+            "sec_nums": [
+              "01",
+              "02"
+            ]
+          }
+        },
+        {
+          "id": "g3.hero.dead_links",
+          "description": "sem botoes falsos ou links '#'/javascript:",
+          "status": "pass",
+          "detail": "todas as ancoras inspecionadas apontam para URL real",
+          "evidence": {}
+        }
+      ],
+      "metrics": {
+        "html_bytes": 2050435,
+        "html_sha256": "0e742e2bd005bfeecaa8f5fca8548e759e55e6331f9dd5143e58ecbe83ef7007",
+        "css_bytes": 156409,
+        "answer_first": {
+          "present": true,
+          "quantified": true,
+          "tokens": [
+            "1,8%",
+            "5.374",
+            "92,4%"
+          ],
+          "length": 143,
+          "label_found": "leitura principal",
+          "accepted_labels": [
+            "conclusao principal",
+            "leitura principal"
+          ]
+        },
+        "figures": [
+          {
+            "index": 1,
+            "caption": "Fonte: ; . Base do percentual: 2.147 veículos brasileiros e 5.374 estrangeiros. Contagem por estágio declarado, classe regulatória CVM/BNDES ou heurística de cheque; o método de cada veículo está n...",
+            "has_caption": true,
+            "caption_has_source": true,
+            "caption_links": [
+              "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+              "https://www.sec.gov/Archives/edgar/data/1661173/000166117324000001/0001661173-24-000001-index.htm",
+              "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+            ]
+          },
+          {
+            "index": 2,
+            "caption": "Fonte: ; . Capital em US$: patrimônio líquido de FIP convertido pela PTAX de venda ou captação declarada no Form D. Valores ausentes na fonte não são imputados (68,2% de cobertura). CVM — Registro ...",
+            "has_caption": true,
+            "caption_has_source": true,
+            "caption_links": [
+              "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+              "https://www.sec.gov/Archives/edgar/data/1661173/000166117324000001/0001661173-24-000001-index.htm",
+              "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+            ]
+          },
+          {
+            "index": 3,
+            "caption": "Fonte: ; . Total declarado: US$ 454 bi (68,2% dos veículos com valor). CVM SEC EDGAR — Form D",
+            "has_caption": true,
+            "caption_has_source": true,
+            "caption_links": [
+              "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+              "https://www.sec.gov/Archives/edgar/data/1661173/000166117324000001/0001661173-24-000001-index.htm",
+              "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+            ]
+          },
+          {
+            "index": 4,
+            "caption": "Fonte: ; . Faixa de cheque mínimo/máximo não é divulgada em nenhum dos 7.521 registros do dataset canônico; por isso o painel usa o porte declarado. O mapeamento regulatório combina a classe do FIP...",
+            "has_caption": true,
+            "caption_has_source": true,
+            "caption_links": [
+              "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+              "https://www.sec.gov/Archives/edgar/data/1661173/000166117324000001/0001661173-24-000001-index.htm",
+              "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+            ]
+          },
+          {
+            "index": 5,
+            "caption": "Fonte: ; . Agregado pelo campo de cada registro. O descreve as licenças de cada base. CVM — Cadastro de Fundos SEC EDGAR — Form D primary_source_url protocolo de coleta",
+            "has_caption": true,
+            "caption_has_source": true,
+            "caption_links": [
+              "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+              "https://www.sec.gov/Archives/edgar/data/1661173/000166117324000001/0001661173-24-000001-index.htm",
+              "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip"
+            ]
+          }
+        ],
+        "formatted_numbers": 435,
+        "unique_formatted_numbers": 157,
+        "plain_numbers": 611,
+        "stat_cards": 12
+      },
+      "limitations": [
+        "Checagem lexical cobre texto visivel; atributos de conteudo de JS embutido nao sao avaliados alem de title/alt/aria-label/class. 'Metrica sem fonte' e' checada em <figcaption> e cards KPI pela presenca de link/nome da fonte."
+      ],
+      "notes": [],
+      "seconds": 2.35
+    },
+    "4": {
+      "gate": 4,
+      "name": "UI/UX executivo, acessibilidade WCAG AAA e responsividade",
+      "status": "pass",
+      "method": "Analise estatica de dashboard/index.html: font-size convertido de rem/em/pt/percent para px (base 16px), contrastes WCAG calculados pela formula de luminancia relativa sobre pares texto/fundo resolvidos pelo DOM+CSS (com heranca e variaveis --x), inspecao de tabelas/celulas com valores, media queries, fixed widths e links HTTP reais. Medicao runtime (scrollWidth, JS, screenshots) tentada via tools/screenshots.py + Chrome headless; se o sandbox impedir o Chrome, a checagem fica PENDING explicita.",
+      "counts": {
+        "pass": 19,
+        "fail": 0,
+        "pending": 0,
+        "skip": 2
+      },
+      "checks": [
+        {
+          "id": "g4.html.present",
+          "description": "dashboard/index.html existe",
+          "status": "pass",
+          "detail": "2050435 bytes em dashboard/index.html (sha256 0e742e2bd005bfee...)",
+          "evidence": {}
+        },
+        {
+          "id": "g4.font.floor",
+          "description": "piso tipografico >= 12px em todas as declaracoes CSS",
+          "status": "pass",
+          "detail": "28 declaracoes font-size convertidas para px; menor = 12.0px",
+          "evidence": {}
+        },
+        {
+          "id": "g4.numbers.tabular",
+          "description": "valores monetarios/percentuais usam tabular-nums + nowrap",
+          "status": "pass",
+          "detail": "83 celulas com valores monetarios/percentuais cobertas por tabular-nums + nowrap",
+          "evidence": {}
+        },
+        {
+          "id": "g4.table.scroll",
+          "description": "tabela auditavel presente e com container overflow-x:auto/scroll",
+          "status": "pass",
+          "detail": "4 tabela(s) dentro de container com overflow-x auto/scroll",
+          "evidence": {}
+        },
+        {
+          "id": "g4.responsive.media_queries",
+          "description": "media queries cobrem viewports 375/768/1440",
+          "status": "pass",
+          "detail": "9 breakpoints; cobertura 375/768/1440 verificada",
+          "evidence": {
+            "coverage": {
+              "375": {
+                "covered": true,
+                "max_hits": [
+                  "(max-width:1023px)",
+                  "(max-width:767px)",
+                  "(max-width:480px)",
+                  "(min-width:481px) and (max-width:767px)"
+                ],
+                "min_hits": [],
+                "base_layout_1440": null
+              },
+              "768": {
+                "covered": true,
+                "max_hits": [
+                  "(max-width:1023px)",
+                  "(min-width:768px) and (max-width:1023px)",
+                  "(max-width:900px)"
+                ],
+                "min_hits": [
+                  "(min-width:481px) and (max-width:767px)",
+                  "(min-width:768px) and (max-width:1023px)"
+                ],
+                "base_layout_1440": null
+              },
+              "1440": {
+                "covered": true,
+                "max_hits": [],
+                "min_hits": [
+                  "(min-width:481px) and (max-width:767px)",
+                  "(min-width:768px) and (max-width:1023px)",
+                  "(min-width:1024px)",
+                  "(min-width:1440px)"
+                ],
+                "base_layout_1440": true
+              }
+            }
+          }
+        },
+        {
+          "id": "g4.responsive.viewport_meta",
+          "description": "meta viewport width=device-width presente",
+          "status": "pass",
+          "detail": "meta viewport declarado",
+          "evidence": {}
+        },
+        {
+          "id": "g4.responsive.fixed_widths",
+          "description": "sem larguras fixas capazes de estourar 375px",
+          "status": "pass",
+          "detail": "nenhuma width/min-width fixa >= 375px sem max-width fluido",
+          "evidence": {}
+        },
+        {
+          "id": "g4.contrast.wcag_aaa",
+          "description": "contraste WCAG AAA (>= 7:1 texto normal; >= 4.5:1 texto grande)",
+          "status": "pass",
+          "detail": "14 pares calculados; menor razao medida = 7.68:1 (#065F46 sobre #FFFFFF)",
+          "evidence": {
+            "measured": 14,
+            "min_ratio": 7.68,
+            "pairs_top": [
+              {
+                "fg": "#065F46",
+                "bg": "#FFFFFF",
+                "threshold": 7.0,
+                "count": 3,
+                "worst_ratio": 7.683677009324036,
+                "example": "tbody < tr < td.read-cell < span.read.read-dense",
+                "example_text": "Densa no Brasil"
+              },
+              {
+                "fg": "#0043CE",
+                "bg": "#FFFFFF",
+                "threshold": 7.0,
+                "count": 2,
+                "worst_ratio": 7.794787164495322,
+                "example": "tbody < tr < td.read-cell < span.read.read-thin",
+                "example_text": "Densa no exterior"
+              },
+              {
+                "fg": "#7C2D12",
+                "bg": "#FFFFFF",
+                "threshold": 7.0,
+                "count": 2,
+                "worst_ratio": 9.370372776049363,
+                "example": "body < noscript < div.wrap < p.noscript",
+                "example_text": "As abas usam JavaScript; sem ele, todas as seções abaixo aparecem empilhadas na mesma p..."
+              },
+              {
+                "fg": "#FFFFFF",
+                "bg": "#7C2D12",
+                "threshold": 7.0,
+                "count": 1,
+                "worst_ratio": 9.370372776049363,
+                "example": "css:.dev-banner",
+                "example_text": "par declarado no CSS"
+              },
+              {
+                "fg": "#334155",
+                "bg": "#F1F5F9",
+                "threshold": 7.0,
+                "count": 250,
+                "worst_ratio": 9.451924418631656,
+                "example": "tbody#tbody < tr < td.c-vehicle < span.reg",
+                "example_text": "22.985.157/0001-56"
+              },
+              {
+                "fg": "#334155",
+                "bg": "#F4F6F8",
+                "threshold": 7.0,
+                "count": 44,
+                "worst_ratio": 9.558114896067194,
+                "example": "div.kpis-band < div.kpis-in < div.kpi < p.kpi-label",
+                "example_text": "Veículos mapeados"
+              },
+              {
+                "fg": "#334155",
+                "bg": "#FFFFFF",
+                "threshold": 7.0,
+                "count": 218,
+                "worst_ratio": 10.35474573184942,
+                "example": "div.wrap < div.masthead-top < p.kicker < span.kicker-sep",
+                "example_text": "·"
+              },
+              {
+                "fg": "#334155",
+                "bg": "#000000 (a=0.00)",
+                "threshold": 7.0,
+                "count": 1,
+                "worst_ratio": 10.35474573184942,
+                "example": "css:.funds thead th .sort-btn",
+                "example_text": "par declarado no CSS"
+              }
+            ]
+          }
+        },
+        {
+          "id": "g4.palette.spec",
+          "description": "paleta semantica da spec presente no CSS",
+          "status": "pass",
+          "detail": "6 cores obrigatorias encontradas (#0F172A/#FFFFFF/#F4F6F8/#0043CE/#047857/#CBD5E1)",
+          "evidence": {}
+        },
+        {
+          "id": "g4.typography.stack",
+          "description": "sistema tipografico de 3 papeis da spec presente",
+          "status": "pass",
+          "detail": "Space Grotesk + IBM Plex Sans + IBM Plex Mono referenciadas no HTML/CSS",
+          "evidence": {}
+        },
+        {
+          "id": "g4.typography.google_fonts",
+          "description": "fontes carregadas via Google Fonts (spec secao 3)",
+          "status": "skip",
+          "detail": "sem link fonts.googleapis.com; pode haver self-host/@font-face",
+          "evidence": {}
+        },
+        {
+          "id": "g4.links.count",
+          "description": "pelo menos 20 links diretos para fontes oficiais",
+          "status": "pass",
+          "detail": "97 ancora(s) https (51 URL unicas)",
+          "evidence": {}
+        },
+        {
+          "id": "g4.links.http",
+          "description": "todos os links <a href=https> respondem 200/301/302",
+          "status": "skip",
+          "detail": "50/51 links verificados 200/301/302; 1 nao verificavel(is) por timeout/transporte (nao sao links quebrados; verificar no run final)",
+          "evidence": {
+            "unverified": [
+              {
+                "url": "https://query.wikidata.org/sparql",
+                "error": "TimeoutError: The read operation timed out"
+              }
+            ]
+          }
+        },
+        {
+          "id": "g4.links.rel_security",
+          "description": "links externos usam target=_blank rel=noopener noreferrer",
+          "status": "pass",
+          "detail": "97 link(s) com rel noopener noreferrer",
+          "evidence": {}
+        },
+        {
+          "id": "g4.js.syntax",
+          "description": "scripts JS do dashboard tem sintaxe valida (node --check)",
+          "status": "pass",
+          "detail": "1 script(s) inline validados por node --check",
+          "evidence": {}
+        },
+        {
+          "id": "g4.shots.capture",
+          "description": "PNGs de screenshot validados (largura real >= 2 viewports)",
+          "status": "pass",
+          "detail": "3 PNGs reais validados por largura/altura: v4-achados-1440.png=1440x2600; v4-header-1440.png=1440x1250; v4-header-500.png=500x1400",
+          "evidence": {
+            "pngs": [
+              {
+                "path": "audit/shots/v4-achados-1440.png",
+                "bytes": 340335,
+                "dims": [
+                  1440,
+                  2600
+                ],
+                "expected_width": 1440,
+                "width_ok": true,
+                "height_ok": true
+              },
+              {
+                "path": "audit/shots/v4-header-1440.png",
+                "bytes": 123690,
+                "dims": [
+                  1440,
+                  1250
+                ],
+                "expected_width": 1440,
+                "width_ok": true,
+                "height_ok": true
+              },
+              {
+                "path": "audit/shots/v4-header-500.png",
+                "bytes": 74295,
+                "dims": [
+                  500,
+                  1400
+                ],
+                "expected_width": 500,
+                "width_ok": true,
+                "height_ok": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "g4.runtime.overflow",
+          "description": "sem overflow horizontal por aba/viewport (scrollWidth <= innerWidth+1)",
+          "status": "pass",
+          "detail": "sem overflow horizontal em 8 combinacao(oes) aba x viewport (criterio documentScrollWidth <= innerWidth+1); abas: aba:achados=1440/375/768; aba:fundos=1440/375; aba:insights=1440/375; aba:metodo=375; combinacoes nao medidas (falha de launch do Chrome): aba:metodo falta ['1440']",
+          "evidence": {
+            "per_viewport": {
+              "aba:achados@375px": {
+                "scope": "aba:achados",
+                "requested_width": "375",
+                "innerWidth": 500,
+                "documentScrollWidth": 500,
+                "bodyScrollWidth": 500,
+                "horizontal_overflow_computed": false,
+                "horizontal_overflow_reported": false,
+                "measured": true
+              },
+              "aba:achados@768px": {
+                "scope": "aba:achados",
+                "requested_width": "768",
+                "innerWidth": 750,
+                "documentScrollWidth": 750,
+                "bodyScrollWidth": 750,
+                "horizontal_overflow_computed": false,
+                "horizontal_overflow_reported": false,
+                "measured": true
+              },
+              "aba:achados@1440px": {
+                "scope": "aba:achados",
+                "requested_width": "1440",
+                "innerWidth": 1422,
+                "documentScrollWidth": 1422,
+                "bodyScrollWidth": 1422,
+                "horizontal_overflow_computed": false,
+                "horizontal_overflow_reported": false,
+                "measured": true
+              },
+              "aba:fundos@375px": {
+                "scope": "aba:fundos",
+                "requested_width": "375",
+                "innerWidth": 500,
+                "documentScrollWidth": 500,
+                "bodyScrollWidth": 500,
+                "horizontal_overflow_computed": false,
+                "horizontal_overflow_reported": false,
+                "measured": true
+              },
+              "aba:fundos@1440px": {
+                "scope": "aba:fundos",
+                "requested_width": "1440",
+                "innerWidth": 1422,
+                "documentScrollWidth": 1422,
+                "bodyScrollWidth": 1422,
+                "horizontal_overflow_computed": false,
+                "horizontal_overflow_reported": false,
+                "measured": true
+              },
+              "aba:insights@375px": {
+                "scope": "aba:insights",
+                "requested_width": "375",
+                "innerWidth": 500,
+                "documentScrollWidth": 500,
+                "bodyScrollWidth": 500,
+                "horizontal_overflow_computed": false,
+                "horizontal_overflow_reported": false,
+                "measured": true
+              },
+              "aba:insights@1440px": {
+                "scope": "aba:insights",
+                "requested_width": "1440",
+                "innerWidth": 1422,
+                "documentScrollWidth": 1422,
+                "bodyScrollWidth": 1422,
+                "horizontal_overflow_computed": false,
+                "horizontal_overflow_reported": false,
+                "measured": true
+              },
+              "aba:metodo@375px": {
+                "scope": "aba:metodo",
+                "requested_width": "375",
+                "innerWidth": 500,
+                "documentScrollWidth": 500,
+                "bodyScrollWidth": 500,
+                "horizontal_overflow_computed": false,
+                "horizontal_overflow_reported": false,
+                "measured": true
+              }
+            },
+            "clamp": [
+              "375->500px",
+              "768->750px",
+              "1440->1422px"
+            ],
+            "missing_combos": [
+              {
+                "scope": "aba:metodo",
+                "missing_viewports": [
+                  "1440"
+                ],
+                "measured": [
+                  "375"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "g4.runtime.js",
+          "description": "dashboard carrega sem erro de JS no Chrome",
+          "status": "pass",
+          "detail": "nenhum erro de console/JS observado (4 escopo(s): aba:achados, aba:fundos, aba:insights, aba:metodo)",
+          "evidence": {
+            "errors": []
+          }
+        },
+        {
+          "id": "g4.runtime.dom",
+          "description": "conteudo filtrado presente no DOM renderizado",
+          "status": "pass",
+          "detail": "DOM renderizado 1440px: h1=1, tables=4, tr=64, figures=5 (com figcaption=5); script DOM bytes=2056925",
+          "evidence": {
+            "checked": true,
+            "ok": true,
+            "dom_path": "audit\\shots\\rendered_dom.html",
+            "h1": 1,
+            "tables": 4,
+            "table_rows": 64,
+            "figures": 5
+          }
+        },
+        {
+          "id": "g4.runtime.font_floor",
+          "description": "piso tipografico efetivo >= 12px no DOM renderizado",
+          "status": "pass",
+          "detail": "menor font-size computado no DOM = 12px (>= 12px) em 3 viewport(s) medidos",
+          "evidence": {}
+        },
+        {
+          "id": "g4.runtime.tabular",
+          "description": "tabular-nums + nowrap efetivos em celulas monetarias renderizadas",
+          "status": "pass",
+          "detail": "264/267 celulas monetarias com tabular-nums+nowrap no DOM computado; 3 celula(s) de prosa contendo numero ignorada(s) como falso positivo do probe (heuristica de valor)",
+          "evidence": {
+            "per_viewport": [
+              {
+                "viewport": "375",
+                "moneyCells": 89,
+                "compliant": 88,
+                "noncompliant_reported": 1
+              },
+              {
+                "viewport": "768",
+                "moneyCells": 89,
+                "compliant": 88,
+                "noncompliant_reported": 1
+              },
+              {
+                "viewport": "1440",
+                "moneyCells": 89,
+                "compliant": 88,
+                "noncompliant_reported": 1
+              }
+            ],
+            "prose_ignored": [
+              {
+                "viewport": "375",
+                "text": "Faixa de cheque convertida em",
+                "reason": "celula de prosa com numero embutido (heuristica de valor)"
+              },
+              {
+                "viewport": "768",
+                "text": "Faixa de cheque convertida em",
+                "reason": "celula de prosa com numero embutido (heuristica de valor)"
+              },
+              {
+                "viewport": "1440",
+                "text": "Faixa de cheque convertida em",
+                "reason": "celula de prosa com numero embutido (heuristica de valor)"
+              }
+            ]
+          }
+        }
+      ],
+      "metrics": {
+        "html_bytes": 2050435,
+        "html_sha256": "0e742e2bd005bfeecaa8f5fca8548e759e55e6331f9dd5143e58ecbe83ef7007",
+        "css_rules": 313,
+        "dom_nodes": 2398,
+        "font_size_declarations": 28,
+        "money_cells": 83,
+        "tables": 4,
+        "media_breakpoints": [
+          {
+            "media": "(max-width:1023px)",
+            "max_px": 1023.0,
+            "min_px": null
+          },
+          {
+            "media": "(max-width:767px)",
+            "max_px": 767.0,
+            "min_px": null
+          },
+          {
+            "media": "(max-width:480px)",
+            "max_px": 480.0,
+            "min_px": null
+          },
+          {
+            "media": "(min-width:481px) and (max-width:767px)",
+            "max_px": 767.0,
+            "min_px": 481.0
+          },
+          {
+            "media": "(min-width:768px) and (max-width:1023px)",
+            "max_px": 1023.0,
+            "min_px": 768.0
+          },
+          {
+            "media": "(min-width:1024px)",
+            "max_px": null,
+            "min_px": 1024.0
+          },
+          {
+            "media": "(max-width:375px)",
+            "max_px": 375.0,
+            "min_px": null
+          },
+          {
+            "media": "(min-width:1440px)",
+            "max_px": null,
+            "min_px": 1440.0
+          },
+          {
+            "media": "(max-width:900px)",
+            "max_px": 900.0,
+            "min_px": null
+          }
+        ],
+        "viewport_coverage": {
+          "375": {
+            "covered": true,
+            "max_hits": [
+              "(max-width:1023px)",
+              "(max-width:767px)",
+              "(max-width:480px)",
+              "(min-width:481px) and (max-width:767px)"
+            ],
+            "min_hits": [],
+            "base_layout_1440": null
+          },
+          "768": {
+            "covered": true,
+            "max_hits": [
+              "(max-width:1023px)",
+              "(min-width:768px) and (max-width:1023px)",
+              "(max-width:900px)"
+            ],
+            "min_hits": [
+              "(min-width:481px) and (max-width:767px)",
+              "(min-width:768px) and (max-width:1023px)"
+            ],
+            "base_layout_1440": null
+          },
+          "1440": {
+            "covered": true,
+            "max_hits": [],
+            "min_hits": [
+              "(min-width:481px) and (max-width:767px)",
+              "(min-width:768px) and (max-width:1023px)",
+              "(min-width:1024px)",
+              "(min-width:1440px)"
+            ],
+            "base_layout_1440": true
+          }
+        },
+        "risky_fixed_widths": 0,
+        "contrast_pairs": 14,
+        "contrast_violations": 0,
+        "contrast_nodes_checked": 1274,
+        "contrast_unknown_bg": 0,
+        "min_contrast_ratio": 7.68,
+        "links_total": 97,
+        "links_unique": 51,
+        "links_checked": 51,
+        "links_status_counts": {
+          "200": 50,
+          "transport_error": 1
+        },
+        "inline_scripts": 1,
+        "runtime": {
+          "tool": "tools/screenshots.py",
+          "shots_dir": "audit/shots",
+          "runtime_content_match": {
+            "current_rows_sha256": "7030bad57c3bf2ba0a8b3b04c2ce72b1e19eff0c68418a0e5e653fb6e3b2275d",
+            "measured_rows_sha256": "7030bad57c3bf2ba0a8b3b04c2ce72b1e19eff0c68418a0e5e653fb6e3b2275d",
+            "match": true,
+            "shots_report_html_hash": null,
+            "shots_report_generated_at": "2026-11-18T19:25:49+00:00"
+          },
+          "runtime_by_viewport": {
+            "375": {
+              "innerWidth": 500,
+              "innerHeight": 626,
+              "documentScrollWidth": 500,
+              "bodyScrollWidth": 500,
+              "horizontal_overflow": false,
+              "minFontPx": 12,
+              "moneyCells": 89,
+              "moneyCellsTabularNowrap": 88,
+              "jsErrors": [],
+              "checked": true
+            },
+            "768": {
+              "innerWidth": 750,
+              "innerHeight": 838,
+              "documentScrollWidth": 750,
+              "bodyScrollWidth": 750,
+              "horizontal_overflow": false,
+              "minFontPx": 12,
+              "moneyCells": 89,
+              "moneyCellsTabularNowrap": 88,
+              "jsErrors": [],
+              "checked": true
+            },
+            "1440": {
+              "innerWidth": 1422,
+              "innerHeight": 714,
+              "documentScrollWidth": 1422,
+              "bodyScrollWidth": 1422,
+              "horizontal_overflow": false,
+              "minFontPx": 12,
+              "moneyCells": 89,
+              "moneyCellsTabularNowrap": 88,
+              "jsErrors": [],
+              "checked": true
+            }
+          },
+          "png_build": "v4",
+          "pngs": [
+            {
+              "path": "audit/shots/v4-achados-1440.png",
+              "bytes": 340335,
+              "dims": [
+                1440,
+                2600
+              ],
+              "expected_width": 1440,
+              "width_ok": true,
+              "height_ok": true
+            },
+            {
+              "path": "audit/shots/v4-header-1440.png",
+              "bytes": 123690,
+              "dims": [
+                1440,
+                1250
+              ],
+              "expected_width": 1440,
+              "width_ok": true,
+              "height_ok": true
+            },
+            {
+              "path": "audit/shots/v4-header-500.png",
+              "bytes": 74295,
+              "dims": [
+                500,
+                1400
+              ],
+              "expected_width": 500,
+              "width_ok": true,
+              "height_ok": true
+            }
+          ],
+          "overflow_scopes": [
+            {
+              "scope": "aba:achados",
+              "viewports": [
+                "1440",
+                "375",
+                "768"
+              ],
+              "ok": true
+            },
+            {
+              "scope": "aba:fundos",
+              "viewports": [
+                "1440",
+                "375"
+              ],
+              "ok": true
+            },
+            {
+              "scope": "aba:insights",
+              "viewports": [
+                "1440",
+                "375"
+              ],
+              "ok": true
+            },
+            {
+              "scope": "aba:metodo",
+              "viewports": [
+                "375"
+              ],
+              "ok": true
+            }
+          ],
+          "overflow": {
+            "measured": true,
+            "per_viewport": {
+              "aba:achados@375px": {
+                "scope": "aba:achados",
+                "requested_width": "375",
+                "innerWidth": 500,
+                "documentScrollWidth": 500,
+                "bodyScrollWidth": 500,
+                "horizontal_overflow_computed": false,
+                "horizontal_overflow_reported": false,
+                "measured": true
+              },
+              "aba:achados@768px": {
+                "scope": "aba:achados",
+                "requested_width": "768",
+                "innerWidth": 750,
+                "documentScrollWidth": 750,
+                "bodyScrollWidth": 750,
+                "horizontal_overflow_computed": false,
+                "horizontal_overflow_reported": false,
+                "measured": true
+              },
+              "aba:achados@1440px": {
+                "scope": "aba:achados",
+                "requested_width": "1440",
+                "innerWidth": 1422,
+                "documentScrollWidth": 1422,
+                "bodyScrollWidth": 1422,
+                "horizontal_overflow_computed": false,
+                "horizontal_overflow_reported": false,
+                "measured": true
+              },
+              "aba:fundos@375px": {
+                "scope": "aba:fundos",
+                "requested_width": "375",
+                "innerWidth": 500,
+                "documentScrollWidth": 500,
+                "bodyScrollWidth": 500,
+                "horizontal_overflow_computed": false,
+                "horizontal_overflow_reported": false,
+                "measured": true
+              },
+              "aba:fundos@1440px": {
+                "scope": "aba:fundos",
+                "requested_width": "1440",
+                "innerWidth": 1422,
+                "documentScrollWidth": 1422,
+                "bodyScrollWidth": 1422,
+                "horizontal_overflow_computed": false,
+                "horizontal_overflow_reported": false,
+                "measured": true
+              },
+              "aba:insights@375px": {
+                "scope": "aba:insights",
+                "requested_width": "375",
+                "innerWidth": 500,
+                "documentScrollWidth": 500,
+                "bodyScrollWidth": 500,
+                "horizontal_overflow_computed": false,
+                "horizontal_overflow_reported": false,
+                "measured": true
+              },
+              "aba:insights@1440px": {
+                "scope": "aba:insights",
+                "requested_width": "1440",
+                "innerWidth": 1422,
+                "documentScrollWidth": 1422,
+                "bodyScrollWidth": 1422,
+                "horizontal_overflow_computed": false,
+                "horizontal_overflow_reported": false,
+                "measured": true
+              },
+              "aba:metodo@375px": {
+                "scope": "aba:metodo",
+                "requested_width": "375",
+                "innerWidth": 500,
+                "documentScrollWidth": 500,
+                "bodyScrollWidth": 500,
+                "horizontal_overflow_computed": false,
+                "horizontal_overflow_reported": false,
+                "measured": true
+              }
+            }
+          },
+          "overflow_missing_combos": [
+            {
+              "scope": "aba:metodo",
+              "missing_viewports": [
+                "1440"
+              ],
+              "measured": [
+                "375"
+              ]
+            }
+          ]
+        }
+      },
+      "limitations": [
+        "6 celula(s) de prosa com numeros embutidos nao foram submetidas a exigencia de nowrap+tabular-nums (a spec exige para VALORES; nowrap em prosa quebraria o layout).",
+        "shots_report nao registra hash do HTML (campo 'hash' = None): o vinculo build<->medicao foi verificado por hash das rows do data island vc-data, identico entre rendered_dom.html e dashboard/index.html (7030bad57c3bf2ba...).",
+        "PNGs reais validados por largura/altura: v4-achados-1440.png=1440x2600, v4-header-1440.png=1440x1250, v4-header-500.png=500x1400. O Chrome no Windows clampa 375->500 e 768->750, portanto nao existem imagens literais de 375/768px; a cobertura desses cortes vem da medicao runtime por aba (500/750) e das @media (max-width:480px/767px) no CSS estatico.",
+        "Overflow medido por ABA e viewport (criterio documentScrollWidth <= innerWidth+1). O Chrome no Windows clampa as larguras (375->500px, 768->750px, 1440->1422px), logo innerWidth != largura CSS literal; a cobertura 375 CSS px vem de @media (max-width:480px). Combinacoes medidas: aba:achados=1440/375/768; aba:fundos=1440/375; aba:insights=1440/375; aba:metodo=375.",
+        "Combinacao(oes) aba x viewport NAO medidas por falha de launch do Chrome (nao e' evidencia de overflow): aba:metodo falta 1440. A(s) aba(s) afetada(s) usa(m) a mesma folha de estilo ja validada nas demais combinacoes; registrado como SKIP pontual, sem FAIL."
+      ],
+      "notes": [],
+      "seconds": 55.8
+    }
+  },
+  "summary": {
+    "verdict": "pass",
+    "exit_code": 0,
+    "exit_hint": "todos os gates PASS",
+    "problems": [],
+    "limitations": [
+      "Checagem lexical cobre texto visivel; atributos de conteudo de JS embutido nao sao avaliados alem de title/alt/aria-label/class. 'Metrica sem fonte' e' checada em <figcaption> e cards KPI pela presenca de link/nome da fonte.",
+      "6 celula(s) de prosa com numeros embutidos nao foram submetidas a exigencia de nowrap+tabular-nums (a spec exige para VALORES; nowrap em prosa quebraria o layout).",
+      "shots_report nao registra hash do HTML (campo 'hash' = None): o vinculo build<->medicao foi verificado por hash das rows do data island vc-data, identico entre rendered_dom.html e dashboard/index.html (7030bad57c3bf2ba...).",
+      "PNGs reais validados por largura/altura: v4-achados-1440.png=1440x2600, v4-header-1440.png=1440x1250, v4-header-500.png=500x1400. O Chrome no Windows clampa 375->500 e 768->750, portanto nao existem imagens literais de 375/768px; a cobertura desses cortes vem da medicao runtime por aba (500/750) e das @media (max-width:480px/767px) no CSS estatico.",
+      "Overflow medido por ABA e viewport (criterio documentScrollWidth <= innerWidth+1). O Chrome no Windows clampa as larguras (375->500px, 768->750px, 1440->1422px), logo innerWidth != largura CSS literal; a cobertura 375 CSS px vem de @media (max-width:480px). Combinacoes medidas: aba:achados=1440/375/768; aba:fundos=1440/375; aba:insights=1440/375; aba:metodo=375.",
+      "Combinacao(oes) aba x viewport NAO medidas por falha de launch do Chrome (nao e' evidencia de overflow): aba:metodo falta 1440. A(s) aba(s) afetada(s) usa(m) a mesma folha de estilo ja validada nas demais combinacoes; registrado como SKIP pontual, sem FAIL."
+    ]
+  }
+}

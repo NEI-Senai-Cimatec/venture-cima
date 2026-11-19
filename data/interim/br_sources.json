@@ -1,0 +1,1115 @@
+{
+  "generated_at_utc": "2026-11-18T15:52:35+00:00",
+  "collector": "pipeline/collect_br.py",
+  "offline_mode": false,
+  "user_agent": "PesquisaAcademicaVC/1.0 (pesquisador@universidade.edu.br)",
+  "gate1": {
+    "manifest_path": "data/manifest.jsonl",
+    "raw_cache_dir": "data/raw",
+    "all_fetches_http_200": true,
+    "required_min_interval_s": 0.2,
+    "declared_user_agent": "PesquisaAcademicaVC/1.0 (pesquisador@universidade.edu.br)",
+    "sources_logged": 14
+  },
+  "sources": [
+    {
+      "source_id": "cvm_ckan",
+      "source_url": "https://dados.cvm.gov.br/api/3/action/package_show?id=fi-cad",
+      "retrieved_from": "https://dados.cvm.gov.br/api/3/action/package_show?id=fi-cad",
+      "requested_at_utc": "2026-11-18T15:52:21+00:00",
+      "notes": null,
+      "http_status": 200,
+      "bytes": 9832,
+      "sha256": "a6a4cfbb31a9bb2e7cde07bd24c9b9577a3514b147fbd33c0a9a5fda98ec3839",
+      "from_cache": true,
+      "encoding": "utf-8",
+      "requested_encoding": "utf-8",
+      "utf8_decodable": true
+    },
+    {
+      "source_id": "cvm_ckan",
+      "source_url": "https://dados.cvm.gov.br/api/3/action/package_show?id=fip-doc-inf_quadrimestral",
+      "retrieved_from": "https://dados.cvm.gov.br/api/3/action/package_show?id=fip-doc-inf_quadrimestral",
+      "requested_at_utc": "2026-11-18T15:52:21+00:00",
+      "notes": null,
+      "http_status": 200,
+      "bytes": 5270,
+      "sha256": "c775ff547874936b0a2fd88df94c56e3f1cfa0167b4ecd0c757f05f7617415b2",
+      "from_cache": true,
+      "encoding": "utf-8",
+      "requested_encoding": "utf-8",
+      "utf8_decodable": true
+    },
+    {
+      "source_id": "cvm_ckan",
+      "source_url": "https://dados.cvm.gov.br/dados/FI/CAD/META/meta_registro_fundo_classe.zip",
+      "retrieved_from": "https://dados.cvm.gov.br/dados/FI/CAD/META/meta_registro_fundo_classe.zip",
+      "requested_at_utc": "2026-11-18T15:52:21+00:00",
+      "notes": null,
+      "http_status": 200,
+      "bytes": 2222,
+      "sha256": "4a5e912031576fa49c1faf693461f8cf65bcdb6bcba4e0e6c952d2310ba9c415",
+      "from_cache": true,
+      "encoding": "binary",
+      "requested_encoding": null,
+      "utf8_decodable": null,
+      "content_magic": "PK"
+    },
+    {
+      "source_id": "cvm_ckan",
+      "source_url": "https://dados.cvm.gov.br/dados/FI/CAD/META/meta_cad_fi.txt",
+      "retrieved_from": "https://dados.cvm.gov.br/dados/FI/CAD/META/meta_cad_fi.txt",
+      "requested_at_utc": "2026-11-18T15:52:21+00:00",
+      "notes": null,
+      "http_status": 200,
+      "bytes": 7608,
+      "sha256": "dfc02ac21960c0666c8aa461cf88c0ca1ec31214662ef49f25582efd78957e06",
+      "from_cache": true,
+      "encoding": "latin1",
+      "requested_encoding": "latin1",
+      "utf8_decodable": false
+    },
+    {
+      "source_id": "cvm_ckan",
+      "source_url": "https://dados.cvm.gov.br/dados/FIP/DOC/INF_QUADRIMESTRAL/META/meta_inf_quadrimestral_fip.txt",
+      "retrieved_from": "https://dados.cvm.gov.br/dados/FIP/DOC/INF_QUADRIMESTRAL/META/meta_inf_quadrimestral_fip.txt",
+      "requested_at_utc": "2026-11-18T15:52:21+00:00",
+      "notes": null,
+      "http_status": 200,
+      "bytes": 13084,
+      "sha256": "1cab9fb27223c6615fb292f93b927654771b7977fcbb8947a7880a32be135d8e",
+      "from_cache": true,
+      "encoding": "latin1",
+      "requested_encoding": "latin1",
+      "utf8_decodable": false
+    },
+    {
+      "source_id": "cvm_registro_fundo_classe",
+      "source_url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+      "retrieved_from": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/registro_fundo_classe.zip",
+      "requested_at_utc": "2026-11-18T15:52:21+00:00",
+      "notes": "ZIP oficial do dataset fi-cad (Registro de Fundos, Classes e Subclasses RCVM175)",
+      "http_status": 200,
+      "bytes": 6903816,
+      "sha256": "ccfc64b4e45e32d61a51affe99c8701ec5bf352eae5b1f5958e54218c1c96086",
+      "from_cache": true,
+      "encoding": "binary",
+      "requested_encoding": null,
+      "utf8_decodable": null,
+      "content_magic": "PK",
+      "members": [
+        {
+          "member": "registro_classe.csv",
+          "bytes": 16398210,
+          "sha256": "d712aadf2bb57128b51e1fef3d5fcff282538a55d242eef33040b5e206dcf499",
+          "rows": 37154
+        },
+        {
+          "member": "registro_fundo.csv",
+          "bytes": 27222962,
+          "sha256": "2f0d6e4825661e56e67a48c7215492f6a69e4e54b631098e880141957296d8c9",
+          "rows": 91185
+        },
+        {
+          "member": "registro_subclasse.csv",
+          "bytes": 1866937,
+          "sha256": "980798cac1344c2c9659ff63d4f555429c59b5330b673d7db514a7339548756c",
+          "rows": 11888
+        }
+      ]
+    },
+    {
+      "source_id": "cvm_cad_fi",
+      "source_url": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/cad_fi.csv",
+      "retrieved_from": "https://dados.cvm.gov.br/dados/FI/CAD/DADOS/cad_fi.csv",
+      "requested_at_utc": "2026-11-18T15:52:29+00:00",
+      "notes": "LEGADO 'Fundos de Investimento - Nao Adaptados RCVM175' (evidencia secundaria de CLASSE)",
+      "http_status": 200,
+      "bytes": 17920929,
+      "sha256": "da26418abd0dcf61d741ccb8d47c95323fe7d3b199f30400c6ef0637dc4709ce",
+      "from_cache": true,
+      "encoding": "latin1",
+      "requested_encoding": "latin1",
+      "utf8_decodable": false,
+      "rows": 46805,
+      "fip_rows": 1631
+    },
+    {
+      "source_id": "cvm_inf_quadrimestral_fip",
+      "source_url": "https://dados.cvm.gov.br/dados/FIP/DOC/INF_QUADRIMESTRAL/DADOS/inf_quadrimestral_fip_2024.csv",
+      "retrieved_from": "https://dados.cvm.gov.br/dados/FIP/DOC/INF_QUADRIMESTRAL/DADOS/inf_quadrimestral_fip_2024.csv",
+      "requested_at_utc": "2026-11-18T15:52:31+00:00",
+      "notes": "Informe Quadrimestral de FIP - competencias 2024",
+      "http_status": 200,
+      "bytes": 4685908,
+      "sha256": "d76d3484a01829d11f019a9b90e056c51f9c635260d16fb802087bc03cb08198",
+      "from_cache": true,
+      "encoding": "latin1",
+      "requested_encoding": "latin1",
+      "utf8_decodable": false,
+      "rows": 6821,
+      "competencias": [
+        "2024-03-31",
+        "2024-04-30",
+        "2024-08-31",
+        "2024-12-31"
+      ]
+    },
+    {
+      "source_id": "cvm_inf_quadrimestral_fip",
+      "source_url": "https://dados.cvm.gov.br/dados/FIP/DOC/INF_QUADRIMESTRAL/DADOS/inf_quadrimestral_fip_2025.csv",
+      "retrieved_from": "https://dados.cvm.gov.br/dados/FIP/DOC/INF_QUADRIMESTRAL/DADOS/inf_quadrimestral_fip_2025.csv",
+      "requested_at_utc": "2026-11-18T15:52:32+00:00",
+      "notes": "Informe Quadrimestral de FIP - competencias 2025",
+      "http_status": 200,
+      "bytes": 5485807,
+      "sha256": "d39116b8fe33613a14a48a1d5d7b1d08ae20d28aaa281e269a83a99b79ece6d4",
+      "from_cache": true,
+      "encoding": "latin1",
+      "requested_encoding": "latin1",
+      "utf8_decodable": false,
+      "rows": 7896,
+      "competencias": [
+        "2025-04-30",
+        "2025-08-31",
+        "2025-12-31"
+      ]
+    },
+    {
+      "source_id": "cvm_inf_quadrimestral_fip",
+      "source_url": "https://dados.cvm.gov.br/dados/FIP/DOC/INF_QUADRIMESTRAL/DADOS/inf_quadrimestral_fip_2026.csv",
+      "retrieved_from": "https://dados.cvm.gov.br/dados/FIP/DOC/INF_QUADRIMESTRAL/DADOS/inf_quadrimestral_fip_2026.csv",
+      "requested_at_utc": "2026-11-18T15:52:33+00:00",
+      "notes": "Informe Quadrimestral de FIP - competencias 2026",
+      "http_status": 200,
+      "bytes": 4013090,
+      "sha256": "ac91f50c0e14f6a3de7b750cf5e70e19a22ae01a0f3ce9e12b9d3cd3c1c8094a",
+      "from_cache": true,
+      "encoding": "latin1",
+      "requested_encoding": "latin1",
+      "utf8_decodable": false,
+      "rows": 5754,
+      "competencias": [
+        "2026-04-30",
+        "2026-08-31",
+        "2026-12-31"
+      ]
+    },
+    {
+      "source_id": "bndes_fundos_carteira",
+      "source_url": "https://dadosabertos.bndes.gov.br/api/3/action/package_show?id=renda-variavel",
+      "retrieved_from": "https://dadosabertos.bndes.gov.br/api/3/action/package_show?id=renda-variavel",
+      "requested_at_utc": "2026-11-18T15:52:34+00:00",
+      "notes": null,
+      "http_status": 200,
+      "bytes": 16801,
+      "sha256": "2941681368b0aede161b5ef1fa2c05a5188b5fe80834701b464de90738be5189",
+      "from_cache": true,
+      "encoding": "utf-8",
+      "requested_encoding": "utf-8",
+      "utf8_decodable": true
+    },
+    {
+      "source_id": "bndes_fundos_carteira",
+      "source_url": "https://dadosabertos.bndes.gov.br/dataset/0f87a724-3025-4e2d-a707-ea4d5cfeb9a5/resource/a086290e-6cbd-4947-aa7a-ec4e26314228/download/renda-variavel-fundos-de-investimentos-historico-da-carteira.csv",
+      "retrieved_from": "https://dadosabertos.bndes.gov.br/dataset/0f87a724-3025-4e2d-a707-ea4d5cfeb9a5/resource/a086290e-6cbd-4947-aa7a-ec4e26314228/download/renda-variavel-fundos-de-investimentos-historico-da-carteira.csv",
+      "requested_at_utc": "2026-11-18T15:52:34+00:00",
+      "notes": "BNDES Renda Variavel - Fundos de Investimentos: Historico da Carteira",
+      "http_status": 200,
+      "bytes": 106119,
+      "sha256": "7695401c793c465a898a7de12ee6820d85fde13cd4e6b400e415cc5986e480d4",
+      "from_cache": true,
+      "encoding": "latin1",
+      "requested_encoding": "latin1",
+      "utf8_decodable": false,
+      "rows": 881,
+      "distinct_cnpj": 95
+    },
+    {
+      "source_id": "finep_fundos",
+      "source_url": "https://www.finep.gov.br/fundos-de-investimento",
+      "retrieved_from": "https://www.finep.gov.br/fundos-de-investimento",
+      "requested_at_utc": "2026-11-18T15:52:34+00:00",
+      "notes": null,
+      "http_status": 200,
+      "bytes": 213539,
+      "sha256": "cf4fe9fcff613843a92691ab90cd9351822a238df45a2266f04d81093468cd68",
+      "from_cache": true,
+      "encoding": "utf-8",
+      "requested_encoding": null,
+      "utf8_decodable": true
+    },
+    {
+      "source_id": "mcti_dados_abertos",
+      "source_url": "https://www.gov.br/mcti/pt-br/acesso-a-informacao/dados-abertos/dados-abertos",
+      "retrieved_from": "https://www.gov.br/mcti/pt-br/acesso-a-informacao/dados-abertos/dados-abertos",
+      "requested_at_utc": "2026-11-18T15:52:34+00:00",
+      "notes": null,
+      "http_status": 200,
+      "bytes": 197042,
+      "sha256": "1f1eb34497c5fe8519bdc939435bbc2a61b7a86230baed934e5a7cd1ea5286b2",
+      "from_cache": true,
+      "encoding": "utf-8",
+      "requested_encoding": null,
+      "utf8_decodable": true
+    }
+  ],
+  "zip_members": [
+    {
+      "member": "registro_classe.csv",
+      "bytes": 16398210,
+      "sha256": "d712aadf2bb57128b51e1fef3d5fcff282538a55d242eef33040b5e206dcf499",
+      "rows": 37154
+    },
+    {
+      "member": "registro_fundo.csv",
+      "bytes": 27222962,
+      "sha256": "2f0d6e4825661e56e67a48c7215492f6a69e4e54b631098e880141957296d8c9",
+      "rows": 91185
+    },
+    {
+      "member": "registro_subclasse.csv",
+      "bytes": 1866937,
+      "sha256": "980798cac1344c2c9659ff63d4f555429c59b5330b673d7db514a7339548756c",
+      "rows": 11888
+    }
+  ],
+  "unavailable": [
+    {
+      "source_id": "finep_fundos",
+      "source_url": "https://www.finep.gov.br/fundos-de-investimento",
+      "http_status": 200,
+      "bytes": 213539,
+      "reason": "fonte responde HTML institucional, sem dataset tabular de fundos (Finep/MCTI); nao ha CSV/JSON oficial de carteira de fundos nesta URL - nao extraido, nada inventado"
+    },
+    {
+      "source_id": "mcti_dados_abertos",
+      "source_url": "https://www.gov.br/mcti/pt-br/acesso-a-informacao/dados-abertos/dados-abertos",
+      "http_status": 200,
+      "bytes": 197042,
+      "reason": "fonte responde HTML institucional, sem dataset tabular de fundos (Finep/MCTI); nao ha CSV/JSON oficial de carteira de fundos nesta URL - nao extraido, nada inventado"
+    }
+  ],
+  "row_counts": {
+    "registro_fundo_rows": 91185,
+    "registro_classe_rows": 37154,
+    "registro_subclasse_rows": 11888,
+    "fip_active_registry_rows": 2175,
+    "fip_active_funds": 2147,
+    "fip_active_classes": 2155,
+    "informe_rows_raw": 20471,
+    "informe_rows_dedup_by_class_competencia": 15734,
+    "br_funds": 2147,
+    "br_firms": 418,
+    "br_bndes_portfolio": 881
+  },
+  "registry_duplicates": {
+    "note": "Linhas ativas duplicadas por ID_Registro_Fundo no CVM (identicas exceto Gestor/CPF_CNPJ_Gestor). Deduplicadas para 1 veiculo/CNPJ por regra deterministica documentada em docs/sources_br.md.",
+    "count": 27,
+    "rows": [
+      {
+        "id_registro_fundo": "2725",
+        "cnpj_fundo": "08277553000106",
+        "denominacao_social": "OPPORTUNITY HOLDING FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA - RESP LIMITADA",
+        "selected_gestor": "OPPORTUNITY PRIVATE EQUITY GESTORA DE RECURSOS LTDA",
+        "selected_cnpj_gestor": "03151030000197",
+        "discarded_gestores": [
+          {
+            "gestor": "MININVEST GESTORA DE RECURSOS LTDA",
+            "cnpj_gestor": "16631215000140"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "MININVEST GESTORA DE RECURSOS LTDA",
+            "cnpj_gestor": "16631215000140",
+            "selected": false
+          },
+          {
+            "gestor": "OPPORTUNITY PRIVATE EQUITY GESTORA DE RECURSOS LTDA",
+            "cnpj_gestor": "03151030000197",
+            "selected": true
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "2806",
+        "cnpj_fundo": "09028916000124",
+        "denominacao_social": "FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES CRIATEC CAPITAL SEMENTE - RESPONSABILIDADE LIMITADA",
+        "selected_gestor": "KPTL INVESTIMENTOS LTDA.",
+        "selected_cnpj_gestor": "11233865000114",
+        "discarded_gestores": [
+          {
+            "gestor": "ANTERA GESTÃO DE RECURSOS LTDA",
+            "cnpj_gestor": "08096466000144"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "KPTL INVESTIMENTOS LTDA.",
+            "cnpj_gestor": "11233865000114",
+            "selected": true
+          },
+          {
+            "gestor": "ANTERA GESTÃO DE RECURSOS LTDA",
+            "cnpj_gestor": "08096466000144",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "2818",
+        "cnpj_fundo": "09130400000196",
+        "denominacao_social": "FLORESTAS DO BRASIL FIP MULTIESTRATÉGIA - RESPONSABILIDADE LIMITADA",
+        "selected_gestor": "COPA GESTAO DE INVESTIMENTOS LTDA",
+        "selected_cnpj_gestor": "15335579000110",
+        "discarded_gestores": [
+          {
+            "gestor": "PRINCIPAL ASSET MANAGEMENT LTDA.",
+            "cnpj_gestor": "03987891000100"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "COPA GESTAO DE INVESTIMENTOS LTDA",
+            "cnpj_gestor": "15335579000110",
+            "selected": true
+          },
+          {
+            "gestor": "PRINCIPAL ASSET MANAGEMENT LTDA.",
+            "cnpj_gestor": "03987891000100",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "2937",
+        "cnpj_fundo": "10597218000129",
+        "denominacao_social": "OPPORTUNITY GLOBAL FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA RESPONSABILIDADE LIMITADA",
+        "selected_gestor": "OPPORTUNITY PRIVATE EQUITY GESTORA DE RECURSOS LTDA",
+        "selected_cnpj_gestor": "03151030000197",
+        "discarded_gestores": [
+          {
+            "gestor": "OPPORTUNITY HDF ADMINISTRADORA DE RECURSOS LTDA.",
+            "cnpj_gestor": "33857830000199"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "OPPORTUNITY PRIVATE EQUITY GESTORA DE RECURSOS LTDA",
+            "cnpj_gestor": "03151030000197",
+            "selected": true
+          },
+          {
+            "gestor": "OPPORTUNITY HDF ADMINISTRADORA DE RECURSOS LTDA.",
+            "cnpj_gestor": "33857830000199",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "3957",
+        "cnpj_fundo": "21669033000107",
+        "denominacao_social": "FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES VIA LÁCTEA",
+        "selected_gestor": "CYPRESS ASSOCIATES GESTÃO E PARTICIPAÇÕES LTDA",
+        "selected_cnpj_gestor": "11065164000113",
+        "discarded_gestores": [
+          {
+            "gestor": "OLIVEIRA TRUST SERVICER S/A",
+            "cnpj_gestor": "02150453000120"
+          }
+        ],
+        "criterion": "c1",
+        "rows": [
+          {
+            "gestor": "CYPRESS ASSOCIATES GESTÃO E PARTICIPAÇÕES LTDA",
+            "cnpj_gestor": "11065164000113",
+            "selected": true
+          },
+          {
+            "gestor": "OLIVEIRA TRUST SERVICER S/A",
+            "cnpj_gestor": "02150453000120",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "4489",
+        "cnpj_fundo": "31844283000181",
+        "denominacao_social": "BRASIL R VENTURES FUNDO DE INVESTIMENTO EM PARTICIPACOES MULTIESTRATEGIA INVESTIMENTO NO EXTERIOR",
+        "selected_gestor": "ASTELLA INVESTIMENTOS, ASSESSORIA, GESTÃO E PARTICIPAÇÕES LTDA",
+        "selected_cnpj_gestor": "09268642000140",
+        "discarded_gestores": [
+          {
+            "gestor": "BTG PACTUAL GESTÃO E CONSULTORIA DE INVESTIMENTOS LTDA",
+            "cnpj_gestor": "12695840000103"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "BTG PACTUAL GESTÃO E CONSULTORIA DE INVESTIMENTOS LTDA",
+            "cnpj_gestor": "12695840000103",
+            "selected": false
+          },
+          {
+            "gestor": "ASTELLA INVESTIMENTOS, ASSESSORIA, GESTÃO E PARTICIPAÇÕES LTDA",
+            "cnpj_gestor": "09268642000140",
+            "selected": true
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "4669",
+        "cnpj_fundo": "34846943000151",
+        "denominacao_social": "SAN SIRO FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA RESPONSABILIDADE LIMITADA",
+        "selected_gestor": "FIDD ADMINISTRAÇÃO DE RECURSOS LTDA",
+        "selected_cnpj_gestor": "32582247000150",
+        "discarded_gestores": [
+          {
+            "gestor": "OSLO CAPITAL DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+            "cnpj_gestor": "13673855000125"
+          }
+        ],
+        "criterion": "c1",
+        "rows": [
+          {
+            "gestor": "OSLO CAPITAL DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+            "cnpj_gestor": "13673855000125",
+            "selected": false
+          },
+          {
+            "gestor": "FIDD ADMINISTRAÇÃO DE RECURSOS LTDA",
+            "cnpj_gestor": "32582247000150",
+            "selected": true
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "4731",
+        "cnpj_fundo": "35780284000160",
+        "denominacao_social": "BR EQUITY FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA RESPONSABILIDADE LIMITADA",
+        "selected_gestor": "FIDD ADMINISTRAÇÃO DE RECURSOS LTDA",
+        "selected_cnpj_gestor": "32582247000150",
+        "discarded_gestores": [
+          {
+            "gestor": "OSLO CAPITAL DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+            "cnpj_gestor": "13673855000125"
+          }
+        ],
+        "criterion": "c1",
+        "rows": [
+          {
+            "gestor": "OSLO CAPITAL DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+            "cnpj_gestor": "13673855000125",
+            "selected": false
+          },
+          {
+            "gestor": "FIDD ADMINISTRAÇÃO DE RECURSOS LTDA",
+            "cnpj_gestor": "32582247000150",
+            "selected": true
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "4923",
+        "cnpj_fundo": "39857660000129",
+        "denominacao_social": "GOVTECH BRASIL FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES CAPITAL SEMENTE - RESPONSABILIDADE LIMITADA",
+        "selected_gestor": "KPTL INVESTIMENTOS LTDA.",
+        "selected_cnpj_gestor": "11233865000114",
+        "discarded_gestores": [
+          {
+            "gestor": "CEDRO ASSET MANAGEMENT LTDA",
+            "cnpj_gestor": "18190296000116"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "CEDRO ASSET MANAGEMENT LTDA",
+            "cnpj_gestor": "18190296000116",
+            "selected": false
+          },
+          {
+            "gestor": "KPTL INVESTIMENTOS LTDA.",
+            "cnpj_gestor": "11233865000114",
+            "selected": true
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "5085",
+        "cnpj_fundo": "41395116000154",
+        "denominacao_social": "FORÊT FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA RESPONSABILIDADE LIMITADA",
+        "selected_gestor": "EUQUEROINVESTIR GESTÃO DE RECURSOS LTDA",
+        "selected_cnpj_gestor": "32288914000196",
+        "discarded_gestores": [
+          {
+            "gestor": "BURI ASSET MANAGEMENT LTDA",
+            "cnpj_gestor": "10927936000116"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "EUQUEROINVESTIR GESTÃO DE RECURSOS LTDA",
+            "cnpj_gestor": "32288914000196",
+            "selected": true
+          },
+          {
+            "gestor": "BURI ASSET MANAGEMENT LTDA",
+            "cnpj_gestor": "10927936000116",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "5091",
+        "cnpj_fundo": "41519970000185",
+        "denominacao_social": "DSK CAPITAL INVISTO FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES",
+        "selected_gestor": "INVISTO GESTÃO DE INVESTIMENTOS S/A",
+        "selected_cnpj_gestor": "09375360000142",
+        "discarded_gestores": [
+          {
+            "gestor": "DSK CAPITAL GESTORA DE RECURSOS E CONSULTORIA LTDA.",
+            "cnpj_gestor": "41249846000147"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "DSK CAPITAL GESTORA DE RECURSOS E CONSULTORIA LTDA.",
+            "cnpj_gestor": "41249846000147",
+            "selected": false
+          },
+          {
+            "gestor": "INVISTO GESTÃO DE INVESTIMENTOS S/A",
+            "cnpj_gestor": "09375360000142",
+            "selected": true
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "5205",
+        "cnpj_fundo": "42754355000116",
+        "denominacao_social": "KINEA EQUITY INFRA I  FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA RESP LIMITADA",
+        "selected_gestor": "KINEA PRIVATE EQUITY INVESTIMENTOS S/A",
+        "selected_cnpj_gestor": "04661817000161",
+        "discarded_gestores": [
+          {
+            "gestor": "KINEA INVESTIMENTOS LTDA.",
+            "cnpj_gestor": "08604187000144"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "KINEA INVESTIMENTOS LTDA.",
+            "cnpj_gestor": "08604187000144",
+            "selected": false
+          },
+          {
+            "gestor": "KINEA PRIVATE EQUITY INVESTIMENTOS S/A",
+            "cnpj_gestor": "04661817000161",
+            "selected": true
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "5216",
+        "cnpj_fundo": "42847164000107",
+        "denominacao_social": "PIPO CAPITAL I FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA RESPONSABILIDADE LIMITADA",
+        "selected_gestor": "EUQUEROINVESTIR GESTÃO DE RECURSOS LTDA",
+        "selected_cnpj_gestor": "32288914000196",
+        "discarded_gestores": [
+          {
+            "gestor": "PIPO CAPITAL GESTÃO DE INVESTIMENTOS LTDA.",
+            "cnpj_gestor": "42330305000101"
+          }
+        ],
+        "criterion": "c3",
+        "rows": [
+          {
+            "gestor": "EUQUEROINVESTIR GESTÃO DE RECURSOS LTDA",
+            "cnpj_gestor": "32288914000196",
+            "selected": true
+          },
+          {
+            "gestor": "PIPO CAPITAL GESTÃO DE INVESTIMENTOS LTDA.",
+            "cnpj_gestor": "42330305000101",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "5221",
+        "cnpj_fundo": "42869937000148",
+        "denominacao_social": "XPA TRAFALGAR EVN FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATEGIA",
+        "selected_gestor": "XP ADVISORY GESTAO DE RECURSOS LTDA",
+        "selected_cnpj_gestor": "15289957000177",
+        "discarded_gestores": [
+          {
+            "gestor": "MONTE BRAVO GESTÃO DE RECURSOS LTDA.",
+            "cnpj_gestor": "20710453000119"
+          }
+        ],
+        "criterion": "c3",
+        "rows": [
+          {
+            "gestor": "XP ADVISORY GESTAO DE RECURSOS LTDA",
+            "cnpj_gestor": "15289957000177",
+            "selected": true
+          },
+          {
+            "gestor": "MONTE BRAVO GESTÃO DE RECURSOS LTDA.",
+            "cnpj_gestor": "20710453000119",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "5505",
+        "cnpj_fundo": "46641587000119",
+        "denominacao_social": "CRIATEC 4 ASG - FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES CAPITAL SEMENTE IS RESPONSABILIDADE LIMITADA",
+        "selected_gestor": "CRESCERA VENTURE LTDA.",
+        "selected_cnpj_gestor": "35429122000182",
+        "discarded_gestores": [
+          {
+            "gestor": "TRIAXIS CAPITAL LTDA",
+            "cnpj_gestor": "15333310000103"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "CRESCERA VENTURE LTDA.",
+            "cnpj_gestor": "35429122000182",
+            "selected": true
+          },
+          {
+            "gestor": "TRIAXIS CAPITAL LTDA",
+            "cnpj_gestor": "15333310000103",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "5609",
+        "cnpj_fundo": "48328531000134",
+        "denominacao_social": "COXA FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA",
+        "selected_gestor": "TREECORP PARTNERS GESTORA LTDA",
+        "selected_cnpj_gestor": "15300931000182",
+        "discarded_gestores": [
+          {
+            "gestor": "OUTFIELD VENTURES S.A.",
+            "cnpj_gestor": "49627380000188"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "OUTFIELD VENTURES S.A.",
+            "cnpj_gestor": "49627380000188",
+            "selected": false
+          },
+          {
+            "gestor": "TREECORP PARTNERS GESTORA LTDA",
+            "cnpj_gestor": "15300931000182",
+            "selected": true
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "5670",
+        "cnpj_fundo": "49723694000184",
+        "denominacao_social": "KINEA EQUITY INFRA I FEEDER INSTITUCIONAL I FIP MULTIESTRATÉGIA RESPONSABILIDADE LIMITADA",
+        "selected_gestor": "KINEA PRIVATE EQUITY INVESTIMENTOS S/A",
+        "selected_cnpj_gestor": "04661817000161",
+        "discarded_gestores": [
+          {
+            "gestor": "KINEA INVESTIMENTOS LTDA.",
+            "cnpj_gestor": "08604187000144"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "KINEA INVESTIMENTOS LTDA.",
+            "cnpj_gestor": "08604187000144",
+            "selected": false
+          },
+          {
+            "gestor": "KINEA PRIVATE EQUITY INVESTIMENTOS S/A",
+            "cnpj_gestor": "04661817000161",
+            "selected": true
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "5922",
+        "cnpj_fundo": "52923564000108",
+        "denominacao_social": "HAOMA FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA RESPONSABILIDADE LIMITADA",
+        "selected_gestor": "FIDD ADMINISTRAÇÃO DE RECURSOS LTDA",
+        "selected_cnpj_gestor": "32582247000150",
+        "discarded_gestores": [
+          {
+            "gestor": "OSLO CAPITAL DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+            "cnpj_gestor": "13673855000125"
+          }
+        ],
+        "criterion": "c1",
+        "rows": [
+          {
+            "gestor": "OSLO CAPITAL DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+            "cnpj_gestor": "13673855000125",
+            "selected": false
+          },
+          {
+            "gestor": "FIDD ADMINISTRAÇÃO DE RECURSOS LTDA",
+            "cnpj_gestor": "32582247000150",
+            "selected": true
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "5931",
+        "cnpj_fundo": "53076417000102",
+        "denominacao_social": "CWB II FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA RESPONSABILIDADE LIMITADA",
+        "selected_gestor": "FIDD ADMINISTRAÇÃO DE RECURSOS LTDA",
+        "selected_cnpj_gestor": "32582247000150",
+        "discarded_gestores": [
+          {
+            "gestor": "OSLO CAPITAL DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+            "cnpj_gestor": "13673855000125"
+          }
+        ],
+        "criterion": "c1",
+        "rows": [
+          {
+            "gestor": "OSLO CAPITAL DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+            "cnpj_gestor": "13673855000125",
+            "selected": false
+          },
+          {
+            "gestor": "FIDD ADMINISTRAÇÃO DE RECURSOS LTDA",
+            "cnpj_gestor": "32582247000150",
+            "selected": true
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "6260",
+        "cnpj_fundo": "56616235000167",
+        "denominacao_social": "ARTON LESTE BRICKELL FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA",
+        "selected_gestor": "LESTE FINANCIAL SERVICES GESTÃO DE RECURSOS LTDA.",
+        "selected_cnpj_gestor": "17036001000199",
+        "discarded_gestores": [
+          {
+            "gestor": "ARTON GESTÃO DE RECURSOS LTDA",
+            "cnpj_gestor": "08806258000191"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "LESTE FINANCIAL SERVICES GESTÃO DE RECURSOS LTDA.",
+            "cnpj_gestor": "17036001000199",
+            "selected": true
+          },
+          {
+            "gestor": "ARTON GESTÃO DE RECURSOS LTDA",
+            "cnpj_gestor": "08806258000191",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "6396",
+        "cnpj_fundo": "58224396000130",
+        "denominacao_social": "KINEA EQUITY INFRA I CO-INVEST I FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES RESPONSABILIDADE LIMITADA",
+        "selected_gestor": "KINEA PRIVATE EQUITY INVESTIMENTOS S/A",
+        "selected_cnpj_gestor": "04661817000161",
+        "discarded_gestores": [
+          {
+            "gestor": "KINEA INVESTIMENTOS LTDA.",
+            "cnpj_gestor": "08604187000144"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "KINEA PRIVATE EQUITY INVESTIMENTOS S/A",
+            "cnpj_gestor": "04661817000161",
+            "selected": true
+          },
+          {
+            "gestor": "KINEA INVESTIMENTOS LTDA.",
+            "cnpj_gestor": "08604187000144",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "6548",
+        "cnpj_fundo": "60145342000121",
+        "denominacao_social": "FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES NORDESTE CAPITAL SEMENTE RESPONSABILIDADE LIMITADA",
+        "selected_gestor": "CRESCERA VENTURE LTDA.",
+        "selected_cnpj_gestor": "35429122000182",
+        "discarded_gestores": [
+          {
+            "gestor": "TRIAXIS CAPITAL LTDA",
+            "cnpj_gestor": "15333310000103"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "TRIAXIS CAPITAL LTDA",
+            "cnpj_gestor": "15333310000103",
+            "selected": false
+          },
+          {
+            "gestor": "CRESCERA VENTURE LTDA.",
+            "cnpj_gestor": "35429122000182",
+            "selected": true
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "6791",
+        "cnpj_fundo": "63680293000115",
+        "denominacao_social": "ORE RÉGIA MINERAIS CRÍTICOS FIP MULTIESTRATÉGIA IS DE RESPONSABIL",
+        "selected_gestor": "ORE INVESTMENTS PARTICIPAÇÕES LTDA.",
+        "selected_cnpj_gestor": "30886483000134",
+        "discarded_gestores": [
+          {
+            "gestor": "REGIA CAPITAL LTDA",
+            "cnpj_gestor": "54464258000178"
+          },
+          {
+            "gestor": "BB GESTAO DE RECURSOS DTVM S.A",
+            "cnpj_gestor": "30822936000169"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "REGIA CAPITAL LTDA",
+            "cnpj_gestor": "54464258000178",
+            "selected": false
+          },
+          {
+            "gestor": "ORE INVESTMENTS PARTICIPAÇÕES LTDA.",
+            "cnpj_gestor": "30886483000134",
+            "selected": true
+          },
+          {
+            "gestor": "BB GESTAO DE RECURSOS DTVM S.A",
+            "cnpj_gestor": "30822936000169",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "6879",
+        "cnpj_fundo": "64776905000130",
+        "denominacao_social": "HEDGE ARTON KEMPINSKI DD MIAMI FUNDO DE INVESTIMENTO EM PARTICIPAÇÕES MULTIESTRATÉGIA DE RESPONSABIL",
+        "selected_gestor": "HEDGE INVESTMENTS REAL ESTATE GESTÃO DE RECURSOS LTDA.",
+        "selected_cnpj_gestor": "26843225000101",
+        "discarded_gestores": [
+          {
+            "gestor": "ARTON GESTÃO DE RECURSOS LTDA",
+            "cnpj_gestor": "08806258000191"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "HEDGE INVESTMENTS REAL ESTATE GESTÃO DE RECURSOS LTDA.",
+            "cnpj_gestor": "26843225000101",
+            "selected": true
+          },
+          {
+            "gestor": "ARTON GESTÃO DE RECURSOS LTDA",
+            "cnpj_gestor": "08806258000191",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "6935",
+        "cnpj_fundo": "65881979000108",
+        "denominacao_social": "KINEA EQUITY INFRA II A PRIVATE FIP EM INFRAESTRUTURA RESPONSABILIDADE LIMITADA",
+        "selected_gestor": "KINEA PRIVATE EQUITY INVESTIMENTOS S/A",
+        "selected_cnpj_gestor": "04661817000161",
+        "discarded_gestores": [
+          {
+            "gestor": "KINEA INVESTIMENTOS LTDA.",
+            "cnpj_gestor": "08604187000144"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "KINEA INVESTIMENTOS LTDA.",
+            "cnpj_gestor": "08604187000144",
+            "selected": false
+          },
+          {
+            "gestor": "KINEA PRIVATE EQUITY INVESTIMENTOS S/A",
+            "cnpj_gestor": "04661817000161",
+            "selected": true
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "7000",
+        "cnpj_fundo": "67251103000103",
+        "denominacao_social": "KINEA EQUITY INFRA II SEED MONEY FIP MULTIESTRATÉGIA RESPONSABILIDADE LIMITADA",
+        "selected_gestor": "KINEA PRIVATE EQUITY INVESTIMENTOS S/A",
+        "selected_cnpj_gestor": "04661817000161",
+        "discarded_gestores": [
+          {
+            "gestor": "KINEA INVESTIMENTOS LTDA.",
+            "cnpj_gestor": "08604187000144"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "KINEA PRIVATE EQUITY INVESTIMENTOS S/A",
+            "cnpj_gestor": "04661817000161",
+            "selected": true
+          },
+          {
+            "gestor": "KINEA INVESTIMENTOS LTDA.",
+            "cnpj_gestor": "08604187000144",
+            "selected": false
+          }
+        ]
+      },
+      {
+        "id_registro_fundo": "7046",
+        "cnpj_fundo": "68498216000162",
+        "denominacao_social": "HEDGE VGR BRICKELL 619 FIP MULTI DE RESPONSABILIDADE LIMITADA",
+        "selected_gestor": "HEDGE INVESTMENTS REAL ESTATE GESTÃO DE RECURSOS LTDA.",
+        "selected_cnpj_gestor": "26843225000101",
+        "discarded_gestores": [
+          {
+            "gestor": "VGR GESTÃO DE RECURSOS LTDA.",
+            "cnpj_gestor": "14569262000186"
+          }
+        ],
+        "criterion": "c2",
+        "rows": [
+          {
+            "gestor": "HEDGE INVESTMENTS REAL ESTATE GESTÃO DE RECURSOS LTDA.",
+            "cnpj_gestor": "26843225000101",
+            "selected": true
+          },
+          {
+            "gestor": "VGR GESTÃO DE RECURSOS LTDA.",
+            "cnpj_gestor": "14569262000186",
+            "selected": false
+          }
+        ]
+      }
+    ]
+  },
+  "informe_competencias_all": [
+    "2024-03-31",
+    "2024-04-30",
+    "2024-08-31",
+    "2024-12-31",
+    "2025-04-30",
+    "2025-08-31",
+    "2025-12-31",
+    "2026-04-30",
+    "2026-08-31",
+    "2026-12-31"
+  ],
+  "informe_competencias_validas": [
+    "2024-03-31",
+    "2024-04-30",
+    "2024-08-31",
+    "2024-12-31",
+    "2025-04-30",
+    "2025-08-31",
+    "2025-12-31",
+    "2026-04-30",
+    "2026-08-31"
+  ],
+  "latest_competencia": "2026-08-31",
+  "coverage": {
+    "pl_source": {
+      "registro_classe": 2073,
+      "null": 72,
+      "registro_fundo": 2
+    },
+    "class_signal": {
+      "MULTIESTRAT": 1605,
+      "EMERGENTE": 52,
+      "SEMENTE": 56,
+      "null": 434
+    },
+    "pl_non_null": 2075,
+    "pl_null": 72,
+    "pl_nonpositive": 54,
+    "pl_history_latest_competencia": 2060,
+    "pl_history_two_or_more": 1991,
+    "capital_comprometido_present": 2076,
+    "capital_comprometido_positive": 1799,
+    "capital_integralizado_present": 2076,
+    "capital_competencia": 2076,
+    "bndes_backed_funds": 42,
+    "legacy_cvm_class_present": 18,
+    "funds_without_gestor": 3
+  },
+  "bndes": {
+    "distinct_cnpj": 95,
+    "backed_funds_after_cnpj_join": 42,
+    "dataset_url": "https://dadosabertos.bndes.gov.br/dataset/renda-variavel"
+  },
+  "outputs": [
+    {
+      "path": "data/interim/br_funds.jsonl",
+      "bytes": 3277369,
+      "sha256": "8c2144f246e00656728936ab3077ef9d777f5e7b5b02ac383a573fd526ce63be",
+      "lines": 2147
+    },
+    {
+      "path": "data/interim/br_firms.jsonl",
+      "bytes": 185526,
+      "sha256": "823fe8be6b305e1716d1908af0cc48b74e405fca8fdd33d4ffb9267fff08cf32",
+      "lines": 418
+    },
+    {
+      "path": "data/interim/br_bndes_portfolio.jsonl",
+      "bytes": 679237,
+      "sha256": "10b0e019830d15ef5bd747da833e20010e8a0381c298d36353c9c87fddf15656",
+      "lines": 881
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "counts": {
+      "br_funds": 2147,
+      "br_firms": 418,
+      "br_bndes_portfolio": 881
+    },
+    "checks": {
+      "funds_valid_cnpj": 2147,
+      "firms_valid_id": 418,
+      "funds_with_gestor": 2144,
+      "firm_vehicle_count_sum": 2144,
+      "pl_sum_brl": 989954876823.65,
+      "pl_non_null": 2075,
+      "bndes_valid_cnpj": 881
+    }
+  }
+}

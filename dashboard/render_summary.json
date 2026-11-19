@@ -1,0 +1,120 @@
+{
+ "output_bytes": 2050435,
+ "records": 7521,
+ "by_cut": {
+  "BRASIL_LOCAL": 2147,
+  "GLOBAL_ATIVO_BR": 99,
+  "GLOBAL_EX_BR": 5275
+ },
+ "firms": 5064,
+ "capital_usd": 454047433797.69,
+ "capital_coverage_pct": 68.2,
+ "median_aum_usd": 15307000.0,
+ "top10_share_pct": 17.38,
+ "ticket_coverage_pct": 0.0,
+ "bplus_pct": {
+  "br": 44.57,
+  "gl": 31.34,
+  "all": 35.12
+ },
+ "bplus_capital_share_pct": {
+  "br": 92.43,
+  "gl": 94.56,
+  "all": 93.66
+ },
+ "cross_index_pct": 1.84,
+ "kpis_crosscheck": [
+  {
+   "label": "Veículos (total)",
+   "kpis": 7521.0,
+   "computed": 7521.0,
+   "delta_pct": 0.0,
+   "ok": true
+  },
+  {
+   "label": "Veículos — Brasil local",
+   "kpis": 2147.0,
+   "computed": 2147.0,
+   "delta_pct": 0.0,
+   "ok": true
+  },
+  {
+   "label": "Veículos — Global ativo no Brasil",
+   "kpis": 99.0,
+   "computed": 99.0,
+   "delta_pct": 0.0,
+   "ok": true
+  },
+  {
+   "label": "Veículos — Global ex-Brasil",
+   "kpis": 5275.0,
+   "computed": 5275.0,
+   "delta_pct": 0.0,
+   "ok": true
+  },
+  {
+   "label": "Capital declarado (US$)",
+   "kpis": 454047433797.69,
+   "computed": 454047433797.6897,
+   "delta_pct": 6.72123127527635e-14,
+   "ok": true
+  },
+  {
+   "label": "Capital — Brasil local (US$)",
+   "kpis": 191236030407.69,
+   "computed": 191236030407.68973,
+   "delta_pct": 1.43622623069233e-13,
+   "ok": true
+  },
+  {
+   "label": "Capital — Global ativo no Brasil (US$)",
+   "kpis": 6086409657.0,
+   "computed": 6086409657.0,
+   "delta_pct": 0.0,
+   "ok": true
+  },
+  {
+   "label": "Capital — Global ex-Brasil (US$)",
+   "kpis": 256724993733.0,
+   "computed": 256724993733.0,
+   "delta_pct": 0.0,
+   "ok": true
+  },
+  {
+   "label": "Índice cross-border (fração)",
+   "kpis": 0.0184,
+   "computed": 0.018422032005954596,
+   "delta_pct": 0.11959595959595928,
+   "ok": true
+  },
+  {
+   "label": "Mediana de porte — Brasil (US$)",
+   "kpis": 14643756.02,
+   "computed": 14581485.97,
+   "delta_pct": 0.4270487255421944,
+   "ok": true
+  },
+  {
+   "label": "Capital — Brasil (US$)",
+   "kpis": 191236030407.69,
+   "computed": 191236030407.68973,
+   "delta_pct": 1.43622623069233e-13,
+   "ok": true
+  }
+ ],
+ "headline": "Fundos de Venture Capital no Brasil e no exterior, por fase de maturidade",
+ "headline_chars": 73,
+ "answer_first": "92,4% do capital sob gestoras brasileiras está em teses Série B+, mas só 1,8% dos 5.374 veículos estrangeiros mapeados têm atividade no Brasil.",
+ "answer_first_chars": 143,
+ "deck": "Base auditada de 7.521 veículos e 5.064 gestoras, em três cortes geográficos e 6 fases (Pre-Seed a Venture Debt); US$ 454 bi declarados e 68,2% de cobertura.",
+ "deck_chars": 157,
+ "tabs": [
+  "achados",
+  "insights",
+  "fundos",
+  "metodo"
+ ],
+ "figures": 5,
+ "font_mode": "embedded",
+ "dataset": "canonical"
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://venture-cima.local/schemas/interim_record.schema.json",
+  "title": "InterimEvidenceRecord",
+  "description": "Envelope comum de evidencia bruta normalizada produzida pelos coletores. Cada linha de data/interim/*.jsonl DEVE obedecer a este contrato. Nenhum valor monetario pode ser inventado: se a fonte nao divulga, o campo equivalente nao e criado (ou recebe null) e o nome do campo entra em payload._undisclosed.",
+  "type": "object",
+  "required": ["record_id", "source_id", "source_url", "entity_kind", "payload"],
+  "properties": {
+    "record_id": { "type": "string", "minLength": 3, "description": "Chave deterministica do registro na fonte (ex.: cnpj, accessionnumber, qid)." },
+    "source_id": {
+      "type": "string",
+      "enum": [
+        "cvm_registro_fundo_classe",
+        "cvm_cad_fi",
+        "cvm_inf_quadrimestral_fip",
+        "cvm_ckan",
+        "bndes_fundos_carteira",
+        "bndes_renda_variavel",
+        "finep_fundos",
+        "sec_formd",
+        "wikidata_sparql",
+        "shizune_brazil",
+        "shizune_global",
+        "openvc",
+        "brouky",
+        "bcb_ptax"
+      ]
+    },
+    "source_url": { "type": "string", "format": "uri" },
+    "retrieved_from": { "type": "string", "description": "URL/arquivo efetivamente baixado (pode diferir de source_url em datasets agregados)." },
+    "entity_kind": { "type": "string", "enum": ["fund", "firm", "deal", "fx_rate", "other"] },
+    "country_hint": { "type": ["string", "null"], "description": "ISO-3166-1 alpha-2 inferido da fonte." },
+    "payload": {
+      "type": "object",
+      "description": "Campos normalizados da fonte. Money em unidades absolutas. Campos ausentes nao divulgados devem ser omitidos e listados em payload._undisclosed.",
+      "properties": {
+        "_undisclosed": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}
