@@ -163,7 +163,34 @@ hashes de arquivo acima identificam o build exato que foi auditado, não uma pro
    contraste calculados programaticamente — evidências em [`audit/shots/`](audit/shots/).
 5. Nenhuma fonte paga, licenciada ou raspagem de dados privados foi utilizada.
 
-## 8. Estrutura do repositório
+## 8. Publicação (GitHub Pages)
+
+O dashboard é um **arquivo único autossuficiente**, publicado pela workflow
+[`.github/workflows/pages.yml`](.github/workflows/pages.yml) a cada push em `main`:
+
+```powershell
+# 1. criar o repositório vazio na organização (web UI), depois:
+git remote add origin https://github.com/NEI-Senai-Cimatec/<repo>.git
+git push -u origin main
+
+# 2. habilitar Pages: Settings -> Pages -> Source: "GitHub Actions"
+#    (ou, com o gh CLI autenticado:)
+gh api -X POST repos/NEI-Senai-Cimatec/<repo>/pages -f build_type=workflow
+
+# 3. acompanhar o deploy e obter a URL
+gh run watch
+```
+
+URL final: `https://nei-senai-cimatec.github.io/<repo>/`
+
+Como o HTML não tem caminhos absolutos de raiz nem recursos externos obrigatórios, ele funciona
+igual servido da raiz do domínio ou de um subdiretório (`/<repo>/`).
+
+**`data/raw/` não vai para o Git** (~160 MB de cache de rede, regenerável com
+`python pipeline/run_all.py`). O repositório versiona o dataset canônico, as evidências
+interinas, a auditoria e o dashboard (~44 MB).
+
+## 9. Estrutura do repositório
 
 ```
 contract/          contratos JSON Schema (registro canônico e envelope de evidência)
