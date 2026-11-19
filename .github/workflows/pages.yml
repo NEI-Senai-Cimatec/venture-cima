@@ -1,7 +1,12 @@
 name: Deploy dashboard to GitHub Pages
 
-# Publica o dashboard executivo (arquivo unico autossuficiente) no GitHub Pages.
+# Publica o dashboard executivo (arquivo unico autossuficiente) na raiz do site.
 # Fonte de verdade: dashboard/index.html (gerado por pipeline/render.py).
+#
+# REQUER uma unica configuracao no repositorio:
+#   Settings -> Pages -> Source: "GitHub Actions"
+# Sem isso o workflow apenas emite um aviso (nao falha) e o site continua sendo
+# servido pelo modo "branch", onde index.html redireciona para dashboard/index.html.
 
 on:
   push:
@@ -20,11 +25,39 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      pages_enabled: ${{ steps.pages.outputs.enabled }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Verify Pages is configured for GitHub Actions
+        id: pages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          code=$(curl -s -o /tmp/pages.json -w '%{http_code}' \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages")
+          echo "pages api http=$code"
+          if [ "$code" != "200" ]; then
+            echo "::warning::GitHub Pages nao configurado para Actions. Ative em Settings > Pages > Source: GitHub Actions e reexecute este workflow. Enquanto isso, a raiz do site continua servindo index.html (que redireciona para dashboard/index.html)."
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          build_type=$(python3 -c "import json;print(json.load(open('/tmp/pages.json')).get('build_type',''))")
+          echo "build_type=$build_type"
+          if [ "$build_type" != "workflow" ]; then
+            echo "::warning::Pages esta em build_type='$build_type'. Para publicar o dashboard na raiz, mude Source para 'GitHub Actions'."
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "enabled=true" >> "$GITHUB_OUTPUT"
+
       - name: Prepare site
+        if: steps.pages.outputs.enabled == 'true'
         run: |
           set -euo pipefail
           test -f dashboard/index.html
@@ -34,15 +67,18 @@ jobs:
           ls -lh _site
 
       - name: Configure Pages
+        if: steps.pages.outputs.enabled == 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
+        if: steps.pages.outputs.enabled == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
   deploy:
     needs: build
+    if: needs.build.outputs.pages_enabled == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

@@ -165,30 +165,48 @@ hashes de arquivo acima identificam o build exato que foi auditado, não uma pro
 
 ## 8. Publicação (GitHub Pages)
 
-O dashboard é um **arquivo único autossuficiente**, publicado pela workflow
-[`.github/workflows/pages.yml`](.github/workflows/pages.yml) a cada push em `main`:
+Há **duas formas** de servir o site; o repositório já está preparado para ambas.
+
+### 8.1 Modo "branch" (funciona sem configuração extra)
+
+`index.html` na raiz redireciona para `dashboard/index.html`:
+
+- Settings → Pages → *Source*: **Deploy from a branch** → `main` / `/ (root)`
+- A raiz do site abre o dashboard (via redirecionamento de 0 s).
+- Aviso: o Jekyll converte `README.md` em índice **apenas quando não existe `index.html`** na raiz —
+  era exatamente por isso que a raiz exibia o README antes.
+
+### 8.2 Modo "GitHub Actions" (URL raiz limpa — recomendado)
+
+O dashboard passa a ser servido direto na raiz, sem redirecionamento:
+
+1. Settings → Pages → *Source*: **GitHub Actions**
+2. Push em `main` (ou rode o workflow manualmente: Actions → *Deploy dashboard to GitHub Pages* → *Run workflow*)
 
 ```powershell
-# 1. criar o repositório vazio na organização (web UI), depois:
-git remote add origin https://github.com/NEI-Senai-Cimatec/<repo>.git
-git push -u origin main
-
-# 2. habilitar Pages: Settings -> Pages -> Source: "GitHub Actions"
-#    (ou, com o gh CLI autenticado:)
-gh api -X POST repos/NEI-Senai-Cimatec/<repo>/pages -f build_type=workflow
-
-# 3. acompanhar o deploy e obter a URL
-gh run watch
+git push                      # dispara o deploy
+gh run watch                  # acompanhar (ou veja a aba Actions)
 ```
 
-URL final: `https://nei-senai-cimatec.github.io/<repo>/`
+O workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml) verifica antes de publicar se o
+Pages está em modo Actions; se não estiver, **emite um aviso em vez de falhar** (o site continua no modo 8.1).
+
+URL final: `https://nei-senai-cimatec.github.io/venture-cima/`
 
 Como o HTML não tem caminhos absolutos de raiz nem recursos externos obrigatórios, ele funciona
-igual servido da raiz do domínio ou de um subdiretório (`/<repo>/`).
+igual servido da raiz do domínio ou de um subdiretório (`/venture-cima/`).
 
 **`data/raw/` não vai para o Git** (~160 MB de cache de rede, regenerável com
 `python pipeline/run_all.py`). O repositório versiona o dataset canônico, as evidências
 interinas, a auditoria e o dashboard (~44 MB).
+
+### 8.3 Diagnóstico: a raiz mostra o README em vez do dashboard
+
+| Sintoma | Causa | Correção |
+|---|---|---|
+| Raiz exibe o README formatado | Não havia `index.html` na raiz; o Jekyll usa `README.md` como índice | `index.html` da raiz (já incluído) ou ativar o modo 8.2 |
+| `Deploy dashboard to GitHub Pages` falhou | Pages não estava em *Source: GitHub Actions* | Ativar 8.2 e reexecutar o workflow |
+| Aba *Actions* mostra só "pages build and deployment" | Deploy em modo branch (Jekyll) | Esperado no modo 8.1 |
 
 ## 9. Estrutura do repositório
 
